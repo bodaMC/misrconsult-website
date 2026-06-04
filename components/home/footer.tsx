@@ -40,7 +40,7 @@ export function Footer() {
             </a>
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-white/45">
               Premier engineering and architectural consultancy delivering landmark
-              projects with precision, integrity, and innovation since 1987.
+              projects with precision, integrity, and innovation since 1992.
             </p>
             <div className="mt-8 flex gap-4">
               {["LinkedIn", "X", "YouTube"].map((social) => (
