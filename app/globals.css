@@ -1,0 +1,325 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafaf8;
+  --foreground: #0c1f17;
+  --misr-green-950: #041a12;
+  --misr-green-900: #062b1d;
+  --misr-green-800: #0a3d2a;
+  --misr-green-700: #0f5238;
+  --misr-green-600: #157a52;
+  --misr-green-500: #1d9a66;
+  --misr-green-400: #3db87f;
+  --misr-gold: #c4a35a;
+  --misr-cream: #f5f3ee;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-misr-950: var(--misr-green-950);
+  --color-misr-900: var(--misr-green-900);
+  --color-misr-800: var(--misr-green-800);
+  --color-misr-700: var(--misr-green-700);
+  --color-misr-600: var(--misr-green-600);
+  --color-misr-500: var(--misr-green-500);
+  --color-misr-400: var(--misr-green-400);
+  --color-misr-gold: var(--misr-gold);
+  --color-misr-cream: var(--misr-cream);
+  --font-sans: var(--font-dm-sans);
+  --font-display: var(--font-cormorant);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slow-zoom {
+  from {
+    transform: scale(1.08);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@keyframes line-draw {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.animate-fade-in {
+  animation: fade-in 1.2s ease forwards;
+}
+
+.animate-slow-zoom {
+  animation: slow-zoom 12s ease-out forwards;
+}
+
+.animate-shimmer {
+  animation: shimmer 4s linear infinite;
+}
+
+.animate-line-draw {
+  animation: line-draw 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  transform-origin: left;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animation-delay-200 {
+  animation-delay: 200ms;
+}
+.animation-delay-400 {
+  animation-delay: 400ms;
+}
+.animation-delay-600 {
+  animation-delay: 600ms;
+}
+.animation-delay-800 {
+  animation-delay: 800ms;
+}
+
+.grid-architecture {
+  background-image:
+    linear-gradient(rgba(29, 154, 102, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(29, 154, 102, 0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.gradient-radial-green {
+  background: radial-gradient(
+    ellipse 80% 60% at 50% 0%,
+    rgba(29, 154, 102, 0.18),
+    transparent 70%
+  );
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #e8d5a3 0%, #c4a35a 50%, #9a7b3c 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Hero presentation video & scroll indicator */
+.hero-video-fade-in {
+  animation: hero-video-fade-in 1.1s cubic-bezier(0.22, 1, 0.36, 1) 0.35s both;
+}
+
+@keyframes hero-video-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-presentation-stack {
+  isolation: isolate;
+}
+
+.hero-presentation-ambient {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 0;
+  width: 138%;
+  aspect-ratio: 16 / 9;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0.16;
+  -webkit-mask-image: radial-gradient(
+    ellipse 88% 78% at 50% 50%,
+    #000 18%,
+    transparent 72%
+  );
+  mask-image: radial-gradient(
+    ellipse 88% 78% at 50% 50%,
+    #000 18%,
+    transparent 72%
+  );
+}
+
+.hero-presentation-ambient__video {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 132%;
+  height: 132%;
+  transform: translate(-50%, -50%) scale(1.32);
+  object-fit: cover;
+  filter: blur(32px);
+}
+
+.hero-presentation-ambient__veil {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    165deg,
+    rgba(4, 26, 18, 0.72) 0%,
+    rgba(6, 43, 29, 0.58) 45%,
+    rgba(4, 26, 18, 0.68) 100%
+  );
+  mix-blend-mode: multiply;
+}
+
+.hero-presentation-frame {
+  border: 1px solid rgba(196, 163, 90, 0.45);
+  box-shadow:
+    0 28px 72px -16px rgba(0, 0, 0, 0.65),
+    0 0 0 1px rgba(196, 163, 90, 0.08),
+    0 0 48px -8px rgba(196, 163, 90, 0.12);
+  transition:
+    box-shadow 0.5s ease,
+    border-color 0.5s ease;
+}
+
+.hero-presentation-stack:has(.hero-presentation-frame--playing)
+  .hero-presentation-ambient {
+  opacity: 0.18;
+}
+
+.hero-presentation-frame--playing {
+  border-color: rgba(196, 163, 90, 0.55);
+  box-shadow:
+    0 32px 80px -12px rgba(0, 0, 0, 0.7),
+    0 0 0 1px rgba(196, 163, 90, 0.15);
+}
+
+@keyframes hero-scroll-dot-travel {
+  0%,
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+  50% {
+    top: calc(100% - 4px);
+    opacity: 0.45;
+  }
+}
+
+.hero-scroll-dot {
+  animation: hero-scroll-dot-travel 2.4s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-video-fade-in {
+    animation: fade-in 0.6s ease forwards;
+  }
+
+  .hero-scroll-dot {
+    animation: none;
+    top: 50%;
+  }
+
+  .hero-presentation-ambient__video {
+    filter: blur(20px);
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+
+  .hero-presentation-ambient {
+    opacity: 0.1;
+  }
+}
+
+.hero-ambient-glow {
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.45;
+  animation: hero-glow-drift 14s ease-in-out infinite;
+}
+
+.hero-ambient-glow--gold {
+  background: radial-gradient(
+    circle,
+    rgba(196, 163, 90, 0.35) 0%,
+    transparent 70%
+  );
+}
+
+.hero-ambient-glow--green {
+  background: radial-gradient(
+    circle,
+    rgba(29, 154, 102, 0.28) 0%,
+    transparent 70%
+  );
+  animation-delay: -5s;
+}
+
+@keyframes hero-glow-drift {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translate(12px, -16px) scale(1.05);
+    opacity: 0.55;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-ambient-glow {
+    animation: none;
+  }
+}
+
