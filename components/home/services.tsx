@@ -1,10 +1,11 @@
 const services = [
+  
   {
     number: "01",
-    title: "Structural Engineering",
+    title: "Architectural Design",
     description:
-      "Advanced analysis and design for high-rise towers, bridges, industrial facilities, and complex foundations using cutting-edge computational methods.",
-    icon: (
+      "Concept-to-completion architectural services blending aesthetic excellence with functional precision for commercial, residential, and civic spaces.",
+     icon: (
       <svg viewBox="0 0 48 48" className="h-10 w-10" fill="none" stroke="currentColor" strokeWidth="1">
         <path d="M8 40 L24 8 L40 40" />
         <line x1="14" y1="28" x2="34" y2="28" />
@@ -13,9 +14,9 @@ const services = [
   },
   {
     number: "02",
-    title: "Architectural Design",
+    title: "Structural Engineering",
     description:
-      "Concept-to-completion architectural services blending aesthetic excellence with functional precision for commercial, residential, and civic spaces.",
+      "Advanced analysis and design for high-rise towers, bridges, industrial facilities, and complex foundations using cutting-edge computational methods.",
     icon: (
       <svg viewBox="0 0 48 48" className="h-10 w-10" fill="none" stroke="currentColor" strokeWidth="1">
         <rect x="10" y="16" width="28" height="24" />
@@ -23,6 +24,7 @@ const services = [
         <line x1="24" y1="16" x2="24" y2="40" />
       </svg>
     ),
+     
   },
   {
     number: "03",
