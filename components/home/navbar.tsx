@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const navLinks = [
@@ -12,15 +13,18 @@ const navLinks = [
 ];
 
 export function Navbar() {
-  const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const { scrollY } = useScroll();
 
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  const navBg = useTransform(scrollY, [0, 48, 160], [0, 0.55, 0.92]);
+  const navBlur = useTransform(scrollY, [0, 48, 160], [0, 8, 20]);
+  const navBorder = useTransform(scrollY, [0, 80, 160], [0, 0.04, 0.1]);
+  const navPadding = useTransform(scrollY, [0, 160], [36, 24]);
+  const navShadow = useTransform(scrollY, [0, 160], [0, 0.3]);
+  const navBackground = useTransform(navBg, (v) => `rgba(4, 26, 18, ${v})`);
+  const navBackdrop = useTransform(navBlur, (v) => `blur(${v}px)`);
+  const navBorderColor = useTransform(navBorder, (v) => `rgba(255, 255, 255, ${v})`);
+  const navBoxShadow = useTransform(navShadow, (v) => `0 12px 40px rgba(4, 26, 18, ${v})`);
 
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
@@ -30,24 +34,36 @@ export function Navbar() {
   }, [menuOpen]);
 
   return (
-    <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? "border-b border-white/10 bg-misr-950/90 py-6 shadow-lg shadow-misr-950/30 backdrop-blur-xl"
-          : "bg-transparent py-9"
-      }`}
+    <motion.header
+      className="fixed inset-x-0 top-0 z-50"
+      style={{
+        paddingTop: navPadding,
+        paddingBottom: navPadding,
+      }}
     >
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-8">
+      <motion.div
+        className="pointer-events-none absolute inset-0 border-b"
+        style={{
+          backgroundColor: navBackground,
+          backdropFilter: navBackdrop,
+          WebkitBackdropFilter: navBackdrop,
+          borderColor: navBorderColor,
+          boxShadow: navBoxShadow,
+        }}
+        aria-hidden
+      />
+
+      <nav className="relative mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-8">
         <Link
           href="/"
           className="group flex items-center gap-3"
           onClick={() => setMenuOpen(false)}
         >
-<img
- src="/clients/misrconsult.png"
-  alt="Misr Consult Logo"
-  className="h-16 w-auto object-contain"
-/>
+          <img
+            src="/clients/misrconsult.png"
+            alt="Misr Consult Logo"
+            className="h-16 w-auto object-contain"
+          />
           <span className="flex flex-col leading-none">
             <span className="font-[family-name:var(--font-cormorant)] text-xl font-semibold tracking-wide text-white">
               MisrConsult
@@ -124,6 +140,6 @@ export function Navbar() {
           </li>
         </ul>
       </div>
-    </header>
+    </motion.header>
   );
 }

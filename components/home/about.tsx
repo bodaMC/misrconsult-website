@@ -1,10 +1,33 @@
+"use client";
+
+import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
+
 export function About() {
+  const sectionRef = useRef<HTMLElement>(null);
+  const reducedMotion = useReducedMotion();
+
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ["start end", "start 0.6"],
+  });
+
+  const enterOpacity = useTransform(scrollYProgress, [0, 1], [0, 1], { clamp: true });
+  const enterY = useTransform(scrollYProgress, [0, 1], [36, 0], { clamp: true });
+
   return (
-    <section id="about" className="relative overflow-hidden bg-misr-cream py-24 lg:py-32">
+    <section
+      ref={sectionRef}
+      id="about"
+      className="relative z-10 overflow-hidden bg-misr-cream py-24 lg:py-32"
+    >
       <div className="gradient-radial-green absolute inset-0 opacity-60" />
       <div className="absolute -right-32 top-20 h-96 w-96 rounded-full bg-misr-500/5 blur-3xl" />
 
-      <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
+      <motion.div
+        className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8"
+        style={reducedMotion ? undefined : { opacity: enterOpacity, y: enterY }}
+      >
         <div className="grid items-center gap-16 lg:grid-cols-2 lg:gap-24">
           <div className="relative">
             <div className="absolute -left-4 -top-4 h-full w-full border border-misr-500/20" />
@@ -81,7 +104,7 @@ export function About() {
             </a>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }
