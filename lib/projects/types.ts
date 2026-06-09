@@ -6,6 +6,11 @@ export type ProjectStat = {
   suffix?: string;
 };
 
+export type ProjectHighlight = {
+  title: string;
+  description: string;
+};
+
 export type Project = {
   slug: string;
   title: string;
@@ -24,4 +29,5 @@ export type Project = {
   services: string[];
   gallery: string[];
   stats: ProjectStat[];
+  highlights?: ProjectHighlight[];
 };

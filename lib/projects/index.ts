@@ -2,6 +2,7 @@ import { airport } from "./airport";
 import { businessHub } from "./business-hub";
 import { cairoTower } from "./cairo-tower";
 import { oraSilversands } from "./ora-silversands";
+import { portfolioProjectList } from "./portfolio-index";
 import {
   PROJECT_CATEGORIES,
   getCategoryById,
@@ -22,9 +23,11 @@ export {
   isCategorySlug,
 };
 
-export { airport, businessHub, cairoTower };
+export { airport, businessHub, cairoTower, oraSilversands };
 
-export const allProjects: Project[] = [cairoTower, businessHub, airport, oraSilversands];
+const featuredProjects: Project[] = [cairoTower, businessHub, airport, oraSilversands];
+
+export const allProjects: Project[] = [...featuredProjects, ...portfolioProjectList];
 
 export function getProjectBySlug(slug: string): Project | undefined {
   return allProjects.find((project) => project.slug === slug);

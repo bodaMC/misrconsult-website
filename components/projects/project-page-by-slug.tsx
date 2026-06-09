@@ -3,18 +3,25 @@ import { AirportPageContent } from "./airport/page-content";
 import { BusinessHubPageContent } from "./business-hub/page-content";
 import { CairoTowerPageContent } from "./cairo-tower/page-content";
 import { OraSilversandsPageContent } from "./ora-silversands/page-content";
+import { portfolioPageContentBySlug } from "./portfolio-page-registry";
+import { StandardProjectPageContent } from "./standard-project-page-content";
 
-const contentBySlug = {
+const customContentBySlug = {
   "cairo-tower": CairoTowerPageContent,
   "business-hub": BusinessHubPageContent,
   airport: AirportPageContent,
   "ora-silversands": OraSilversandsPageContent,
 } as const;
 
-type ProjectSlug = keyof typeof contentBySlug;
+type CustomProjectSlug = keyof typeof customContentBySlug;
+type PortfolioProjectSlug = keyof typeof portfolioPageContentBySlug;
 
-function isProjectSlug(slug: string): slug is ProjectSlug {
-  return slug in contentBySlug;
+function isCustomProjectSlug(slug: string): slug is CustomProjectSlug {
+  return slug in customContentBySlug;
+}
+
+function isPortfolioProjectSlug(slug: string): slug is PortfolioProjectSlug {
+  return slug in portfolioPageContentBySlug;
 }
 
 type ProjectPageBySlugProps = {
@@ -23,10 +30,15 @@ type ProjectPageBySlugProps = {
 };
 
 export function ProjectPageBySlug({ slug, project }: ProjectPageBySlugProps) {
-  if (!isProjectSlug(slug)) {
-    return null;
+  if (isCustomProjectSlug(slug)) {
+    const Content = customContentBySlug[slug];
+    return <Content project={project} />;
   }
 
-  const Content = contentBySlug[slug];
-  return <Content project={project} />;
+  if (isPortfolioProjectSlug(slug)) {
+    const Content = portfolioPageContentBySlug[slug];
+    return <Content project={project} />;
+  }
+
+  return <StandardProjectPageContent project={project} />;
 }
