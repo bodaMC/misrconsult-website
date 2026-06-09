@@ -1,11 +1,12 @@
 import type { Project } from "@/lib/projects";
+import { getCategoryById, getCategoryLabel } from "@/lib/projects";
 import { ProjectBackButton } from "./project-back-button";
 
 type ProjectHeroProps = {
   project: Pick<
     Project,
     | "title"
-    | "category"
+    | "categoryId"
     | "location"
     | "year"
     | "client"
@@ -17,6 +18,7 @@ type ProjectHeroProps = {
 };
 
 export function ProjectHero({ project }: ProjectHeroProps) {
+  const category = getCategoryById(project.categoryId);
   return (
     <section className="relative flex min-h-[85vh] items-end overflow-hidden bg-misr-950">
       <div className="absolute inset-0">
@@ -44,11 +46,14 @@ export function ProjectHero({ project }: ProjectHeroProps) {
       <div className="absolute inset-0 grid-architecture opacity-30" />
 
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-20 pt-36 lg:px-8 lg:pb-28 lg:pt-44">
-        <ProjectBackButton />
+        <ProjectBackButton
+          href={`/projects/${category.slug}`}
+          label={category.label}
+        />
 
         <div className="animate-fade-up animation-delay-200 flex flex-wrap items-center gap-4">
           <span className="text-xs font-semibold uppercase tracking-[0.35em] text-misr-gold">
-            {project.category}
+            {getCategoryLabel(project.categoryId)}
           </span>
           <span className="h-3 w-px bg-white/20" />
           <span className="text-xs uppercase tracking-[0.2em] text-white/50">

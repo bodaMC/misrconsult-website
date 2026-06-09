@@ -3,7 +3,7 @@ import type { Project } from "./types";
 export const cairoTower: Project = {
   slug: "cairo-tower",
   title: "Nile Tower Complex",
-  category: "Commercial",
+  categoryId: "mixed-use",
   location: "Cairo, Egypt",
   year: "2024",
   client: "Nile Development Group",

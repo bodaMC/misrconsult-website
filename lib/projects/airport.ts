@@ -3,7 +3,7 @@ import type { Project } from "./types";
 export const airport: Project = {
   slug: "airport",
   title: "Cairo International Airport Terminal Expansion",
-  category: "Transport",
+  categoryId: "infrastructure",
   location: "Heliopolis, Cairo, Egypt",
   year: "2025",
   client: "Egyptian Holding Company for Airports",

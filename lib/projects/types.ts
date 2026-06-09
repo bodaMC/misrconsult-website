@@ -1,3 +1,5 @@
+import type { ProjectCategoryId } from "./categories";
+
 export type ProjectStat = {
   value: string;
   label: string;
@@ -7,7 +9,7 @@ export type ProjectStat = {
 export type Project = {
   slug: string;
   title: string;
-  category: string;
+  categoryId: ProjectCategoryId;
   location: string;
   year: string;
   client: string;
@@ -23,8 +25,3 @@ export type Project = {
   gallery: string[];
   stats: ProjectStat[];
 };
-
-export type FeaturedProject = Pick<
-  Project,
-  "slug" | "title" | "category" | "location" | "heroImage" | "span"
->;

@@ -3,43 +3,40 @@ import type { Project } from "./types";
 export const oraSilversands: Project = {
   slug: "ora-silversands",
   title: "ORA Silversands",
-  category: "Residintial",
+  categoryId: "residential",
   location: "North Coast, Egypt",
   year: "2024",
   client: "ORA",
   area: "700,000 m²",
-  heroImage:
-    "/projects/ora-silversands/ora-hero.jpg",
-  heroVideo:
-    "/projects/ora-silversands/ora-hero.jpg",
+  heroImage: "/projects/ora-silversands/ora-hero.jpg",
   span: "",
   tagline:
-    "A world-class business campus anchoring Egypt's new administrative capital.",
+    "A master-planned coastal community redefining luxury living on Egypt's North Coast.",
   overview:
-    "The Cairo International Business Hub delivers Grade-A office campuses, conference facilities, and integrated retail within a master-planned district. MisrConsult provided architectural design leadership, infrastructure coordination, and end-to-end project management.",
+    "ORA Silversands is a landmark residential destination spanning 700,000 m² along Egypt's North Coast — integrating villas, apartments, lagoon networks, and resort amenities within a unified master plan. MisrConsult delivered structural engineering, infrastructure coordination, and construction-phase supervision across all residential phases.",
   challenge:
-    "Coordinating multiple building parcels, underground utilities, and facade systems across a 12-hectare site with concurrent contractor mobilisation.",
+    "Engineering a large-scale coastal development on sandy terrain while managing marine exposure, phased delivery across multiple building typologies, and strict programme milestones for a premium residential launch.",
   solution:
-    "Unified BIM federated models, early contractor involvement workshops, and a central PMO governance framework ensured seamless interface management across all disciplines.",
+    "Coastal-adapted foundation systems, centralised MEP distribution networks, and phased BIM-coordinated construction sequencing enabled parallel delivery of residential clusters without compromising structural integrity or finish quality.",
   services: [
-    "Architectural Design",
+    "Structural Engineering",
     "Infrastructure Planning",
+    "MEP Engineering",
     "Project Management",
-    "Facade Engineering",
-    "Consultancy & Advisory",
+    "Construction Supervision",
   ],
   gallery: [
-    "https://images.unsplash.com/photo-1545558014-8692077e9b5c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=1200&auto=format&fit=crop",
+    "/projects/ora-silversands/ora-hero.jpg",
+    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1200&auto=format&fit=crop",
   ],
   stats: [
-    { value: "12", label: "Hectare Site", suffix: "" },
-    { value: "8", label: "Buildings Delivered", suffix: "" },
-    { value: "120", label: "Thousand m² GFA", suffix: "K" },
+    { value: "700", label: "Thousand m² Development", suffix: "K" },
+    { value: "6", label: "Residential Phases", suffix: "" },
+    { value: "48", label: "Months Programme", suffix: "" },
     { value: "100", label: "On-Time Milestones", suffix: "%" },
   ],
 };

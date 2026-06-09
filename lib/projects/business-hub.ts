@@ -3,7 +3,7 @@ import type { Project } from "./types";
 export const businessHub: Project = {
   slug: "business-hub",
   title: "Cairo International Business Hub",
-  category: "Commercial",
+  categoryId: "commercial",
   location: "New Administrative Capital, Egypt",
   year: "2023",
   client: "Capital Urban Development Authority",

@@ -6,19 +6,19 @@ import { ProjectNav } from "../project-nav";
 
 const structuralHighlights = [
   {
-    title: "Mega-Frame System",
+    title: "Coastal Foundation Systems",
     description:
-      "Composite steel-concrete mega-columns with outrigger trusses at levels 18, 36, and 48 distribute lateral loads across the full tower footprint.",
+      "Deep pile foundations and ground improvement across sandy coastal terrain, engineered to resist marine exposure and differential settlement across the master plan.",
   },
   {
-    title: "Tuned Mass Damper",
+    title: "Lagoon Infrastructure",
     description:
-      "A 420-tonne pendulum damper at roof level reduces wind-induced sway by 38%, meeting occupant comfort criteria for hospitality floors.",
+      "Integrated waterway networks with reinforced retaining structures and waterproofing systems connecting residential clusters across the development.",
   },
   {
-    title: "Deep Foundation",
+    title: "Phased Delivery Framework",
     description:
-      "Bored piles to 62m depth through Nile alluvium, with pressure-grouted rock sockets achieving 12,000 kN ultimate capacity per pile.",
+      "Modular structural packages and centralised utility corridors enabling concurrent construction of villas, apartments, and amenity buildings across six phases.",
   },
 ];
 export function OraSilversandsPageContent({ project }: { project: Project }) {
@@ -34,10 +34,10 @@ export function OraSilversandsPageContent({ project }: { project: Project }) {
         <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
           <FadeIn>
             <span className="text-xs font-semibold uppercase tracking-[0.35em] text-misr-gold">
-              Structural Innovation
+              Coastal Engineering
             </span>
             <h2 className="mt-4 font-[family-name:var(--font-cormorant)] text-4xl font-light text-white md:text-5xl">
-              Vertical <span className="font-semibold text-misr-400">Engineering</span>
+              Master-Planned <span className="font-semibold text-misr-400">Excellence</span>
             </h2>
             <div className="mt-6 h-px w-16 bg-misr-gold" />
           </FadeIn>
@@ -71,7 +71,7 @@ export function OraSilversandsPageContent({ project }: { project: Project }) {
               Project Overview
             </span>
             <h2 className="mt-4 font-[family-name:var(--font-cormorant)] text-4xl font-light text-misr-950 md:text-5xl">
-              Engineering the <span className="font-semibold text-misr-700">Skyline</span>
+              Coastal Living <span className="font-semibold text-misr-700">Redefined</span>
             </h2>
             <div className="mt-6 h-px w-16 bg-misr-gold" />
           </FadeIn>
@@ -147,7 +147,7 @@ export function OraSilversandsPageContent({ project }: { project: Project }) {
                 Visual Documentation
               </span>
               <h2 className="mt-4 font-[family-name:var(--font-cormorant)] text-4xl font-light text-misr-950 md:text-5xl">
-                Tower <span className="font-semibold text-misr-700">Gallery</span>
+                Development <span className="font-semibold text-misr-700">Gallery</span>
               </h2>
             </div>
           </FadeIn>
@@ -190,7 +190,7 @@ export function OraSilversandsPageContent({ project }: { project: Project }) {
                 Key Metrics
               </span>
               <h2 className="mt-4 font-[family-name:var(--font-cormorant)] text-4xl font-light text-white md:text-5xl">
-                Tower <span className="font-semibold text-misr-400">Statistics</span>
+                Project <span className="font-semibold text-misr-400">Statistics</span>
               </h2>
             </div>
           </FadeIn>
