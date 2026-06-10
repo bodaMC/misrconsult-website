@@ -2,6 +2,7 @@ import type { Project } from "@/lib/projects";
 import { AirportPageContent } from "./airport/page-content";
 import { BusinessHubPageContent } from "./business-hub/page-content";
 import { CairoTowerPageContent } from "./cairo-tower/page-content";
+import { ProjectGalleryLightboxProvider } from "./gallery-lightbox";
 import { OraSilversandsPageContent } from "./ora-silversands/page-content";
 import { portfolioPageContentBySlug } from "./portfolio-page-registry";
 import { StandardProjectPageContent } from "./standard-project-page-content";
@@ -30,15 +31,17 @@ type ProjectPageBySlugProps = {
 };
 
 export function ProjectPageBySlug({ slug, project }: ProjectPageBySlugProps) {
+  let content;
+
   if (isCustomProjectSlug(slug)) {
     const Content = customContentBySlug[slug];
-    return <Content project={project} />;
-  }
-
-  if (isPortfolioProjectSlug(slug)) {
+    content = <Content project={project} />;
+  } else if (isPortfolioProjectSlug(slug)) {
     const Content = portfolioPageContentBySlug[slug];
-    return <Content project={project} />;
+    content = <Content project={project} />;
+  } else {
+    content = <StandardProjectPageContent project={project} />;
   }
 
-  return <StandardProjectPageContent project={project} />;
+  return <ProjectGalleryLightboxProvider>{content}</ProjectGalleryLightboxProvider>;
 }

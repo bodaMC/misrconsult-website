@@ -27,10 +27,10 @@ export const oraSilversands: Project = {
   ],
   gallery: [
     "/projects/ora-silversands/ora-hero.jpg",
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
+    "/projects/ora-silversands/02.jpg",
+    "/projects/ora-silversands/03.jpg",
+    "/projects/ora-silversands/04.jpg",
+    "/projects/ora-silversands/05.jpg",
     "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1200&auto=format&fit=crop",
   ],
   stats: [

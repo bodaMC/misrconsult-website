@@ -31,7 +31,13 @@ export const phdNewCapitalVillageR4: Project = {
     "/projects/phd-r4/03.png",
     "/projects/phd-r4/04.png",
     "/projects/phd-r4/05.png",
-    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1200&auto=format&fit=crop"
+    "/projects/phd-r4/06.png",
+    "/projects/phd-r4/07.png",
+    "/projects/phd-r4/08.png",
+    "/projects/phd-r4/09.png",
+    "/projects/phd-r4/10.png",
+    "/projects/phd-r4/11.png",
+    "/projects/phd-r4/12.png",
   ],
   "stats": [
     {
