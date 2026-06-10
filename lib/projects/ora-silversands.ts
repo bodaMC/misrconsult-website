@@ -27,7 +27,7 @@ export const oraSilversands: Project = {
   ],
   gallery: [
     "/projects/ora-silversands/ora-hero.jpg",
-    "/projects/ora-silversands/02.jpg",
+    "/projects/ora-silversands/temp.jpg",
     "/projects/ora-silversands/03.jpg",
     "/projects/ora-silversands/04.jpg",
     "/projects/ora-silversands/05.jpg",
