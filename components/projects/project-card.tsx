@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Project } from "@/lib/projects";
 import { getCategoryLabel } from "@/lib/projects";
+import { ClientLogoBadge } from "./client-logo-badge";
 
 type ProjectCardProps = {
   project: Project;
@@ -30,6 +31,17 @@ export function ProjectCard({
           />
           <div className="absolute inset-0 bg-misr-950/30 transition-colors duration-500 group-hover:bg-misr-950/50" />
           <div className="absolute inset-0 bg-gradient-to-t from-misr-950/90 via-misr-950/20 to-transparent" />
+
+          {project.clientLogo ? (
+            <div className="absolute right-4 top-4 z-10 sm:right-5 sm:top-5 lg:right-6 lg:top-6">
+              <ClientLogoBadge
+                alt={`${project.client} logo`}
+                logoSize={project.clientLogoSize}
+                src={project.clientLogo}
+                variant="card"
+              />
+            </div>
+          ) : null}
 
           <div className="absolute inset-0 flex flex-col justify-end p-6 lg:p-8">
             <span className="mb-2 text-[10px] font-semibold uppercase tracking-[0.25em] text-misr-gold">

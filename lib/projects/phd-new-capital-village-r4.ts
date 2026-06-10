@@ -11,6 +11,7 @@ export const phdNewCapitalVillageR4: Project = {
   "location": "New Administrative Capital, Egypt",
   "year": "2026",
   "client": "Palm Hills",
+  "clientLogo": "/clients/palm-hills.png",
   "area": "1,218,013 m²",
   "heroImage": "/projects/phd-r4/phd.png",
   "span": "",

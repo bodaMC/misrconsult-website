@@ -9,7 +9,7 @@ const stats = [
 
 export function Stats() {
   return (
-    <section id="stats" className="relative overflow-hidden bg-misr-800 py-24 lg:py-28">
+    <section id="impact" className="relative overflow-hidden bg-misr-800 py-24 lg:py-28">
       <div
         className="absolute inset-0 bg-cover bg-center opacity-10"
         style={{

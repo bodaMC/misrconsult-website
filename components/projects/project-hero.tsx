@@ -1,5 +1,6 @@
 import type { Project } from "@/lib/projects";
 import { getCategoryById, getCategoryLabel } from "@/lib/projects";
+import { ClientLogoBadge } from "./client-logo-badge";
 import { ProjectBackButton } from "./project-back-button";
 
 type ProjectHeroProps = {
@@ -10,6 +11,8 @@ type ProjectHeroProps = {
     | "location"
     | "year"
     | "client"
+    | "clientLogo"
+    | "clientLogoSize"
     | "area"
     | "tagline"
     | "heroImage"
@@ -44,6 +47,18 @@ export function ProjectHero({ project }: ProjectHeroProps) {
         <div className="gradient-radial-green absolute inset-0" />
       </div>
       <div className="absolute inset-0 grid-architecture opacity-30" />
+
+      {project.clientLogo ? (
+        <div className="pointer-events-none absolute inset-x-0 top-36 z-20 lg:top-44">
+          <div className="mx-auto flex max-w-7xl justify-end px-6 lg:px-8">
+            <ClientLogoBadge
+              alt={`${project.client} logo`}
+              logoSize={project.clientLogoSize}
+              src={project.clientLogo}
+            />
+          </div>
+        </div>
+      ) : null}
 
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-20 pt-36 lg:px-8 lg:pb-28 lg:pt-44">
         <ProjectBackButton

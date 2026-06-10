@@ -18,6 +18,8 @@ export type Project = {
   location: string;
   year: string;
   client: string;
+  clientLogo?: string;
+  clientLogoSize?: string;
   area: string;
   heroImage: string;
   heroVideo?: string;

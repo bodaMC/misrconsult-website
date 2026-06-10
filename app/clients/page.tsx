@@ -18,7 +18,7 @@ export default function ClientsPage() {
         <div className="gradient-radial-green absolute inset-0 opacity-50" />
         <div className="absolute inset-0 bg-gradient-to-b from-misr-950/40 to-misr-950" />
 
-        <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-20 pt-36 lg:px-8 lg:pb-28 lg:pt-44">
+        <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-20 pt-36 lg:px-8 lg:pb-3 lg:pt-20">
           <Link
             href="/#clients"
             className="group mb-8 inline-flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.2em] text-white/60 transition-colors duration-300 hover:text-misr-gold"

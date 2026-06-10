@@ -10,6 +10,8 @@ export const palmHillsNewCairo: Project = {
   "location": "New Cairo, Egypt",
   "year": "TBD",
   "client": "Palm Hills",
+  "clientLogo": "/clients/palm-hills.png",
+  "clientLogoSize": "max-w-[40px]",
   "area": "1,700,000 m²",
   "heroImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
   "span": "",

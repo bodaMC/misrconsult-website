@@ -1,20 +1,38 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState, type MouseEvent } from "react";
+import { getHomeSectionId, scrollToHomeSection } from "@/lib/section-navigation";
 
 const navLinks = [
   { label: "About", href: "/#about" },
   { label: "Services", href: "/#services" },
   { label: "Projects", href: "/#projects" },
-  { label: "Impact", href: "/#stats" },
+  { label: "Clients", href: "/#clients" },
+  { label: "Impact", href: "/#impact" },
   { label: "Contact", href: "/#contact" },
 ];
 
 export function Navbar() {
+  const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const { scrollY } = useScroll();
+
+  const handleSectionClick = useCallback(
+    (event: MouseEvent<HTMLAnchorElement>, href: string) => {
+      if (pathname !== "/") return;
+
+      const sectionId = getHomeSectionId(href);
+      if (!sectionId) return;
+
+      event.preventDefault();
+      scrollToHomeSection(sectionId);
+      setMenuOpen(false);
+    },
+    [pathname],
+  );
 
   const navBg = useTransform(scrollY, [0, 48, 160], [0, 0.55, 0.92]);
   const navBlur = useTransform(scrollY, [0, 48, 160], [0, 8, 20]);
@@ -79,6 +97,7 @@ export function Navbar() {
             <li key={link.href}>
               <Link
                 href={link.href}
+                onClick={(event) => handleSectionClick(event, link.href)}
                 className="relative text-sm font-medium tracking-wide text-white/75 transition-colors duration-300 hover:text-white after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-misr-gold after:transition-all after:duration-300 hover:after:w-full"
               >
                 {link.label}
@@ -89,6 +108,7 @@ export function Navbar() {
 
         <Link
           href="/#contact"
+          onClick={(event) => handleSectionClick(event, "/#contact")}
           className="hidden border border-misr-gold/60 bg-misr-gold/10 px-6 py-2.5 text-xs font-semibold uppercase tracking-[0.2em] text-misr-gold transition-all duration-300 hover:border-misr-gold hover:bg-misr-gold hover:text-misr-950 lg:inline-block"
         >
           Start a Project
@@ -122,7 +142,7 @@ export function Navbar() {
             <li key={link.href}>
               <Link
                 href={link.href}
-                onClick={() => setMenuOpen(false)}
+                onClick={(event) => handleSectionClick(event, link.href)}
                 className="block border-b border-white/5 py-4 font-[family-name:var(--font-cormorant)] text-2xl text-white/90 transition-colors hover:text-misr-gold"
               >
                 {link.label}
@@ -132,7 +152,7 @@ export function Navbar() {
           <li className="pt-6">
             <Link
               href="/#contact"
-              onClick={() => setMenuOpen(false)}
+              onClick={(event) => handleSectionClick(event, "/#contact")}
               className="inline-block w-full border border-misr-gold bg-misr-gold px-6 py-4 text-center text-xs font-semibold uppercase tracking-[0.2em] text-misr-950"
             >
               Start a Project
