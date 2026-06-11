@@ -14,7 +14,7 @@ export const emaarMarassiRedSea: Project = {
   "clientLogo": "/clients/emaar-temp.png",
   "clientLogoSize": "max-w-[80px]",
   "area": "2,023,430 m²",
-  "heroImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/emaar-marassi-red-sea/01.png",
   "span": "",
   "tagline": "Emaar Marassi Red Sea — Full Design Package delivered by MisrConsult in Red Sea, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for Emaar Marassi Red Sea, a residential developments project located in Red Sea, Egypt. The development spans 2,023,430 m² with a delivery scope covering full design package.",
@@ -28,12 +28,14 @@ export const emaarMarassiRedSea: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1200&auto=format&fit=crop"
+    "/projects/emaar-marassi-red-sea/01.png",
+    "/projects/emaar-marassi-red-sea/02.png",
+    "/projects/emaar-marassi-red-sea/03.png",
+    "/projects/emaar-marassi-red-sea/04.png",
+    "/projects/emaar-marassi-red-sea/05.png",
+    "/projects/emaar-marassi-red-sea/06.png",
+    "/projects/emaar-marassi-red-sea/07.png",
+    "/projects/emaar-marassi-red-sea/08.png",
   ],
   "stats": [
     {

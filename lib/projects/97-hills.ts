@@ -14,6 +14,7 @@ export const n97Hills: Project = {
   "clientLogo": "/clients/palm-hills.png",
   clientLogoSize: "max-w-[60px]",
   "area": "407,400 m²",
+  span: "Full Design Package",
   "heroImage": "/projects/97-hills/05.png",
   "tagline": "97 Hills — Full Design Package delivered by MisrConsult in Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for 97 Hills, a residential developments project located in Cairo, Egypt. The development spans 407,400 m² with a delivery scope covering full design package.",

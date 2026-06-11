@@ -13,7 +13,7 @@ export const palmHillsNewCairo: Project = {
   "clientLogo": "/clients/palm-hills.png",
   "clientLogoSize": "max-w-[60px]",
   "area": "1,700,000 m²",
-  "heroImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/palm-hills-new-cairo/01.jpg",
   "span": "",
   "tagline": "Palm Hills New Cairo — Full Design Package delivered by MisrConsult in New Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for Palm Hills New Cairo, a residential developments project located in New Cairo, Egypt. The development spans 1,700,000 m² with a delivery scope covering full design package.",
@@ -27,12 +27,18 @@ export const palmHillsNewCairo: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1200&auto=format&fit=crop"
+    "/projects/palm-hills-new-cairo/01.jpg",
+    "/projects/palm-hills-new-cairo/01-office.jpg",
+    "/projects/palm-hills-new-cairo/02.jpg",
+    "/projects/palm-hills-new-cairo/02-office.jpg",
+    "/projects/palm-hills-new-cairo/03.jpg",
+    "/projects/palm-hills-new-cairo/03-office.jpg",
+    "/projects/palm-hills-new-cairo/04.jpg",
+    "/projects/palm-hills-new-cairo/04-office.jpg",
+    "/projects/palm-hills-new-cairo/05.jpg",
+    "/projects/palm-hills-new-cairo/06.jpg",
+    "/projects/palm-hills-new-cairo/07.jpg",
+    "/projects/palm-hills-new-cairo/08.jpg",
   ],
   "stats": [
     {

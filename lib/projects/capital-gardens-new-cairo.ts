@@ -14,7 +14,7 @@ export const capitalGardensNewCairo: Project = {
   "clientLogo": "/clients/palm-hills.png",
   "clientLogoSize": "max-w-[60px]",
   "area": "518,707 m²",
-  "heroImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/capital-gardens/01.jpg",
   "span": "",
   "tagline": "Capital Gardens New Cairo — Full Design Package delivered by MisrConsult in New Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for Capital Gardens New Cairo, a residential developments project located in New Cairo, Egypt. The development spans 518,707 m² with a delivery scope covering full design package.",
@@ -28,12 +28,9 @@ export const capitalGardensNewCairo: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1200&auto=format&fit=crop"
+    "/projects/capital-gardens/01.jpg",
+    "/projects/capital-gardens/02.png",
+    "/projects/capital-gardens/04.png",
   ],
   "stats": [
     {
