@@ -10,7 +10,7 @@ export const tmgFourSeasons: Project = {
   "location": "Cairo, Egypt",
   "year": "TBD",
   "client": "TMG",
-  "clientLogo": "/clients/tmg.png",
+  "clientLogo": "/clients/tmg1.png",
   "clientLogoSize": "max-w-[75px]",
   "area": "141,640 m²",
   "heroImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2400&auto=format&fit=crop",

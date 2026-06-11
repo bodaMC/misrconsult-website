@@ -9,13 +9,12 @@ export const n97Hills: Project = {
   "title": "97 Hills",
   "categoryId": "residential",
   "location": "Cairo, Egypt",
-  "year": "TBD",
+  "year": "Ongoing",
   "client": "Palm Hills",
   "clientLogo": "/clients/palm-hills.png",
   clientLogoSize: "max-w-[60px]",
   "area": "407,400 m²",
-  "heroImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
-  "span": "",
+  "heroImage": "/projects/97-hills/05.png",
   "tagline": "97 Hills — Full Design Package delivered by MisrConsult in Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for 97 Hills, a residential developments project located in Cairo, Egypt. The development spans 407,400 m² with a delivery scope covering full design package.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 407,400 m² development in Cairo, Egypt, meeting client programme requirements and international design standards.",
@@ -28,12 +27,20 @@ export const n97Hills: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1200&auto=format&fit=crop"
+    "/projects/97-hills/13.png",
+    "/projects/97-hills/02.png",
+    "/projects/97-hills/03.png",
+    "/projects/97-hills/04.png",
+    "/projects/97-hills/05.png",
+    "/projects/97-hills/06.png",
+    "/projects/97-hills/07.png",
+    "/projects/97-hills/08.png",
+    "/projects/97-hills/09.png",
+    "/projects/97-hills/10.png",
+    "/projects/97-hills/11.png",
+    "/projects/97-hills/12.png",
+    "/projects/97-hills/01.png",
+    
   ],
   "stats": [
     {

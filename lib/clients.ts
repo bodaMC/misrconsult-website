@@ -12,7 +12,7 @@ export const clients: Client[] = [
   { name: "Aramco", logo: "/clients/Saudi-Aramco-logo.png" },
   { name: "GEA", logo: "/clients/GEA.svg", size: "max-w-[120px]" },
   { name: "New Giza", logo: "/clients/new-giza.png", size: "max-w-[220px]" },
-  { name: "Talaat Moustafa Group", logo: "/clients/TMG.png", size: "max-w-[125px]" },
+  { name: "Talaat Moustafa Group", logo: "/clients/tmg1.png", size: "max-w-[125px]" },
   { name: "madinat-masr", logo: "/clients/masr.png", size: "max-w-[120px]" },
   { name: "AUC", logo: "/clients/AUC.png", size: "max-w-[107px]" },
   { name: "Ministry of Foreign Affairs", logo: "/clients/ministry-of-foreign-affairs.png" },
