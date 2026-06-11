@@ -11,6 +11,8 @@ export const arriyadhCourtsComplex: Project = {
   "location": "Riyadh, Saudi Arabia",
   "year": "TBD",
   "client": "TBD",
+  "clientLogo": "/clients/Saudi-Ministry.png",
+  "clientLogoSize": "max-w-[60px]",
   "area": "80,000 m²",
   "heroImage": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?q=80&w=2400&auto=format&fit=crop",
   "span": "",
