@@ -14,7 +14,7 @@ export const saraiCavana: Project = {
   "clientLogo": "/clients/masr.png",
   "clientLogoSize": "max-w-[67px]",
   "area": "239,400 m²",
-  "heroImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/sarai-cavana/02.jpg",
   "span": "",
   "tagline": "Sarai Cavana — Full Design Package delivered by MisrConsult in New Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for Sarai Cavana, a residential developments project located in New Cairo, Egypt. The development spans 239,400 m² with a delivery scope covering full design package.",
@@ -28,12 +28,10 @@ export const saraiCavana: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1200&auto=format&fit=crop"
+     "/projects/sarai-cavana/01.png",
+     "/projects/sarai-cavana/02.jpg",
+     "/projects/sarai-cavana/03.jpg",
+     "/projects/sarai-cavana/04.jpg",
   ],
   "stats": [
     {

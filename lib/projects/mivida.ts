@@ -13,7 +13,7 @@ export const mivida: Project = {
   "clientLogo": "/clients/emaar-temp.png",
   "clientLogoSize": "max-w-[80px]",
   "area": "3,500,000 m²",
-  "heroImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/mivida/01.png",
   "span": "",
   "tagline": "Mivida — Buildings & Infrastructure delivered by MisrConsult in Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for Mivida, a residential developments project located in Cairo, Egypt. The development spans 3,500,000 m² with a delivery scope covering buildings & infrastructure.",
@@ -27,12 +27,10 @@ export const mivida: Project = {
     "Project Management"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1200&auto=format&fit=crop"
+    "/projects/mivida/01.png",
+    "/projects/mivida/02.png",
+    "/projects/mivida/03.png",
+    "/projects/mivida/04.png",
   ],
   "stats": [
     {

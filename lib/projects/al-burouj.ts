@@ -14,7 +14,7 @@ export const alBurouj: Project = {
   "clientLogo": "/clients/imkan.jpg",
   "clientLogoSize": "max-w-[92px]",
   "area": "17,640,195 m²",
-  "heroImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/al-burouj/02.png",
   "span": "",
   "tagline": "Al Burouj — Full Design Package delivered by MisrConsult in Al-Shorouk, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for Al Burouj, a residential developments project located in Al-Shorouk, Egypt. The development spans 17,640,195 m² with a delivery scope covering full design package.",
@@ -28,12 +28,10 @@ export const alBurouj: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1200&auto=format&fit=crop"
+    "/projects/al-burouj/04.png",
+    "/projects/al-burouj/02.png",
+    "/projects/al-burouj/03.png",
+    "/projects/al-burouj/01.png",
   ],
   "stats": [
     {

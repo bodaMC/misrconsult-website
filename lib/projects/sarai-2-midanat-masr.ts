@@ -7,7 +7,7 @@ import type { Project } from "./types";
 // TODO: Replace placeholder gallery images with project-specific photography
 export const sarain2MidanatMasr: Project = {
   "slug": "sarai-2-midanat-masr",
-  "title": "Sarai — Phase 2",
+  "title": "Sarai — 2",
   "categoryId": "residential",
   "location": "New Cairo, Egypt",
   "year": "TBD",
@@ -15,7 +15,7 @@ export const sarain2MidanatMasr: Project = {
   "clientLogo": "/clients/masr.png",
   "clientLogoSize": "max-w-[67px]",
   "area": "210,000 m²",
-  "heroImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
+  "heroImage":  "/projects/sarai-2/01.jpeg",
   "span": "",
   "tagline": "Sarai — Phase 2 / Midanat Masr — Full Design Package delivered by MisrConsult in New Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for Sarai — Phase 2 / Midanat Masr, a residential developments project located in New Cairo, Egypt. The development spans 210,000 m² with a delivery scope covering full design package.",
@@ -29,12 +29,9 @@ export const sarain2MidanatMasr: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1200&auto=format&fit=crop"
+    "/projects/sarai-2/01.jpeg",
+    "/projects/sarai-2/02.jpeg",
+    "/projects/sarai-2/03.jpeg",
   ],
   "stats": [
     {

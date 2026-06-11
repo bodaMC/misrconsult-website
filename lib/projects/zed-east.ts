@@ -14,7 +14,7 @@ export const zedEast: Project = {
   "clientLogo": "/clients/ora.png",
   "clientLogoSize": "max-w-[80px]",
   "area": "156,000 m²",
-  "heroImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/zed-east/01.jpeg",
   "span": "",
   "tagline": "Zed East — Full Design Package delivered by MisrConsult in 5th Settlement, Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for Zed East, a residential developments project located in 5th Settlement, Cairo, Egypt. The development spans 156,000 m² with a delivery scope covering full design package.",
@@ -28,12 +28,11 @@ export const zedEast: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1200&auto=format&fit=crop"
+    "/projects/zed-east/01.jpeg",
+    "/projects/zed-east/02.jpeg",
+    "/projects/zed-east/03.jpeg",
+    "/projects/zed-east/04.jpeg",
+    "/projects/zed-east/05.png",    
   ],
   "stats": [
     {
