@@ -11,6 +11,8 @@ export const emaarMarassiRedSea: Project = {
   "location": "Red Sea, Egypt",
   "year": "TBD",
   "client": "EMAAR",
+  "clientLogo": "/clients/emaar-temp.png",
+  "clientLogoSize": "max-w-[80px]",
   "area": "2,023,430 m²",
   "heroImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
   "span": "",

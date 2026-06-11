@@ -7,11 +7,13 @@ import type { Project } from "./types";
 // TODO: Replace placeholder gallery images with project-specific photography
 export const sarain2MidanatMasr: Project = {
   "slug": "sarai-2-midanat-masr",
-  "title": "Sarai — Phase 2 / Midanat Masr",
+  "title": "Sarai — Phase 2",
   "categoryId": "residential",
   "location": "New Cairo, Egypt",
   "year": "TBD",
-  "client": "TBD",
+  "client": "Madinet Masr",
+  "clientLogo": "/clients/masr.png",
+  "clientLogoSize": "max-w-[67px]",
   "area": "210,000 m²",
   "heroImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
   "span": "",

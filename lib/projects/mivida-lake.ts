@@ -10,6 +10,8 @@ export const mividaLake: Project = {
   "location": "Cairo, Egypt",
   "year": "TBD",
   "client": "EMAAR",
+  "clientLogo": "/clients/emaar-temp.png",
+  "clientLogoSize": "max-w-[80px]",
   "area": "71,200 m²",
   "heroImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2400&auto=format&fit=crop",
   "span": "",

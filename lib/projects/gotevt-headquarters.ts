@@ -1,16 +1,17 @@
 import type { Project } from "./types";
 
 // TODO: Confirm completion year
-// TODO: Confirm client name
 // TODO: Replace placeholder heroImage with project-specific photography
 // TODO: Replace placeholder gallery images with project-specific photography
 export const gotevtHeadquarters: Project = {
   "slug": "gotevt-headquarters",
-  "title": "General Organization for Technical Education & Vocational Training Headquarters",
+  "title": "General Org. for Tech. Education & Vocational Training Headquarters",
   "categoryId": "educational",
   "location": "Kingdom of Saudi Arabia",
   "year": "TBD",
-  "client": "TBD",
+  "client": "Technical & Vocational Training Corporation",
+  "clientLogo": "/clients/techtraining.png",
+  "clientLogoSize": "max-w-[90px]",
   "area": "36,850 m²",
   "heroImage": "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2400&auto=format&fit=crop",
   "span": "",

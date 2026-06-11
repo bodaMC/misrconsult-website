@@ -8,7 +8,7 @@ export const oraSilversands: Project = {
   year: "2024",
   client: "ORA",
   clientLogo: "/clients/ora.png",
-  clientLogoSize: "max-w-[90px]",
+  clientLogoSize: "max-w-[80px]",
   area: "700,000 m²",
   heroImage: "/projects/ora-silversands/ora-hero.jpg",
   span: "",

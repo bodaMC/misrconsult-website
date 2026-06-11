@@ -5,7 +5,7 @@ export type Client = {
 };
 
 export const clients: Client[] = [
-  { name: "Palm Hills", logo: "/clients/palm-hills.png", size: "max-w-[80px]" },
+  { name: "Palm Hills", logo: "/clients/palm-hills.png", size: "max-w-[100px]" },
   { name: "Emaar",logo: "/clients/emaar-temp.png", size: "max-w-[135px]"},
   { name: "ORA", logo: "/clients/ora.png", size: "max-w-[125px]" },
   { name: "Orascom Construction", logo: "/clients/Orascom.png" },
