@@ -12,10 +12,10 @@ import { HERO_VIDEO_POSTER, HERO_VIDEO_SRC } from "@/lib/hero-media";
 function HeroHeadline() {
   return (
     <h1 className="hero-cinematic__headline">
-      <span className="hero-cinematic__headline-line text-white">Shaping the</span>
-      <span className="hero-cinematic__headline-line text-white">Future of</span>
+      <span className="hero-cinematic__headline-line text-white"></span>
+      <span className="hero-cinematic__headline-line text-white"></span>
       <span className="hero-cinematic__headline-line hero-cinematic__headline-accent">
-        Infrastructure
+        
       </span>
     </h1>
   );
