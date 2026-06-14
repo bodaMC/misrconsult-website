@@ -38,9 +38,11 @@ export function ProjectNav({ title }: { title: string }) {
 
         <Link href="/" className="group flex items-center gap-2">
           <span className="flex h-9 w-9 items-center justify-center border border-misr-gold/40 bg-misr-900/80">
-            <span className="font-[family-name:var(--font-cormorant)] text-base font-semibold text-misr-gold">
-              M
-            </span>
+            <img
+              src="/clients/misrconsult1.png"
+              alt="Misr Consult Logo"
+              className="h-full w-full object-contain"
+            />
           </span>
           <span className="hidden font-[family-name:var(--font-cormorant)] text-lg font-semibold text-white sm:inline">
             MisrConsult

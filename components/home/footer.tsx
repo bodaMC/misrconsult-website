@@ -1,3 +1,5 @@
+import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
+
 const footerLinks = {
   Company: [
     { label: "About Us", href: "#about" },
@@ -17,6 +19,7 @@ const footerLinks = {
     { label: "News & Insights", href: "#" },
     { label: "Privacy Policy", href: "#" },
   ],
+  
 };
 
 export function Footer() {
@@ -43,17 +46,31 @@ export function Footer() {
               projects with precision, integrity, and innovation since 1992.
             </p>
             <div className="mt-8 flex gap-4">
-              {["LinkedIn", "X", "YouTube"].map((social) => (
-                <a
-                  key={social}
-                  href="#"
-                  className="flex h-10 w-10 items-center justify-center border border-white/10 text-xs font-semibold text-white/50 transition-all duration-300 hover:border-misr-gold hover:text-misr-gold"
-                  aria-label={social}
-                >
-                  {social[0]}
-                </a>
-              ))}
-            </div>
+             {[
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/company/misrconsult-eng/",
+    icon: <FaLinkedinIn />,
+  },
+  {
+    name: "Facebook",
+    href: "https://www.facebook.com/misrconsult",
+    icon: <FaFacebookF />,
+  },
+  
+].map((social) => (
+  <a
+    key={social.name}
+    href={social.href}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex h-10 w-10 items-center justify-center border border-white/10 text-xs font-semibold text-white/50 transition-all duration-300 hover:border-misr-gold hover:text-misr-gold"
+    aria-label={social.name}
+  >
+    {social.icon}
+  </a>
+))}
+          </div>
           </div>
 
           <div className="grid gap-8 sm:grid-cols-3 lg:col-span-7">

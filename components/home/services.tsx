@@ -1,82 +1,45 @@
 const services = [
-  
   {
     number: "01",
     title: "Architectural Design",
     description:
       "Concept-to-completion architectural services blending aesthetic excellence with functional precision for commercial, residential, and civic spaces.",
-     icon: (
-      <svg viewBox="0 0 48 48" className="h-10 w-10" fill="none" stroke="currentColor" strokeWidth="1">
-        <path d="M8 40 L24 8 L40 40" />
-        <line x1="14" y1="28" x2="34" y2="28" />
-      </svg>
-    ),
+    image: "/projects/phd-r4/01.png",
   },
   {
     number: "02",
     title: "Structural Engineering",
     description:
       "Advanced analysis and design for high-rise towers, bridges, industrial facilities, and complex foundations using cutting-edge computational methods.",
-    icon: (
-      <svg viewBox="0 0 48 48" className="h-10 w-10" fill="none" stroke="currentColor" strokeWidth="1">
-        <rect x="10" y="16" width="28" height="24" />
-        <line x1="10" y1="28" x2="38" y2="28" />
-        <line x1="24" y1="16" x2="24" y2="40" />
-      </svg>
-    ),
-     
+    image: "/projects/zed-east/01.jpeg",
   },
   {
     number: "03",
     title: "Project Management",
     description:
       "End-to-end delivery oversight including scheduling, cost control, risk management, and stakeholder coordination for projects of any scale.",
-    icon: (
-      <svg viewBox="0 0 48 48" className="h-10 w-10" fill="none" stroke="currentColor" strokeWidth="1">
-        <rect x="8" y="12" width="32" height="28" />
-        <line x1="8" y1="20" x2="40" y2="20" />
-        <line x1="16" y1="28" x2="32" y2="28" />
-        <line x1="16" y1="34" x2="26" y2="34" />
-      </svg>
-    ),
+    image: "/projects/97-hills/02.png",
   },
   {
     number: "04",
     title: "Infrastructure Planning",
     description:
       "Master planning, transportation networks, utilities coordination, and urban infrastructure for smart cities and regional development.",
-    icon: (
-      <svg viewBox="0 0 48 48" className="h-10 w-10" fill="none" stroke="currentColor" strokeWidth="1">
-        <path d="M6 38 Q24 10 42 38" />
-        <line x1="6" y1="38" x2="42" y2="38" />
-      </svg>
-    ),
+    image: "/projects/sarai-2/01.jpeg",
   },
   {
     number: "05",
     title: "MEP Engineering",
     description:
       "Integrated mechanical, electrical, and plumbing systems design optimized for energy efficiency, reliability, and seamless building performance.",
-    icon: (
-      <svg viewBox="0 0 48 48" className="h-10 w-10" fill="none" stroke="currentColor" strokeWidth="1">
-        <circle cx="24" cy="24" r="14" />
-        <line x1="24" y1="10" x2="24" y2="38" />
-        <line x1="10" y1="24" x2="38" y2="24" />
-      </svg>
-    ),
+    image: "/projects/palm-hills-new-cairo/01-office.jpg",
   },
   {
     number: "06",
     title: "Consultancy & Advisory",
     description:
       "Technical due diligence, feasibility studies, value engineering, and expert advisory for investors, lenders, and development partners.",
-    icon: (
-      <svg viewBox="0 0 48 48" className="h-10 w-10" fill="none" stroke="currentColor" strokeWidth="1">
-        <path d="M24 8 L40 40 H8 Z" />
-        <line x1="24" y1="20" x2="24" y2="30" />
-        <circle cx="24" cy="34" r="1.5" fill="currentColor" />
-      </svg>
-    ),
+    image: "/images/hero1.jpg",
   },
 ];
 
@@ -108,30 +71,31 @@ export function Services() {
           {services.map((service) => (
             <article
               key={service.number}
-              className="group relative bg-misr-900/80 p-8 transition-all duration-500 hover:bg-misr-800/90 lg:p-10"
+              className="group relative overflow-hidden bg-misr-900/80 transition-all duration-500 hover:bg-misr-800/90"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-misr-500/0 to-misr-500/0 transition-all duration-500 group-hover:from-misr-500/5 group-hover:to-transparent" />
+
               <div className="relative">
-                <div className="flex items-start justify-between">
-                  <span className="text-misr-400 transition-colors duration-300 group-hover:text-misr-gold">
-                    {service.icon}
-                  </span>
-                  <span className="font-[family-name:var(--font-cormorant)] text-3xl font-light text-white/15 transition-colors duration-300 group-hover:text-misr-gold/40">
+                <div className="relative aspect-video w-full overflow-hidden rounded-t-sm">
+                  <div
+                    className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                    style={{ backgroundImage: `url('${service.image}')` }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-misr-950/70 via-misr-950/20 to-misr-950/30 transition-colors duration-500 group-hover:from-misr-950/80" />
+                  <span className="absolute right-4 top-4 font-[family-name:var(--font-cormorant)] text-3xl font-light text-white/15 transition-colors duration-300 group-hover:text-misr-gold/40">
                     {service.number}
                   </span>
+                  <div className="absolute left-0 top-0 h-px w-0 bg-misr-gold transition-all duration-500 group-hover:w-full" />
                 </div>
-                <h3 className="mt-8 font-[family-name:var(--font-cormorant)] text-2xl font-semibold text-white transition-colors duration-300 group-hover:text-misr-gold">
-                  {service.title}
-                </h3>
-                <p className="mt-4 text-sm leading-relaxed text-white/50 transition-colors duration-300 group-hover:text-white/70">
-                  {service.description}
-                </p>
-                <span className="mt-8 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-misr-400 opacity-0 transition-all duration-300 group-hover:opacity-100">
-                  Learn more
-                  <span className="transition-transform duration-300 group-hover:translate-x-1">
-                    →
-                  </span>
-                </span>
+
+                <div className="p-8 lg:p-10">
+                  <h3 className="font-[family-name:var(--font-cormorant)] text-xl font-semibold text-white transition-colors duration-300 group-hover:text-misr-gold">
+                    {service.title}
+                  </h3>
+                  <p className="mt-4 text-sm leading-relaxed text-white/50 transition-colors duration-300 group-hover:text-white/70">
+                    {service.description}
+                  </p>
+                </div>
               </div>
             </article>
           ))}
