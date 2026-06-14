@@ -76,13 +76,13 @@ export function Services() {
               <div className="absolute inset-0 bg-gradient-to-br from-misr-500/0 to-misr-500/0 transition-all duration-500 group-hover:from-misr-500/5 group-hover:to-transparent" />
 
               <div className="relative">
-                <div className="relative aspect-video w-full overflow-hidden rounded-t-sm">
+               <div className="relative aspect-[2.2/1] overflow-hidden rounded-t-sm">
                   <div
                     className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
                     style={{ backgroundImage: `url('${service.image}')` }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-misr-950/70 via-misr-950/20 to-misr-950/30 transition-colors duration-500 group-hover:from-misr-950/80" />
-                  <span className="absolute right-4 top-4 font-[family-name:var(--font-cormorant)] text-3xl font-light text-white/15 transition-colors duration-300 group-hover:text-misr-gold/40">
+                 <span className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-md bg-black/50 text-lg font-semibold text-misr-gold backdrop-blur-sm">
                     {service.number}
                   </span>
                   <div className="absolute left-0 top-0 h-px w-0 bg-misr-gold transition-all duration-500 group-hover:w-full" />
