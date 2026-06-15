@@ -5,7 +5,6 @@ export { n97Hills } from "./97-hills";
 export { palmHillsNewCairo } from "./palm-hills-new-cairo";
 export { capitalGardensNewCairo } from "./capital-gardens-new-cairo";
 export { emaarMarassiRedSea } from "./emaar-marassi-red-sea";
-export { fifthSettlementFullDesign } from "./fifth-settlement-full-design";
 export { mividaGardens } from "./mivida-gardens";
 export { mivida } from "./mivida";
 export { mividaLake } from "./mivida-lake";
@@ -46,7 +45,6 @@ import { n97Hills } from "./97-hills";
 import { palmHillsNewCairo } from "./palm-hills-new-cairo";
 import { capitalGardensNewCairo } from "./capital-gardens-new-cairo";
 import { emaarMarassiRedSea } from "./emaar-marassi-red-sea";
-import { fifthSettlementFullDesign } from "./fifth-settlement-full-design";
 import { mividaGardens } from "./mivida-gardens";
 import { mivida } from "./mivida";
 import { mividaLake } from "./mivida-lake";
@@ -87,7 +85,6 @@ export const portfolioProjectList: Project[] = [
   palmHillsNewCairo,
   capitalGardensNewCairo,
   emaarMarassiRedSea,
-  fifthSettlementFullDesign,
   mividaGardens,
   mivida,
   mividaLake,

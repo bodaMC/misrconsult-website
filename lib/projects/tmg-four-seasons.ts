@@ -13,7 +13,7 @@ export const tmgFourSeasons: Project = {
   "clientLogo": "/clients/tmg1.png",
   "clientLogoSize": "max-w-[75px]",
   "area": "141,640 m²",
-  "heroImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/tmg/01.png",
   "span": "",
   "tagline": "TMG Four Seasons — MEP Package delivered by MisrConsult in Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for TMG Four Seasons, a hotels & resorts project located in Cairo, Egypt. The development spans 141,640 m² with a delivery scope covering mep package.",
@@ -27,12 +27,8 @@ export const tmgFourSeasons: Project = {
     "Project Management"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1200&auto=format&fit=crop"
+    "/projects/tmg/01.png",
+    "/projects/tmg/02.png",
   ],
   "stats": [
     {

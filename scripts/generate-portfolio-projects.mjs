@@ -62,9 +62,6 @@ function getTodoComments(input) {
       "PDF lists both 5,711 m² (design package) and 2,023,430 m² (buildings) — verify correct primary area",
     );
   }
-  if (input.slug === "fifth-settlement-full-design") {
-    comments.push("PDF slide does not state a clear project name — verify official title");
-  }
   if (input.slug === "mivida-gardens") {
     comments.push('PDF shows "???" for one area field — using 420,000 m² from portfolio slide');
   }

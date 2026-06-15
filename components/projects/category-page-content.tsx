@@ -3,6 +3,7 @@ import type { ProjectCategory } from "@/lib/projects";
 import { getProjectsByCategoryId } from "@/lib/projects";
 import { Footer } from "@/components/home/footer";
 import { ProjectCard } from "./project-card";
+import { ProjectNav } from "./project-nav";
 
 type CategoryPageContentProps = {
   category: ProjectCategory;
@@ -13,6 +14,7 @@ export function CategoryPageContent({ category }: CategoryPageContentProps) {
 
   return (
     <>
+      <ProjectNav title={category.label} />
       <section className="relative flex min-h-[50vh] items-end overflow-hidden bg-misr-950">
         <div className="absolute inset-0">
           <div
@@ -26,16 +28,6 @@ export function CategoryPageContent({ category }: CategoryPageContentProps) {
         <div className="absolute inset-0 grid-architecture opacity-30" />
 
         <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-20 pt-36 lg:px-8 lg:pb-28 lg:pt-44">
-          <Link
-            href="/projects"
-            className="animate-fade-up group mb-8 inline-flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.2em] text-white/60 transition-colors duration-300 hover:text-misr-gold"
-          >
-            <span className="flex h-8 w-8 items-center justify-center border border-white/20 transition-all duration-300 group-hover:border-misr-gold">
-              ←
-            </span>
-            All Categories
-          </Link>
-
           <span className="animate-fade-up animation-delay-200 text-xs font-semibold uppercase tracking-[0.35em] text-misr-gold">
             Portfolio
           </span>

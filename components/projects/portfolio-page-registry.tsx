@@ -6,7 +6,6 @@ import { N97HillsPageContent } from "./97-hills/page-content";
 import { PalmHillsNewCairoPageContent } from "./palm-hills-new-cairo/page-content";
 import { CapitalGardensNewCairoPageContent } from "./capital-gardens-new-cairo/page-content";
 import { EmaarMarassiRedSeaPageContent } from "./emaar-marassi-red-sea/page-content";
-import { FifthSettlementFullDesignPageContent } from "./fifth-settlement-full-design/page-content";
 import { MividaGardensPageContent } from "./mivida-gardens/page-content";
 import { MividaPageContent } from "./mivida/page-content";
 import { MividaLakePageContent } from "./mivida-lake/page-content";
@@ -47,7 +46,6 @@ export const portfolioPageContentBySlug = {
   "palm-hills-new-cairo": PalmHillsNewCairoPageContent,
   "capital-gardens-new-cairo": CapitalGardensNewCairoPageContent,
   "emaar-marassi-red-sea": EmaarMarassiRedSeaPageContent,
-  "fifth-settlement-full-design": FifthSettlementFullDesignPageContent,
   "mivida-gardens": MividaGardensPageContent,
   "mivida": MividaPageContent,
   "mivida-lake": MividaLakePageContent,

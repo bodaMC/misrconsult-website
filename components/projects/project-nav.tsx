@@ -3,7 +3,15 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-export function ProjectNav({ title }: { title: string }) {
+export function ProjectNav({
+  title,
+  backHref = "/projects",
+  backLabel = "All Projects",
+}: {
+  title: string;
+  backHref?: string;
+  backLabel?: string;
+}) {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -23,7 +31,7 @@ export function ProjectNav({ title }: { title: string }) {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-8">
         <Link
-          href="/projects"
+          href={backHref}
           className="group inline-flex items-center gap-3 text-sm font-medium text-white/75 transition-colors duration-300 hover:text-white"
         >
           <span className="flex h-9 w-9 items-center justify-center border border-white/20 transition-all duration-300 group-hover:border-misr-gold group-hover:bg-misr-gold/10">
@@ -32,7 +40,7 @@ export function ProjectNav({ title }: { title: string }) {
             </span>
           </span>
           <span className="hidden uppercase tracking-[0.2em] sm:inline">
-            All Projects
+            {backLabel}
           </span>
         </Link>
 

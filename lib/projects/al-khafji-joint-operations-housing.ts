@@ -15,7 +15,7 @@ export const alKhafjiJointOperationsHousing: Project = {
   "clientLogo": "/clients/khafji-Photoroom.png",
   "clientLogoSize": "max-w-[77px]",
   "area": "1,400,000 m²",
-  "heroImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/al-khafji/01.png",
   "span": "",
   "tagline": "Al-Khafji Joint Operations Housing Area — Full Design Package delivered by MisrConsult in Al-Khafji, Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Al-Khafji Joint Operations Housing Area, a residential developments project located in Al-Khafji, Saudi Arabia. The development spans 1,400,000 m² with a delivery scope covering full design package.",
@@ -29,12 +29,11 @@ export const alKhafjiJointOperationsHousing: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1200&auto=format&fit=crop"
+    "/projects/al-khafji/01.png",
+    "/projects/al-khafji/02.png",
+    "/projects/al-khafji/03.png",
+    "/projects/al-khafji/04.png",
+    "/projects/al-khafji/05.png",
   ],
   "stats": [
     {
