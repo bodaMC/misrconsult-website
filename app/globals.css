@@ -173,11 +173,7 @@ body {
   object-fit: cover;
   object-position: center;
 }
-@media (max-width: 768px) {
-  .hero-cinematic__video {
-    object-position: 60% center;
-  }
-}
+
 
 .hero-cinematic__brand-tint {
   position: absolute;

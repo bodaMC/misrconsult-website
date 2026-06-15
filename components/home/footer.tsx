@@ -1,5 +1,6 @@
 import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 
+
 const footerLinks = {
   Company: [
     { label: "About Us", href: "#about" },
@@ -13,12 +14,12 @@ const footerLinks = {
     { label: "Project Management", href: "#services" },
     { label: "Infrastructure", href: "#services" },
   ],
-  Connect: [
-    { label: "Contact", href: "#contact" },
-    { label: "LinkedIn", href: "#" },
-    { label: "News & Insights", href: "#" },
-    { label: "Privacy Policy", href: "#" },
-  ],
+Connect: [
+  { label: "Contact", href: "#contact" },
+  { label: "LinkedIn", href: "#" },
+  { label: "News & Insights", href: "/news" },
+  { label: "Privacy Policy", href: "#" },
+],
   
 };
 

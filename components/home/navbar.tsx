@@ -11,9 +11,9 @@ const navLinks = [
   { label: "Services", href: "/#services" },
   { label: "Projects", href: "/#projects" },
   { label: "Clients", href: "/#clients" },
-  { label: "Impact", href: "/#impact" },
+  { label: "News", href: "/news" },
   { label: "Contact", href: "/#contact" },
-];
+];  
 
 export function Navbar() {
   const pathname = usePathname();
