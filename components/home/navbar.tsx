@@ -111,7 +111,7 @@ export function Navbar() {
           onClick={(event) => handleSectionClick(event, "/#contact")}
           className="hidden border border-misr-gold/60 bg-misr-gold/10 px-6 py-2.5 text-xs font-semibold uppercase tracking-[0.2em] text-misr-gold transition-all duration-300 hover:border-misr-gold hover:bg-misr-gold hover:text-misr-950 lg:inline-block"
         >
-          Start a Project
+          Contact Us
         </Link>
 
         <button
@@ -155,7 +155,7 @@ export function Navbar() {
               onClick={(event) => handleSectionClick(event, "/#contact")}
               className="inline-block w-full border border-misr-gold bg-misr-gold px-6 py-4 text-center text-xs font-semibold uppercase tracking-[0.2em] text-misr-950"
             >
-              Start a Project
+              Contact Us
             </Link>
           </li>
         </ul>

@@ -1,20 +1,18 @@
 import type { Project } from "./types";
 
 // TODO: Confirm completion year
-// TODO: Confirm client name
-// TODO: Replace placeholder heroImage with project-specific photography
-// TODO: Replace placeholder gallery images with project-specific photography
+
 export const kingFaisalUniversityHospital: Project = {
   "slug": "king-faisal-university-hospital",
   "title": "King Faisal University Hospital",
   "categoryId": "healthcare",
   "location": "Kingdom of Saudi Arabia",
-  "year": "TBD",
+  "year": "2007",
   "client": "King Faisal Universtiy",
   "clientLogo": "/clients/kfu-logo.png",
   "clientLogoSize": "max-w-[84px]",
   "area": "13,780 m²",
-  "heroImage": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2400&auto=format&fit=crop",
+  "heroImage":  "/projects/kfu-hospital/02.png",
   "span": "",
   "tagline": "King Faisal University Hospital — Full Design Package delivered by MisrConsult in Kingdom of Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for King Faisal University Hospital, a healthcare & hospitals project located in Kingdom of Saudi Arabia. The development spans 13,780 m² with a delivery scope covering full design package.",
@@ -28,12 +26,10 @@ export const kingFaisalUniversityHospital: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1538108149393-fbbd8189d6da?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1631217868264-e5b1bb5e2c59?q=80&w=1200&auto=format&fit=crop"
+     "/projects/kfu-hospital/01.png",
+     "/projects/kfu-hospital/02.png",
+     "/projects/kfu-hospital/03.jpg",
+     "/projects/kfu-hospital/04.jpg",
   ],
   "stats": [
     {

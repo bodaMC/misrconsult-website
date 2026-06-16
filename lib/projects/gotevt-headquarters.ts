@@ -13,7 +13,7 @@ export const gotevtHeadquarters: Project = {
   "clientLogo": "/clients/techtraining.png",
   "clientLogoSize": "max-w-[90px]",
   "area": "36,850 m²",
-  "heroImage": "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/gen-org/01.png",
   "span": "",
   "tagline": "General Organization for Technical Education & Vocational Training Headquarters — Buildings delivered by MisrConsult in Kingdom of Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for General Organization for Technical Education & Vocational Training Headquarters, a educational facilities project located in Kingdom of Saudi Arabia. The development spans 36,850 m² with a delivery scope covering buildings.",
@@ -27,12 +27,7 @@ export const gotevtHeadquarters: Project = {
     "Project Management"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1541339907192-e70056c376c9?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1200&auto=format&fit=crop"
+    "/projects/gen-org/01.png",
   ],
   "stats": [
     {

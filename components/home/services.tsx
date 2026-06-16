@@ -4,42 +4,42 @@ const services = [
     title: "Architectural Design",
     description:
       "Concept-to-completion architectural services blending aesthetic excellence with functional precision for commercial, residential, and civic spaces.",
-    image: "/projects/phd-r4/01.png",
+    image: "/services/01.png",
   },
   {
     number: "02",
     title: "Structural Engineering",
     description:
       "Advanced analysis and design for high-rise towers, bridges, industrial facilities, and complex foundations using cutting-edge computational methods.",
-    image: "/projects/zed-east/01.jpeg",
+    image: "/services/02.png",
   },
   {
     number: "03",
     title: "Project Management",
     description:
       "End-to-end delivery oversight including scheduling, cost control, risk management, and stakeholder coordination for projects of any scale.",
-    image: "/projects/97-hills/02.png",
+    image: "/services/03.png",
   },
   {
     number: "04",
     title: "Infrastructure Planning",
     description:
       "Master planning, transportation networks, utilities coordination, and urban infrastructure for smart cities and regional development.",
-    image: "/projects/sarai-2/01.jpeg",
+    image: "/services/04.png",
   },
   {
     number: "05",
     title: "MEP Engineering",
     description:
       "Integrated mechanical, electrical, and plumbing systems design optimized for energy efficiency, reliability, and seamless building performance.",
-    image: "/projects/palm-hills-new-cairo/01-office.jpg",
+    image: "/services/05.png",
   },
   {
     number: "06",
     title: "Consultancy & Advisory",
     description:
       "Technical due diligence, feasibility studies, value engineering, and expert advisory for investors, lenders, and development partners.",
-    image: "/images/hero1.jpg",
+    image: "/services/06.png",
   },
 ];
 

@@ -28,15 +28,21 @@ export function Contact() {
                   value: "Maadi Palace Tower, 4th Floor, Cairo, Egypt",
                 },
                 { label: "Email", value: "info@misrconsult-eng.com" },
-                { label: "Phone", value: "+202 2378-5939" },
+                { label: "Phone", value: ["+202 2378-5939", "+202 2378-5942", "+202 2378-6379"]},
               ].map((item) => (
                 <div key={item.label} className="group">
                   <p className="text-xs font-semibold uppercase tracking-[0.2em] text-misr-600">
                     {item.label}
                   </p>
-                  <p className="mt-2 text-base text-misr-950 transition-colors duration-300 group-hover:text-misr-600">
-                    {item.value}
-                  </p>
+                 <div className="mt-2 text-base text-misr-950 transition-colors duration-300 group-hover:text-misr-600">
+                 {Array.isArray(item.value) ? (
+                 item.value.map((phone) => (
+                 <div key={phone}>{phone}</div>
+                 ))
+                 ) : (
+                 item.value
+                 )}
+                </div>
                 </div>
               ))}
             </div>

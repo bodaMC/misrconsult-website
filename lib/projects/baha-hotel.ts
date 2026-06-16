@@ -14,7 +14,7 @@ export const bahaHotel: Project = {
   "clientLogo": "/clients/sandouq.png",
   "clientLogoSize": "max-w-[75px]",
   "area": "103,000 m²",
-  "heroImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/baha/04.png",
   "span": "",
   "tagline": "Baha Hotel — Full Design Package delivered by MisrConsult in Al Baha, Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Baha Hotel, a hotels & resorts project located in Al Baha, Saudi Arabia. The development spans 103,000 m² with a delivery scope covering full design package.",
@@ -28,12 +28,11 @@ export const bahaHotel: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1200&auto=format&fit=crop"
+    "/projects/baha/04.png",
+    "/projects/baha/02.png",
+    "/projects/baha/01.png",
+    "/projects/baha/03.png",
+    "/projects/baha/01.png",
   ],
   "stats": [
     {

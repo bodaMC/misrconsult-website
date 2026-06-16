@@ -9,12 +9,12 @@ export const princeMohamedBinFahdMedicalResearch: Project = {
   "title": "Prince Mohamed Bin Fahd Center for Medical Research",
   "categoryId": "healthcare",
   "location": "Dammam, Saudi Arabia",
-  "year": "TBD",
+  "year": "11997",
   "client": "University of Dammam",
   "clientLogo": "/clients/University-of-Dammam.png",
   "clientLogoSize": "max-w-[72px]",
   "area": "107,000 m²",
-  "heroImage": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/prince-mohamed-ben-fahd/03.png",
   "span": "",
   "tagline": "Prince Mohamed Bin Fahd Center for Medical Research — Full Design Package delivered by MisrConsult in Dammam, Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Prince Mohamed Bin Fahd Center for Medical Research, a healthcare & hospitals project located in Dammam, Saudi Arabia. The development spans 107,000 m² with a delivery scope covering full design package.",
@@ -28,12 +28,11 @@ export const princeMohamedBinFahdMedicalResearch: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1538108149393-fbbd8189d6da?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1631217868264-e5b1bb5e2c59?q=80&w=1200&auto=format&fit=crop"
+    "/projects/prince-mohamed-ben-fahd/01.png",
+    "/projects/prince-mohamed-ben-fahd/02.png",
+    "/projects/prince-mohamed-ben-fahd/03.png",
+    "/projects/prince-mohamed-ben-fahd/04.png",
+    "/projects/prince-mohamed-ben-fahd/05.png",
   ],
   "stats": [
     {

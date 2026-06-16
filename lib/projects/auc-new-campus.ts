@@ -9,12 +9,12 @@ export const aucNewCampus: Project = {
   "title": "AUC New Campus",
   "categoryId": "educational",
   "location": "Cairo, Egypt",
-  "year": "TBD",
+  "year": "2000",
   "client": "AUC",
   "clientLogo": "/clients/AUC.png",
   "clientLogoSize": "max-w-[55px]",
   "area": "1,000,000 m²",
-  "heroImage": "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/auc/02.jpg",
   "span": "",
   "tagline": "AUC New Campus — Infrastructure delivered by MisrConsult in Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for AUC New Campus, a educational facilities project located in Cairo, Egypt. The development spans 1,000,000 m² with a delivery scope covering infrastructure.",
@@ -28,12 +28,11 @@ export const aucNewCampus: Project = {
     "Project Management"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1541339907192-e70056c376c9?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1200&auto=format&fit=crop"
+    "/projects/auc/01.png",
+    "/projects/auc/02.jpg",
+    "/projects/auc/03.png",
+    "/projects/auc/04.png",
+    "/projects/auc/05.png",
   ],
   "stats": [
     {
@@ -47,12 +46,12 @@ export const aucNewCampus: Project = {
       "suffix": ""
     },
     {
-      "value": "Infrastructure",
+      "value": "Infra.",
       "label": "Delivery Scope",
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "AUC",
       "label": "Engineering Partner",
       "suffix": ""
     }

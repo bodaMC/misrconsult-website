@@ -9,12 +9,12 @@ export const kingFaisalUniversity: Project = {
   "title": "King Faisal University",
   "categoryId": "educational",
   "location": "Kingdom of Saudi Arabia",
-  "year": "TBD",
+  "year": "2000",
   "client": "KFU",
   "clientLogo": "/clients/kfu-logo.png",
   "clientLogoSize": "max-w-[85px]",
   "area": "570,000 m²",
-  "heroImage": "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/king-faisal/04.png",
   "span": "",
   "tagline": "King Faisal University — Buildings & Landscape delivered by MisrConsult in Kingdom of Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for King Faisal University, a educational facilities project located in Kingdom of Saudi Arabia. The development spans 570,000 m² with a delivery scope covering buildings & landscape.",
@@ -28,12 +28,12 @@ export const kingFaisalUniversity: Project = {
     "Project Management"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1541339907192-e70056c376c9?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1200&auto=format&fit=crop"
+    "/projects/king-faisal/02.png",
+    "/projects/king-faisal/03.png",
+    "/projects/king-faisal/04.png",
+    "/projects/king-faisal/05.png",
+    "/projects/king-faisal/02.png",
+    "/projects/king-faisal/06.png"
   ],
   "stats": [
     {

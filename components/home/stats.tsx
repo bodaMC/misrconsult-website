@@ -3,8 +3,8 @@ import { StatCounter } from "./stat-counter";
 const stats = [
   { value: 240, label: "Projects Completed", suffix: "+" },
   { value: 35, label: "Years of Excellence", suffix: "+" },
-  { value: 180, label: "Expert Engineers", suffix: "+" },
-  { value: 98, label: "Client Satisfaction", suffix: "%" },
+  { value: 120, label: "Expert Engineers", suffix: "+" },
+  { value: 100, label: "On-Time Delivery", suffix: "%" },
 ];
 
 export function Stats() {

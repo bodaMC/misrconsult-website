@@ -9,12 +9,12 @@ export const jubailUniversityCollege: Project = {
   "title": "Jubail University College",
   "categoryId": "educational",
   "location": "Jubail, Saudi Arabia",
-  "year": "TBD",
+  "year": "2008",
   "client": "Royal Commission for Jubail & Yanbu",
   "clientLogo": "/clients/rcjy-new.png",
   "clientLogoSize": "max-w-[65px]",
   "area": "150,000 m²",
-  "heroImage": "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/jubail-uni-col/01.png",
   "span": "",
   "tagline": "Jubail University College — Buildings delivered by MisrConsult in Jubail, Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Jubail University College, a educational facilities project located in Jubail, Saudi Arabia. The development spans 150,000 m² with a delivery scope covering buildings.",
@@ -28,12 +28,11 @@ export const jubailUniversityCollege: Project = {
     "Project Management"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1541339907192-e70056c376c9?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1200&auto=format&fit=crop"
+    "/projects/jubail-uni-col/01.png",
+    "/projects/jubail-uni-col/02.png",
+    "/projects/jubail-uni-col/03.png",
+    "/projects/jubail-uni-col/04.png",
+    "/projects/jubail-uni-col/05.png",
   ],
   "stats": [
     {
