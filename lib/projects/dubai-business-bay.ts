@@ -2,19 +2,17 @@ import type { Project } from "./types";
 
 // TODO: Confirm completion year
 // TODO: Confirm client name
-// TODO: Replace placeholder heroImage with project-specific photography
-// TODO: Replace placeholder gallery images with project-specific photography
 export const dubaiBusinessBay: Project = {
   "slug": "dubai-business-bay",
   "title": "Dubai Business Bay",
   "categoryId": "mixed-use",
   "location": "Dubai, UAE",
-  "year": "TBD",
+  "year": "2013",
   "client": "SWA Group",
   "clientLogo": "/clients/swa-black.jpg",
   "clientLogoSize": "max-w-[60px]",
   "area": "4,460,000 m²",
-  "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2400&auto=format&fit=crop",
+  "heroImage":"/projects/dubai/03.jpg",
   "span": "",
   "tagline": "Dubai Business Bay — Infrastructure Design delivered by MisrConsult in Dubai, UAE.",
   "overview": "MisrConsult provided engineering consultancy for Dubai Business Bay, a mixed-use developments project located in Dubai, UAE. The development spans 4,460,000 m² with a delivery scope covering infrastructure design.",
@@ -28,12 +26,9 @@ export const dubaiBusinessBay: Project = {
     "Project Management"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=1200&auto=format&fit=crop"
+    "/projects/dubai/01.jpg",
+    "/projects/dubai/02.jpg",
+    "/projects/dubai/03.jpg",
   ],
   "stats": [
     {
@@ -52,7 +47,7 @@ export const dubaiBusinessBay: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "SWA Group",
       "label": "Engineering Partner",
       "suffix": ""
     }

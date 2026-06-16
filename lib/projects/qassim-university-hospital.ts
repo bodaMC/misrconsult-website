@@ -9,12 +9,12 @@ export const qassimUniversityHospital: Project = {
   "title": "Qassim University Hospital",
   "categoryId": "healthcare",
   "location": "Qassim, Saudi Arabia",
-  "year": "TBD",
+  "year": "2008",
   "client": "Qassim University",
   "clientLogo": "/clients/qassim.png",
   "clientLogoSize": "max-w-[90px]",
   "area": "140,000 m²",
-  "heroImage": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/qassim/03.jpeg",
   "span": "",
   "tagline": "Qassim University Hospital — Buildings delivered by MisrConsult in Qassim, Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Qassim University Hospital, a healthcare & hospitals project located in Qassim, Saudi Arabia. The development spans 140,000 m² with a delivery scope covering buildings.",
@@ -28,12 +28,10 @@ export const qassimUniversityHospital: Project = {
     "Project Management"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1538108149393-fbbd8189d6da?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1631217868264-e5b1bb5e2c59?q=80&w=1200&auto=format&fit=crop"
+    "/projects/qassim/01.jpg",
+    "/projects/qassim/02.png",
+    "/projects/qassim/03.jpeg",
+
   ],
   "stats": [
     {
@@ -52,7 +50,7 @@ export const qassimUniversityHospital: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Qassim",
       "label": "Engineering Partner",
       "suffix": ""
     }
