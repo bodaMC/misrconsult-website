@@ -6,7 +6,7 @@ export const PROJECT_CATEGORIES = [
     description:
       "Master-planned communities, luxury villas, and high-rise residences engineered for comfort, durability, and lasting value across Egypt and the region.",
     image:
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2400&auto=format&fit=crop",
+      "/project-hero/01.png",
   },
   {
     id: "hotels",
@@ -60,7 +60,7 @@ export const PROJECT_CATEGORIES = [
     description:
       "Grade-A office towers, business campuses, and corporate headquarters that set new benchmarks for workplace design and performance.",
     image:
-      "https://images.unsplash.com/photo-1545558014-8692077e9b5c?q=80&w=2400&auto=format&fit=crop",
+      "/project-hero/02.png",
   },
   {
     id: "industrial",
@@ -69,7 +69,7 @@ export const PROJECT_CATEGORIES = [
     description:
       "Manufacturing plants, logistics hubs, and industrial complexes engineered for operational efficiency, safety, and long-term resilience.",
     image:
-      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2400&auto=format&fit=crop",
+      "/project-hero/03.png",
   },
 ] as const;
 

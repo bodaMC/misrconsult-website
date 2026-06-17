@@ -20,7 +20,7 @@ export default function ProjectsPage() {
         backHref="/"
         backLabel="Home"
       />
-      <section className="relative flex min-h-[50vh] items-end overflow-hidden bg-misr-950">
+      <section className="relative flex min-h-[30vh] items-center overflow-hidden bg-misr-950">
         <div className="absolute inset-0">
           <div
             className="absolute inset-0 animate-slow-zoom bg-cover bg-center"
@@ -35,7 +35,7 @@ export default function ProjectsPage() {
         </div>
         <div className="absolute inset-0 grid-architecture opacity-30" />
 
-        <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-20 pt-36 lg:px-8 lg:pb-28 lg:pt-44">
+        <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-20 pt-16 lg:px-8 lg:pb-20 lg:pt-0">
           <span className="animate-fade-up animation-delay-200 text-xs font-semibold uppercase tracking-[0.35em] text-misr-gold">
             Portfolio
           </span>
