@@ -7,7 +7,7 @@ import { ContactForm } from "@/components/home/contact-form";
 import { FadeIn } from "@/components/projects/fade-in";
 import { PositionsGallery } from "./positions-gallery";
 
-const CAREERS_IMAGE = "/careers/01.png";
+const CAREERS_IMAGE = "/careers/02.png";
 
 export default function CareersPageContent() {
   const [selectedPosition, setSelectedPosition] = useState("");

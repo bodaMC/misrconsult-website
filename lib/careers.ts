@@ -10,7 +10,7 @@ export const jobPositions: JobPosition[] = [
   {
     id: "structural-engineer",
     title: "Structural Engineer",
-    image: "/services/01.png",
+    image: "/services/02.png",
     description:
       "Design and analyze structural systems for high-rise, commercial, and infrastructure projects across Egypt and the Gulf region.",
     responsibilities: [
