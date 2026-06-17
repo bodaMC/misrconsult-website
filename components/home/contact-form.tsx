@@ -6,9 +6,13 @@ const labelClassName =
 
 type ContactFormProps = {
   variant?: "inquiry" | "application";
+  defaultPosition?: string;
 };
 
-export function ContactForm({ variant = "inquiry" }: ContactFormProps) {
+export function ContactForm({
+  variant = "inquiry",
+  defaultPosition = "",
+}: ContactFormProps) {
   const isApplication = variant === "application";
 
   return (
@@ -44,7 +48,7 @@ export function ContactForm({ variant = "inquiry" }: ContactFormProps) {
           </div>
         </div>
 
-        {isApplication ? (
+          {isApplication ? (
           <>
             <div>
               <label htmlFor="phone" className={labelClassName}>
@@ -67,6 +71,8 @@ export function ContactForm({ variant = "inquiry" }: ContactFormProps) {
                 name="position"
                 type="text"
                 placeholder="e.g. Structural Engineer"
+                defaultValue={defaultPosition}
+                key={defaultPosition}
                 className={inputClassName}
               />
             </div>

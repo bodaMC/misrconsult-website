@@ -1,15 +1,19 @@
-import Image from "next/image";
+"use client";
+
 import Link from "next/link";
-import { FadeIn } from "@/components/projects/fade-in";
+import { useState } from "react";
 import { ContactDetails } from "@/components/home/contact-details";
 import { ContactForm } from "@/components/home/contact-form";
+import { FadeIn } from "@/components/projects/fade-in";
+import { PositionsGallery } from "./positions-gallery";
 
 const CAREERS_IMAGE = "/careers/01.png";
 
 export default function CareersPageContent() {
+  const [selectedPosition, setSelectedPosition] = useState("");
+
   return (
     <>
-      {/* Hero */}
       <section className="relative flex min-h-[50vh] items-end overflow-hidden bg-misr-950">
         <div className="absolute inset-0">
           <div
@@ -39,84 +43,19 @@ export default function CareersPageContent() {
           <h1 className="animate-fade-up animation-delay-400 mt-4 max-w-3xl font-[family-name:var(--font-cormorant)] text-5xl font-light leading-[1.05] text-white sm:text-6xl lg:text-7xl">
             <span className="font-semibold text-misr-400">Careers</span>
           </h1>
-          <p className="animate-fade-up animation-delay-600 mt-6 max-w-2xl text-lg leading-relaxed text-white/65">
-            Join MisrConsult and help shape the future of engineering, architecture,
-            and infrastructure across the region.
+          <p className="animate-fade-up animation-delay-600 mt-6 max-w-xl text-lg leading-relaxed text-white/65">
+            Explore open roles and apply to join MisrConsult&apos;s engineering team.
           </p>
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-misr-gold/50 to-transparent" />
       </section>
 
-      {/* Intro */}
-      <section className="relative overflow-hidden bg-white py-24 lg:py-32">
-        <div className="absolute inset-0 grid-architecture opacity-50" />
-        <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
-          <FadeIn>
-            <div className="mx-auto max-w-3xl text-center">
-              <span className="text-xs font-semibold uppercase tracking-[0.35em] text-misr-600">
-                Our Culture
-              </span>
-              <h2 className="mt-4 font-[family-name:var(--font-cormorant)] text-4xl font-light text-misr-950 md:text-5xl">
-                Build Your Career at{" "}
-                <span className="font-semibold text-misr-700">MisrConsult</span>
-              </h2>
-              <div className="mx-auto mt-6 h-px w-16 bg-misr-gold" />
-              <p className="mt-8 text-base leading-relaxed text-misr-800/75 md:text-lg">
-                For over three decades, MisrConsult has been the engineering partner
-                behind landmark developments across Egypt and the wider region. We
-                attract professionals who value technical excellence, collaborative
-                problem-solving, and the opportunity to work on projects that define
-                skylines and communities.
-              </p>
-              <p className="mt-6 text-base leading-relaxed text-misr-800/75 md:text-lg">
-                Whether you are an experienced engineer, architect, or emerging talent,
-                MisrConsult offers an environment where your expertise contributes to
-                meaningful, large-scale outcomes — from concept through construction
-                supervision.
-              </p>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+      <PositionsGallery onSelectPosition={setSelectedPosition} />
 
-      {/* Image Showcase */}
-      <section className="relative overflow-hidden bg-misr-950 py-24 lg:py-32">
-        <div className="absolute inset-0 grid-architecture opacity-15" />
-        <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
-          <FadeIn>
-            <div className="mx-auto max-w-5xl">
-              <div className="mb-10 text-center">
-                <span className="text-xs font-semibold uppercase tracking-[0.35em] text-misr-gold">
-                  Life at MisrConsult
-                </span>
-                <h2 className="mt-4 font-[family-name:var(--font-cormorant)] text-4xl font-light text-white md:text-5xl">
-                  Engineering{" "}
-                  <span className="font-semibold text-misr-400">Excellence</span>
-                </h2>
-                <div className="mx-auto mt-6 h-px w-16 bg-misr-gold" />
-              </div>
-
-              <div className="group relative overflow-hidden border border-white/10">
-                <div className="relative aspect-[16/9] overflow-hidden">
-                  <Image
-                    src={CAREERS_IMAGE}
-                    alt="MisrConsult team and workplace"
-                    fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
-                    sizes="(max-width: 1280px) 100vw, 1024px"
-                    priority
-                  />
-                  <div className="absolute inset-0 bg-misr-950/10 transition-colors duration-500 group-hover:bg-misr-950/20" />
-                </div>
-                <div className="absolute left-0 top-0 h-1 w-0 bg-misr-gold transition-all duration-500 group-hover:w-full" />
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
-
-      {/* Apply Now */}
-      <section className="relative bg-misr-cream py-24 lg:py-32">
+      <section
+        className="relative bg-misr-cream py-24 lg:py-32"
+        id="apply"
+      >
         <div className="gradient-radial-green absolute inset-0" />
 
         <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
@@ -124,30 +63,27 @@ export default function CareersPageContent() {
             <FadeIn>
               <div>
                 <span className="text-xs font-semibold uppercase tracking-[0.35em] text-misr-600">
-                  Apply Now
+                  Apply
                 </span>
                 <h2 className="mt-4 font-[family-name:var(--font-cormorant)] text-4xl font-light text-misr-950 md:text-5xl lg:text-6xl">
-                  Start Your
+                  Submit Your
                   <br />
                   <span className="font-semibold text-misr-700">Application</span>
                 </h2>
                 <div className="mt-6 h-px w-16 bg-misr-gold" />
-                <p className="mt-8 max-w-md text-base leading-relaxed text-misr-800/75">
-                  Share your details and tell us about the role you are interested in.
-                  Our team reviews every application and will be in touch if there is
-                  a suitable opportunity.
-                </p>
               </div>
             </FadeIn>
 
             <FadeIn delay={120}>
-              <ContactForm variant="application" />
+              <ContactForm
+                defaultPosition={selectedPosition}
+                variant="application"
+              />
             </FadeIn>
           </div>
         </div>
       </section>
 
-      {/* Contact Information */}
       <section className="relative overflow-hidden bg-white py-24 lg:py-32">
         <div className="absolute inset-0 grid-architecture opacity-50" />
         <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
@@ -162,10 +98,6 @@ export default function CareersPageContent() {
                   <span className="font-semibold text-misr-700">Touch</span>
                 </h2>
                 <div className="mt-6 h-px w-16 bg-misr-gold" />
-                <p className="mt-8 max-w-md text-base leading-relaxed text-misr-800/75">
-                  For career enquiries, you can also reach our team directly using the
-                  contact details below.
-                </p>
               </div>
 
               <ContactDetails />
