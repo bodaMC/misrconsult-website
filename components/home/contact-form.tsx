@@ -1,8 +1,17 @@
+"use client";
+
+import { useState, FormEvent } from "react";
+
 const inputClassName =
   "w-full border-b border-misr-800/20 bg-transparent py-3 text-misr-950 outline-none transition-colors placeholder:text-misr-800/30 focus:border-misr-600";
 
+const inputErrorClassName =
+  "w-full border-b border-red-500 bg-transparent py-3 text-misr-950 outline-none transition-colors placeholder:text-misr-800/30 focus:border-red-500";
+
 const labelClassName =
   "mb-2 block text-xs font-semibold uppercase tracking-[0.15em] text-misr-700";
+
+const errorClassName = "mt-1 text-xs text-red-600";
 
 type ContactFormProps = {
   variant?: "inquiry" | "application";
@@ -14,11 +23,169 @@ export function ContactForm({
   defaultPosition = "",
 }: ContactFormProps) {
   const isApplication = variant === "application";
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitSuccess, setSubmitSuccess] = useState(false);
+  const [submitError, setSubmitError] = useState("");
+  const [errors, setErrors] = useState<Record<string, string>>({});
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    position: defaultPosition,
+    company: "",
+    service: "",
+    message: "",
+  });
+  const [file, setFile] = useState<File | null>(null);
+  const [fileError, setFileError] = useState("");
+
+  const validateEmail = (email: string) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
+  const validateForm = () => {
+    const newErrors: Record<string, string> = {};
+
+    if (!formData.name.trim()) {
+      newErrors.name = "Full Name is required";
+    }
+
+    if (!formData.email.trim()) {
+      newErrors.email = "Email Address is required";
+    } else if (!validateEmail(formData.email)) {
+      newErrors.email = "Please enter a valid email address";
+    }
+
+    if (isApplication) {
+      if (!formData.phone.trim()) {
+        newErrors.phone = "Phone Number is required";
+      }
+      if (!formData.position.trim()) {
+        newErrors.position = "Position Applying For is required";
+      }
+      if (!file) {
+        newErrors.file = "Please upload your CV/Resume";
+      }
+    }
+
+    if (!formData.message.trim()) {
+      newErrors.message = "Message is required";
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const selectedFile = e.target.files?.[0];
+    setFileError("");
+
+    if (!selectedFile) {
+      setFile(null);
+      return;
+    }
+
+    const allowedTypes = [
+      "application/pdf",
+      "application/msword",
+      "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    ];
+
+    if (!allowedTypes.includes(selectedFile.type)) {
+      setFileError("Please upload a PDF, DOC, or DOCX file");
+      setFile(null);
+      return;
+    }
+
+    const maxSize = 10 * 1024 * 1024; // 10MB
+    if (selectedFile.size > maxSize) {
+      setFileError("File size must be less than 10MB");
+      setFile(null);
+      return;
+    }
+
+    setFile(selectedFile);
+    setErrors((prev) => ({ ...prev, file: "" }));
+  };
+
+  const handleSubmit = async (e: FormEvent) => {
+    e.preventDefault();
+    setSubmitError("");
+
+    if (!validateForm()) {
+      setSubmitError("Please complete all required fields.");
+      return;
+    }
+
+    setIsSubmitting(true);
+
+    // Simulate form submission
+    setTimeout(() => {
+      setIsSubmitting(false);
+      setSubmitSuccess(true);
+      // Reset form
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        position: defaultPosition,
+        company: "",
+        service: "",
+        message: "",
+      });
+      setFile(null);
+      setErrors({});
+    }, 2000);
+  };
+
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+    // Clear error for this field when user starts typing
+    if (errors[name]) {
+      setErrors((prev) => ({ ...prev, [name]: "" }));
+    }
+  };
+
+  if (submitSuccess) {
+    return (
+      <div className="relative border border-misr-800/10 bg-white p-8 shadow-xl shadow-misr-950/5 lg:p-12">
+        <div className="absolute -right-2 -top-2 h-16 w-16 border-r-2 border-t-2 border-misr-gold/40" />
+        <div className="absolute -bottom-2 -left-2 h-16 w-16 border-b-2 border-l-2 border-misr-gold/40" />
+        <div className="text-center">
+          <div className="mb-4 text-5xl">✓</div>
+          <h3 className="mb-2 font-[family-name:var(--font-cormorant)] text-2xl font-semibold text-misr-950">
+            {isApplication ? "Application Submitted" : "Inquiry Sent"}
+          </h3>
+          <p className="text-sm text-misr-800/70">
+            {isApplication
+              ? "Thank you for your interest. We will review your application and get back to you soon."
+              : "Thank you for your inquiry. We will get back to you shortly."}
+          </p>
+          <button
+            onClick={() => setSubmitSuccess(false)}
+            className="mt-6 text-xs font-semibold uppercase tracking-[0.2em] text-misr-600 transition-colors hover:text-misr-700"
+          >
+            Submit Another
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
-    <form className="relative border border-misr-800/10 bg-white p-8 shadow-xl shadow-misr-950/5 lg:p-12">
+    <form onSubmit={handleSubmit} className="relative border border-misr-800/10 bg-white p-8 shadow-xl shadow-misr-950/5 lg:p-12">
       <div className="absolute -right-2 -top-2 h-16 w-16 border-r-2 border-t-2 border-misr-gold/40" />
       <div className="absolute -bottom-2 -left-2 h-16 w-16 border-b-2 border-l-2 border-misr-gold/40" />
+
+      {submitError && (
+        <div className="mb-6 rounded border border-red-200 bg-red-50 p-4 text-sm text-red-700">
+          {submitError}
+        </div>
+      )}
 
       <div className="space-y-6">
         <div className="grid gap-6 sm:grid-cols-2">
@@ -31,8 +198,11 @@ export function ContactForm({
               name="name"
               type="text"
               placeholder="Your name"
-              className={inputClassName}
+              value={formData.name}
+              onChange={handleChange}
+              className={errors.name ? inputErrorClassName : inputClassName}
             />
+            {errors.name && <p className={errorClassName}>{errors.name}</p>}
           </div>
           <div>
             <label htmlFor="email" className={labelClassName}>
@@ -43,8 +213,11 @@ export function ContactForm({
               name="email"
               type="email"
               placeholder="you@company.com"
-              className={inputClassName}
+              value={formData.email}
+              onChange={handleChange}
+              className={errors.email ? inputErrorClassName : inputClassName}
             />
+            {errors.email && <p className={errorClassName}>{errors.email}</p>}
           </div>
         </div>
 
@@ -59,8 +232,11 @@ export function ContactForm({
                 name="phone"
                 type="tel"
                 placeholder="+20 ..."
-                className={inputClassName}
+                value={formData.phone}
+                onChange={handleChange}
+                className={errors.phone ? inputErrorClassName : inputClassName}
               />
+              {errors.phone && <p className={errorClassName}>{errors.phone}</p>}
             </div>
             <div>
               <label htmlFor="position" className={labelClassName}>
@@ -71,10 +247,31 @@ export function ContactForm({
                 name="position"
                 type="text"
                 placeholder="e.g. Structural Engineer"
-                defaultValue={defaultPosition}
-                key={defaultPosition}
-                className={inputClassName}
+                value={formData.position}
+                onChange={handleChange}
+                className={errors.position ? inputErrorClassName : inputClassName}
               />
+              {errors.position && <p className={errorClassName}>{errors.position}</p>}
+            </div>
+            <div>
+              <label htmlFor="resume" className={labelClassName}>
+                Upload CV / Resume
+              </label>
+              <input
+                id="resume"
+                name="resume"
+                type="file"
+                accept=".pdf,.doc,.docx"
+                onChange={handleFileChange}
+                className="w-full border-b border-misr-800/20 bg-transparent py-3 text-sm text-misr-950 outline-none transition-colors file:mr-4 file:border-0 file:bg-misr-600 file:px-4 file:py-2 file:text-xs file:font-semibold file:text-white file:transition-colors hover:file:bg-misr-700"
+              />
+              {file && (
+                <p className="mt-2 text-xs text-misr-600">
+                  Selected: {file.name}
+                </p>
+              )}
+              {fileError && <p className={errorClassName}>{fileError}</p>}
+              {errors.file && <p className={errorClassName}>{errors.file}</p>}
             </div>
           </>
         ) : (
@@ -88,6 +285,8 @@ export function ContactForm({
                 name="company"
                 type="text"
                 placeholder="Organization name"
+                value={formData.company}
+                onChange={handleChange}
                 className={inputClassName}
               />
             </div>
@@ -98,8 +297,9 @@ export function ContactForm({
               <select
                 id="service"
                 name="service"
+                value={formData.service}
+                onChange={handleChange}
                 className={inputClassName}
-                defaultValue=""
               >
                 <option value="" disabled>
                   Select a service
@@ -128,19 +328,35 @@ export function ContactForm({
                 ? "Tell us about your experience and motivation..."
                 : "Tell us about your project..."
             }
-            className={`${inputClassName} resize-none`}
+            value={formData.message}
+            onChange={handleChange}
+            className={`${errors.message ? inputErrorClassName : inputClassName} resize-none`}
           />
+          {errors.message && <p className={errorClassName}>{errors.message}</p>}
         </div>
 
         <button
           type="submit"
-          className="group w-full bg-misr-800 px-8 py-4 text-xs font-semibold uppercase tracking-[0.2em] text-white transition-all duration-300 hover:bg-misr-600"
+          disabled={isSubmitting}
+          className="group w-full bg-misr-800 px-8 py-4 text-xs font-semibold uppercase tracking-[0.2em] text-white transition-all duration-300 hover:bg-misr-600 disabled:bg-misr-800/50 disabled:cursor-not-allowed"
         >
           <span className="inline-flex items-center justify-center gap-3">
-            {isApplication ? "Submit Application" : "Send Inquiry"}
-            <span className="transition-transform duration-300 group-hover:translate-x-1">
-              →
-            </span>
+            {isSubmitting ? (
+              <>
+                <svg className="h-4 w-4 animate-spin" fill="none" viewBox="0 0 24 24">
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                </svg>
+                Submitting...
+              </>
+            ) : (
+              <>
+                {isApplication ? "Submit Application" : "Send Inquiry"}
+                <span className="transition-transform duration-300 group-hover:translate-x-1">
+                  →
+                </span>
+              </>
+            )}
           </span>
         </button>
       </div>
