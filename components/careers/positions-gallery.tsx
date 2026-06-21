@@ -67,7 +67,25 @@ export function PositionsGallery({ onSelectPosition }: PositionsGalleryProps) {
     onSelectPosition(activePosition.title);
     setActivePosition(null);
     requestAnimationFrame(() => {
-      document.getElementById("apply")?.scrollIntoView({ behavior: "smooth" });
+      const element = document.getElementById("application-form");
+      if (element) {
+        const navbarHeight = 80; // Account for fixed navbar height
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const offsetPosition = elementPosition - navbarHeight;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth"
+        });
+
+        // Focus the first form field after scrolling
+        setTimeout(() => {
+          const firstInput = document.querySelector('input[name="name"]') as HTMLInputElement;
+          if (firstInput) {
+            firstInput.focus();
+          }
+        }, 800); // Wait for scroll to complete
+      }
     });
   }, [activePosition, onSelectPosition]);
 

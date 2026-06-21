@@ -54,7 +54,7 @@ export default function CareersPageContent() {
 
       <section
         className="relative bg-misr-cream py-24 lg:py-32"
-        id="apply"
+        id="application-form"
       >
         <div className="gradient-radial-green absolute inset-0" />
 
