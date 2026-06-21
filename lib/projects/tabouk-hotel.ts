@@ -6,11 +6,11 @@ import type { Project } from "./types";
 // TODO: Replace placeholder gallery images with project-specific photography
 export const taboukHotel: Project = {
   "slug": "tabouk-hotel",
-  "title": "Tabouk Hotel",
+  "title": "Grand Millennium Hotel",
   "categoryId": "hotels",
   "location": "Tabouk, Saudi Arabia",
   "year": "TBD",
-  "client": "Grand Millenium",
+  "client": "Grand Millennium",
   "clientLogo": "/clients/grand.png",
   "clientLogoSize": "max-w-[75px]",
   "area": "101,726 m²",

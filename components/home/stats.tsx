@@ -4,7 +4,7 @@ const stats = [
   { value: 240, label: "Projects Completed", suffix: "+" },
   { value: 35, label: "Years of Excellence", suffix: "+" },
   { value: 120, label: "Expert Engineers", suffix: "+" },
-  { value: 100, label: "On-Time Delivery", suffix: "%" },
+  { value: 9700, label: "Technical Drawings", suffix: "+" },
 ];
 
 export function Stats() {

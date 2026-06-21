@@ -6,7 +6,7 @@ import type { Project } from "./types";
 // TODO: Replace placeholder gallery images with project-specific photography
 export const jeddahWastewaterNetworks: Project = {
   "slug": "jeddah-wastewater-networks",
-  "title": "Placeholder",
+  "title": "delete",
   "categoryId": "infrastructure",
   "location": "Jeddah, Saudi Arabia",
   "year": "TBD",

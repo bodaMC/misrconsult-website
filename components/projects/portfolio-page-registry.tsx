@@ -33,7 +33,6 @@ import { WakfAlMadaniHotelPageContent } from "./wakf-al-madani-hotel/page-conten
 import { JubailIndustrialCollegePageContent } from "./jubail-industrial-college/page-content";
 import { EgyptianConsulateJeddahPageContent } from "./egyptian-consulate-jeddah/page-content";
 import { EbdaKhairaPageContent } from "./ebda-khaira/page-content";
-import { JeddahWastewaterNetworksPageContent } from "./jeddah-wastewater-networks/page-content";
 import { IskanAlAhsaPageContent } from "./iskan-al-ahsa/page-content";
 import { DubaiBusinessBayPageContent } from "./dubai-business-bay/page-content";
 import { EbbUniversityYemenPageContent } from "./ebb-university-yemen/page-content";
@@ -73,7 +72,6 @@ export const portfolioPageContentBySlug = {
   "jubail-industrial-college": JubailIndustrialCollegePageContent,
   "egyptian-consulate-jeddah": EgyptianConsulateJeddahPageContent,
   "ebda-khaira": EbdaKhairaPageContent,
-  "jeddah-wastewater-networks": JeddahWastewaterNetworksPageContent,
   "iskan-al-ahsa": IskanAlAhsaPageContent,
   "dubai-business-bay": DubaiBusinessBayPageContent,
   "ebb-university-yemen": EbbUniversityYemenPageContent,

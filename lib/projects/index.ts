@@ -1,6 +1,4 @@
-import { airport } from "./airport";
-import { businessHub } from "./business-hub";
-import { cairoTower } from "./cairo-tower";
+
 import { oraSilversands } from "./ora-silversands";
 import { portfolioProjectList } from "./portfolio-index";
 import {
@@ -23,9 +21,9 @@ export {
   isCategorySlug,
 };
 
-export { airport, businessHub, cairoTower, oraSilversands };
+export {oraSilversands };
 
-const featuredProjects: Project[] = [cairoTower, businessHub, airport, oraSilversands];
+const featuredProjects: Project[] = [ oraSilversands];
 
 export const allProjects: Project[] = [...featuredProjects, ...portfolioProjectList];
 

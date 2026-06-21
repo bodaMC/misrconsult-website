@@ -32,7 +32,6 @@ export { wakfAlMadaniHotel } from "./wakf-al-madani-hotel";
 export { jubailIndustrialCollege } from "./jubail-industrial-college";
 export { egyptianConsulateJeddah } from "./egyptian-consulate-jeddah";
 export { ebdaKhaira } from "./ebda-khaira";
-export { jeddahWastewaterNetworks } from "./jeddah-wastewater-networks";
 export { iskanAlAhsa } from "./iskan-al-ahsa";
 export { dubaiBusinessBay } from "./dubai-business-bay";
 export { ebbUniversityYemen } from "./ebb-university-yemen";
@@ -72,7 +71,6 @@ import { wakfAlMadaniHotel } from "./wakf-al-madani-hotel";
 import { jubailIndustrialCollege } from "./jubail-industrial-college";
 import { egyptianConsulateJeddah } from "./egyptian-consulate-jeddah";
 import { ebdaKhaira } from "./ebda-khaira";
-import { jeddahWastewaterNetworks } from "./jeddah-wastewater-networks";
 import { iskanAlAhsa } from "./iskan-al-ahsa";
 import { dubaiBusinessBay } from "./dubai-business-bay";
 import { ebbUniversityYemen } from "./ebb-university-yemen";
@@ -112,7 +110,6 @@ export const portfolioProjectList: Project[] = [
   jubailIndustrialCollege,
   egyptianConsulateJeddah,
   ebdaKhaira,
-  jeddahWastewaterNetworks,
   iskanAlAhsa,
   dubaiBusinessBay,
   ebbUniversityYemen,

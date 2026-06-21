@@ -287,14 +287,7 @@ export const PORTFOLIO_INPUTS: PortfolioProjectInput[] = [
     area: "48,010 m²",
     scope: "Infrastructure Design",
   },
-  {
-    slug: "jeddah-wastewater-networks",
-    title: "Jeddah Wastewater Networks — Phase 1, Contract 7",
-    categoryId: "infrastructure",
-    location: "Jeddah, Saudi Arabia",
-    area: "18,860,000 m²",
-    scope: "Tender Documents of Wastewater Networks",
-  },
+
   {
     slug: "iskan-al-ahsa",
     title: "Iskan Al-Ahsa",

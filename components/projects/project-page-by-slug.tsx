@@ -1,16 +1,10 @@
 import type { Project } from "@/lib/projects";
-import { AirportPageContent } from "./airport/page-content";
-import { BusinessHubPageContent } from "./business-hub/page-content";
-import { CairoTowerPageContent } from "./cairo-tower/page-content";
 import { ProjectGalleryLightboxProvider } from "./gallery-lightbox";
 import { OraSilversandsPageContent } from "./ora-silversands/page-content";
 import { portfolioPageContentBySlug } from "./portfolio-page-registry";
 import { StandardProjectPageContent } from "./standard-project-page-content";
 
 const customContentBySlug = {
-  "cairo-tower": CairoTowerPageContent,
-  "business-hub": BusinessHubPageContent,
-  airport: AirportPageContent,
   "ora-silversands": OraSilversandsPageContent,
 } as const;
 
