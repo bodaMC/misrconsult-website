@@ -6,7 +6,7 @@ export const PROJECT_CATEGORIES = [
     description:
       "Master-planned communities, luxury villas, and high-rise residences engineered for comfort, durability, and lasting value across Egypt and the region.",
     image:
-      "/project-hero/01.png",
+      "/project-hero/02a.png",
   },
   {
     id: "hotels",
@@ -15,7 +15,7 @@ export const PROJECT_CATEGORIES = [
     description:
       "Luxury hotels, resorts, and hospitality destinations where architectural distinction meets rigorous engineering performance and guest experience.",
     image:
-      "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2400&auto=format&fit=crop",
+      "/project-hero/03a.jpg",
   },
   {
     id: "educational",
@@ -24,7 +24,7 @@ export const PROJECT_CATEGORIES = [
     description:
       "Universities, schools, and research campuses designed to inspire learning through intelligent structural systems and flexible spatial planning.",
     image:
-      "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2400&auto=format&fit=crop",
+      "/project-hero/04a1.png",
   },
   {
     id: "healthcare",
@@ -33,7 +33,7 @@ export const PROJECT_CATEGORIES = [
     description:
       "Medical centres and healthcare facilities built to exacting standards of safety, functionality, and operational efficiency.",
     image:
-      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2400&auto=format&fit=crop",
+      "/project-hero/03.jpeg",
   },
   {
     id: "mixed-use",
@@ -42,7 +42,7 @@ export const PROJECT_CATEGORIES = [
     description:
       "Integrated commercial, retail, hospitality, and residential complexes unified within cohesive structural and MEP frameworks.",
     image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2400&auto=format&fit=crop",
+     "/project-hero/01.jpg",
   },
   {
     id: "infrastructure",
@@ -51,7 +51,7 @@ export const PROJECT_CATEGORIES = [
     description:
       "Airports, highways, transport hubs, and civic infrastructure delivering connectivity and capacity at national scale.",
     image:
-      "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2400&auto=format&fit=crop",
+      "/project-hero/02.png",
   },
   {
     id: "commercial",
@@ -60,7 +60,7 @@ export const PROJECT_CATEGORIES = [
     description:
       "Grade-A office towers, business campuses, and corporate headquarters that set new benchmarks for workplace design and performance.",
     image:
-      "/project-hero/02.png",
+      "/project-hero/01a.png",
   },
   {
     id: "industrial",
