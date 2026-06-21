@@ -9,12 +9,12 @@ export const ebdaKhaira: Project = {
   "title": "Ebda & Khaira",
   "categoryId": "infrastructure",
   "location": "Kingdom of Saudi Arabia",
-  "year": "TBD",
+  "year": "2024",
   "client": "Millennia",
   "clientLogo": "/clients/millennia2.png",
   "clientLogoSize": "max-w-[90px]",
   "area": "48,010 m²",
-  "heroImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/ebda-khaira/02.png",
   "span": "",
   "tagline": "Ebda & Khaira — Infrastructure Design delivered by MisrConsult in Kingdom of Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Ebda & Khaira, a infrastructure & transportation project located in Kingdom of Saudi Arabia. The development spans 48,010 m² with a delivery scope covering infrastructure design.",
@@ -28,12 +28,8 @@ export const ebdaKhaira: Project = {
     "Project Management"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1540962351504-03099e0a754b?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1556388150-64d6c638e972?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1474309093492-40abbe88b7ad?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop"
+    "/projects/ebda-khaira/01.png",
+    "/projects/ebda-khaira/02.png",
   ],
   "stats": [
     {
@@ -42,17 +38,17 @@ export const ebdaKhaira: Project = {
       "suffix": "K"
     },
     {
-      "value": "Kingdom of Saudi Arabia",
+      "value": "KSA",
       "label": "Location",
       "suffix": ""
     },
     {
-      "value": "Infrastructure",
+      "value": "Infra.",
       "label": "Delivery Scope",
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Millennia",
       "label": "Engineering Partner",
       "suffix": ""
     }

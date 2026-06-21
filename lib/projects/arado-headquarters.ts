@@ -9,12 +9,12 @@ export const aradoHeadquarters: Project = {
   "title": "Arado Headquarters",
   "categoryId": "commercial",
   "location": "Cairo, Egypt",
-  "year": "TBD",
+  "year": "2000",
   "client": "Arab League",
   "clientLogo": "/clients/arab-league.png",
   "clientLogoSize": "max-w-[60px]",
   "area": "12,000 m²",
-  "heroImage": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/arado/01.png",
   "span": "",
   "tagline": "Arado Headquarters — MEP Package delivered by MisrConsult in Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for Arado Headquarters, a commercial & office buildings project located in Cairo, Egypt. The development spans 12,000 m² with a delivery scope covering mep package.",
@@ -28,12 +28,8 @@ export const aradoHeadquarters: Project = {
     "Project Management"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1545558014-8692077e9b5c?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1545558014-8692077e9b5c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop"
+    "/projects/arado/01.png",
+    "/projects/arado/02.png",
   ],
   "stats": [
     {

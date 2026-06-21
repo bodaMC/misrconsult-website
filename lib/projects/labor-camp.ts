@@ -15,7 +15,7 @@ export const laborCamp: Project = {
   "clientLogo": "/clients/rcjy-new.png",
   "clientLogoSize": "max-w-[65px]",
   "area": "500,000 m²",
-  "heroImage": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/labor-camp/01.png",
   "span": "",
   "tagline": "Labor Camp — Full Design Package delivered by MisrConsult in Kingdom of Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Labor Camp, a industrial facilities project located in Kingdom of Saudi Arabia. The development spans 500,000 m² with a delivery scope covering full design package.",
@@ -29,12 +29,15 @@ export const laborCamp: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1581094794329-c8112a89c12c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop"
+    "/projects/labor-camp/02.png",
+    "/projects/labor-camp/03.png",
+    "/projects/labor-camp/04.png",
+    "/projects/labor-camp/05.png",
+   "/projects/labor-camp/05.png",
+    "/projects/labor-camp/06.png",
+    "/projects/labor-camp/07.png",
+    "/projects/labor-camp/08.png",
+    "/projects/labor-camp/09.png",
   ],
   "stats": [
     {

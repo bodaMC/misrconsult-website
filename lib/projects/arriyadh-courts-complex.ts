@@ -9,12 +9,12 @@ export const arriyadhCourtsComplex: Project = {
   "title": "Arriyadh Courts Complex",
   "categoryId": "commercial",
   "location": "Riyadh, Saudi Arabia",
-  "year": "TBD",
-  "client": "TBD",
+  "year": "1996",
+  "client": "Ministry of justice",
   "clientLogo": "/clients/Saudi-Ministry.png",
   "clientLogoSize": "max-w-[60px]",
   "area": "80,000 m²",
-  "heroImage": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/courts/01.png",
   "span": "",
   "tagline": "Arriyadh Courts Complex — Buildings delivered by MisrConsult in Riyadh, Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Arriyadh Courts Complex, a commercial & office buildings project located in Riyadh, Saudi Arabia. The development spans 80,000 m² with a delivery scope covering buildings.",
@@ -28,12 +28,10 @@ export const arriyadhCourtsComplex: Project = {
     "Project Management"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1545558014-8692077e9b5c?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1545558014-8692077e9b5c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop"
+    "/projects/courts/02.png",
+    "/projects/courts/01.png",
+   "/projects/courts/03.png",
+    "/projects/courts/04.png",
   ],
   "stats": [
     {
@@ -52,7 +50,7 @@ export const arriyadhCourtsComplex: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "MMinistry of justice",
       "label": "Engineering Partner",
       "suffix": ""
     }

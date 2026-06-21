@@ -9,12 +9,12 @@ export const egyptianConsulateJeddah: Project = {
   "title": "Egyptian Consulate in Jeddah",
   "categoryId": "commercial",
   "location": "Jeddah, Saudi Arabia",
-  "year": "TBD",
+  "year": "1999",
   "client": "Ministry of Foreign Affairs",
   "clientLogo": "/clients/ministry-of-foreign.png",
   "clientLogoSize": "max-w-[80px]",
   "area": "6,300 m²",
-  "heroImage": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/egypt-consulate/01.png",
   "span": "",
   "tagline": "Egyptian Consulate in Jeddah — MEP Package delivered by MisrConsult in Jeddah, Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Egyptian Consulate in Jeddah, a commercial & office buildings project located in Jeddah, Saudi Arabia. The development spans 6,300 m² with a delivery scope covering mep package.",
@@ -28,12 +28,10 @@ export const egyptianConsulateJeddah: Project = {
     "Project Management"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1545558014-8692077e9b5c?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1545558014-8692077e9b5c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop"
+    "/projects/egypt-consulate/01.png",
+    "/projects/egypt-consulate/02.png",
+    "/projects/egypt-consulate/03.png",
+    "/projects/egypt-consulate/04.png",
   ],
   "stats": [
     {
@@ -52,7 +50,7 @@ export const egyptianConsulateJeddah: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Arab League",
       "label": "Engineering Partner",
       "suffix": ""
     }

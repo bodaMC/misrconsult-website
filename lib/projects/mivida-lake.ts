@@ -8,12 +8,12 @@ export const mividaLake: Project = {
   "title": "Mivida Lake",
   "categoryId": "infrastructure",
   "location": "Cairo, Egypt",
-  "year": "TBD",
+  "year": "2016",
   "client": "EMAAR",
   "clientLogo": "/clients/emaar-temp.png",
   "clientLogoSize": "max-w-[80px]",
   "area": "71,200 m²",
-  "heroImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/mivida-lake/01.png",
   "span": "",
   "tagline": "Mivida Lake — MEP & Lake Infrastructure delivered by MisrConsult in Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for Mivida Lake, a infrastructure & transportation project located in Cairo, Egypt. The development spans 71,200 m² with a delivery scope covering mep & lake infrastructure.",
@@ -27,12 +27,10 @@ export const mividaLake: Project = {
     "Construction Supervision"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1540962351504-03099e0a754b?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1556388150-64d6c638e972?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1474309093492-40abbe88b7ad?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop"
+    "/projects/mivida-lake/02.png",
+    "/projects/mivida-lake/03.png",
+    "/projects/mivida-lake/04.png",
+    "/projects/mivida-lake/01.png",
   ],
   "stats": [
     {
@@ -46,12 +44,12 @@ export const mividaLake: Project = {
       "suffix": ""
     },
     {
-      "value": "MEP",
+      "value": "MEP & Lake infra.",
       "label": "Delivery Scope",
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Emaar",
       "label": "Engineering Partner",
       "suffix": ""
     }

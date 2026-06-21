@@ -15,7 +15,7 @@ export const jubailIndustrialCollege: Project = {
   "clientLogo": "/clients/rcjy-new.png",
   "clientLogoSize": "max-w-[65px]",
   "area": "48,588 m²",
-  "heroImage": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/jic/01.png",
   "span": "",
   "tagline": "Jubail Industrial College — Buildings delivered by MisrConsult in Jubail, Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Jubail Industrial College, a industrial facilities project located in Jubail, Saudi Arabia. The development spans 48,588 m² with a delivery scope covering buildings.",
@@ -29,12 +29,16 @@ export const jubailIndustrialCollege: Project = {
     "Project Management"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1581094794329-c8112a89c12c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop"
+    "/projects/jic/01.png",
+    "/projects/jic/02.jpg", 
+    "/projects/jic/03.jpg",
+    "/projects/jic/04.png",
+     "/projects/jic/05.png",
+    "/projects/jic/06.png",
+    "/projects/jic/07.png",
+    "/projects/jic/08.png",
+    "/projects/jic/09.png",
+    "/projects/jic/10.png",
   ],
   "stats": [
     {

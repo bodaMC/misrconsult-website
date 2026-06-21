@@ -10,12 +10,12 @@ export const damamWaterTower: Project = {
   "title": "Dammam Water Tower",
   "categoryId": "infrastructure",
   "location": "Dammam, Saudi Arabia",
-  "year": "TBD",
+  "year": "2004",
   "client": "Ministry of Municipal Rural Affairs & Housing",
   "clientLogo": "/clients/municipal-rural-affairs.png",
   "clientLogoSize": "max-w-[60px]",
   "area": "12,876 m²",
-  "heroImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2400&auto=format&fit=crop",
+  "heroImage": "/projects/damam-tower/02.jpg",
   "span": "",
   "tagline": "Dammam Water Tower — Structure & MEP Package delivered by MisrConsult in Dammam, Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Dammam Water Tower, a infrastructure & transportation project located in Dammam, Saudi Arabia. The development spans 12,876 m² with a delivery scope covering structure & mep package.",
@@ -29,12 +29,11 @@ export const damamWaterTower: Project = {
     "Construction Supervision"
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2400&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1540962351504-03099e0a754b?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1556388150-64d6c638e972?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1474309093492-40abbe88b7ad?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop"
+    "/projects/damam-tower/01.png",
+    "/projects/damam-tower/02.jpg",
+    "/projects/damam-tower/03.jpg",
+    "/projects/damam-tower/04.jpg",
+    "/projects/damam-tower/05.jpg",
   ],
   "stats": [
     {
@@ -53,7 +52,7 @@ export const damamWaterTower: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Min. of Housing",
       "label": "Engineering Partner",
       "suffix": ""
     }
