@@ -3,19 +3,19 @@ import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 
 const footerLinks = {
   Company: [
-    { label: "About Us", href: "#about" },
-    { label: "Services", href: "#services" },
-    { label: "Projects", href: "#projects" },
+    { label: "About Us", href: "/#about" },
+    { label: "Services", href: "/#services" },
+    { label: "Projects", href: "/#projects" },
     { label: "Careers", href: "/careers" },
   ],
   Services: [
-    { label: "Structural Engineering", href: "#services" },
-    { label: "Architecture", href: "#services" },
-    { label: "Project Management", href: "#services" },
-    { label: "Infrastructure", href: "#services" },
+    { label: "Structural Engineering", href: "/#services" },
+    { label: "Architecture", href: "/#services" },
+    { label: "Project Management", href: "/#services" },
+    { label: "Infrastructure", href: "/#services" },
   ],
 Connect: [
-  { label: "Contact", href: "#contact" },
+  { label: "Contact", href: "/#contact" },
   { label: "LinkedIn", href: "#" },
   { label: "News & Insights", href: "/news" },
   { label: "Privacy Policy", href: "#" },
