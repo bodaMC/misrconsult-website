@@ -8,9 +8,9 @@ export type JobPosition = {
 
 export const jobPositions: JobPosition[] = [
   {
-    id: "structural-engineer",
-    title: "Structural Engineer",
-    image: "/services/02.png",
+    id: "steel-structural-design-engineer",
+    title: "Steel Structural design Engineer",
+    image: "/hiring/01.png",
     description:
       "Design and analyze structural systems for high-rise, commercial, and infrastructure projects across Egypt and the Gulf region.",
     responsibilities: [
@@ -21,9 +21,9 @@ export const jobPositions: JobPosition[] = [
     ],
   },
   {
-    id: "architectural-designer",
-    title: "Architectural Designer",
-    image: "/services/02.png",
+    id: "audi-video-designer",
+    title: "Audio & Video Design Engineer",
+    image: "/hiring/02.png",
     description:
       "Develop concept and detailed architectural designs for residential, hospitality, and mixed-use developments.",
     responsibilities: [
@@ -34,9 +34,9 @@ export const jobPositions: JobPosition[] = [
     ],
   },
   {
-    id: "project-manager",
-    title: "Project Manager",
-    image: "/services/03.png",
+    id: "acoustic-engineer",
+    title: "Acoustic Specialist Engineer",
+    image: "/hiring/03.png",
     description:
       "Lead multidisciplinary teams through planning, design, and construction phases of complex engineering assignments.",
     responsibilities: [
@@ -47,9 +47,9 @@ export const jobPositions: JobPosition[] = [
     ],
   },
   {
-    id: "mep-engineer",
-    title: "MEP Engineer",
-    image: "/services/04.png",
+    id: "traffic-engineer",
+    title: "Traffic Engineer",
+    image: "/hiring/04.png",
     description:
       "Design mechanical, electrical, and plumbing systems for landmark towers, hospitals, and large-scale developments.",
     responsibilities: [
@@ -85,4 +85,5 @@ export const jobPositions: JobPosition[] = [
       "Assist teams with BIM standards and workflows",
     ],
   },
+  
 ];

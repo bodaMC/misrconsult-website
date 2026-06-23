@@ -4,7 +4,7 @@ const services = [
     title: "Architectural Design",
     description:
       "Concept-to-completion architectural services blending aesthetic excellence with functional precision for commercial, residential, and civic spaces.",
-    image: "/services/01.png",
+    image: "/services/05a.png",
   },
   {
     number: "02",
