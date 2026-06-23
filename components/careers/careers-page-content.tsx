@@ -34,7 +34,7 @@ export default function CareersPageContent() {
             <span className="flex h-8 w-8 items-center justify-center border border-white/20 transition-all duration-300 group-hover:border-misr-gold">
               ←
             </span>
-            Back to Home
+            Back to Home &nbsp;&nbsp;
           </Link>
 
           <span className="animate-fade-up animation-delay-200 text-xs font-semibold uppercase tracking-[0.35em] text-misr-gold">
