@@ -50,7 +50,7 @@ export const arriyadhCourtsComplex: Project = {
       "suffix": ""
     },
     {
-      "value": "MMinistry of justice",
+      "value": "Ministry of Justice",
       "label": "Engineering Partner",
       "suffix": ""
     }

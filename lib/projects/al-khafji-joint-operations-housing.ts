@@ -10,7 +10,7 @@ export const alKhafjiJointOperationsHousing: Project = {
   "title": "Al-Khafji Joint Operations Housing Area",
   "categoryId": "residential",
   "location": "Al-Khafji, Saudi Arabia",
-  "year": "TBD",
+  "year": "2004",
   "client": "Al-Khafji",
   "clientLogo": "/clients/khafji-Photoroom.png",
   "clientLogoSize": "max-w-[77px]",
@@ -52,7 +52,7 @@ export const alKhafjiJointOperationsHousing: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Al-Khafji",
       "label": "Engineering Partner",
       "suffix": ""
     }

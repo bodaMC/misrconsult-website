@@ -9,7 +9,7 @@ export const wakfAlMadaniHotel: Project = {
   "title": "Wakf Al Madani Hotel — Haram El Madinah Central Zone",
   "categoryId": "hotels",
   "location": "Madinah, Saudi Arabia",
-  "year": "TBD",
+  "year": "1997",
   "client": "Awqaf",
   "clientLogo": "/clients/AWQAF.png",
   "clientLogoSize": "max-w-[75px]",
@@ -51,7 +51,7 @@ export const wakfAlMadaniHotel: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Awqaf",
       "label": "Engineering Partner",
       "suffix": ""
     }

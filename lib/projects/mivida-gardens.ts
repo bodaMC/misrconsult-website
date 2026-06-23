@@ -9,7 +9,7 @@ export const mividaGardens: Project = {
   "title": "Mivida Gardens",
   "categoryId": "residential",
   "location": "5th Settlement, Cairo, Egypt",
-  "year": "TBD",
+  "year": "Ongoing",
   "client": "EMAAR",
   "clientLogo": "/clients/emaar-temp.png",
   "clientLogoSize": "max-w-[80px]",
@@ -52,7 +52,7 @@ export const mividaGardens: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Emaar",
       "label": "Engineering Partner",
       "suffix": ""
     }

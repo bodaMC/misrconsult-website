@@ -9,7 +9,7 @@ export const princeMohamedBinFahdMedicalResearch: Project = {
   "title": "Prince Mohamed Bin Fahd Center for Medical Research",
   "categoryId": "healthcare",
   "location": "Dammam, Saudi Arabia",
-  "year": "11997",
+  "year": "1998",
   "client": "University of Dammam",
   "clientLogo": "/clients/University-of-Dammam.png",
   "clientLogoSize": "max-w-[72px]",
@@ -51,7 +51,7 @@ export const princeMohamedBinFahdMedicalResearch: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Uni. of Dammam",
       "label": "Engineering Partner",
       "suffix": ""
     }

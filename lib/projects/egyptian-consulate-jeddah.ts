@@ -50,7 +50,7 @@ export const egyptianConsulateJeddah: Project = {
       "suffix": ""
     },
     {
-      "value": "Arab League",
+      "value": "Ministry of Foreign Affairs",
       "label": "Engineering Partner",
       "suffix": ""
     }

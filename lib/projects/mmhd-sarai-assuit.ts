@@ -9,7 +9,7 @@ export const mmhdSaraiAssuit: Project = {
   "title": "MMHD Sarai Assuit",
   "categoryId": "residential",
   "location": "Assiut, Egypt",
-  "year": "TBD",
+  "year": "2024",
   "client": "Madinet Masr",
   "clientLogo": "/clients/masr.png",
   "clientLogoSize": "max-w-[67px]",
@@ -53,7 +53,7 @@ export const mmhdSaraiAssuit: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Madinet Masr",
       "label": "Engineering Partner",
       "suffix": ""
     }

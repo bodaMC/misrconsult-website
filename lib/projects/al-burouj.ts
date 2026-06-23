@@ -9,7 +9,7 @@ export const alBurouj: Project = {
   "title": "Al Burouj",
   "categoryId": "residential",
   "location": "Al-Shorouk, Egypt",
-  "year": "TBD",
+  "year": "2023",
   "client": "Imkan",
   "clientLogo": "/clients/imkan.jpg",
   "clientLogoSize": "max-w-[92px]",
@@ -50,7 +50,7 @@ export const alBurouj: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Imkan",
       "label": "Engineering Partner",
       "suffix": ""
     }

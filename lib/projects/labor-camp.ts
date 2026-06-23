@@ -10,7 +10,7 @@ export const laborCamp: Project = {
   "title": "Labor Camp",
   "categoryId": "industrial",
   "location": "Kingdom of Saudi Arabia",
-  "year": "TBD",
+  "year": "2012",
   "client": "Royal Commission for Jubail & Yanbu",
   "clientLogo": "/clients/rcjy-new.png",
   "clientLogoSize": "max-w-[65px]",
@@ -56,7 +56,7 @@ export const laborCamp: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Royal Commission",
       "label": "Engineering Partner",
       "suffix": ""
     }

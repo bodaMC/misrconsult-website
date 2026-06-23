@@ -9,7 +9,7 @@ export const bahaHotel: Project = {
   "title": "Baha Hotel",
   "categoryId": "hotels",
   "location": "Al Baha, Saudi Arabia",
-  "year": "TBD",
+  "year": "2011",
   "client": "Higher Education Fund",
   "clientLogo": "/clients/sandouq.png",
   "clientLogoSize": "max-w-[75px]",
@@ -51,7 +51,7 @@ export const bahaHotel: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Higher Education Fund",
       "label": "Engineering Partner",
       "suffix": ""
     }

@@ -10,7 +10,7 @@ export const sarain2MidanatMasr: Project = {
   "title": "Sarai — 2",
   "categoryId": "residential",
   "location": "New Cairo, Egypt",
-  "year": "TBD",
+  "year": "2021",
   "client": "Madinet Masr",
   "clientLogo": "/clients/masr.png",
   "clientLogoSize": "max-w-[67px]",
@@ -50,7 +50,7 @@ export const sarain2MidanatMasr: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Madinet Masr",
       "label": "Engineering Partner",
       "suffix": ""
     }

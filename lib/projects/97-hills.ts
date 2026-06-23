@@ -60,7 +60,7 @@ export const n97Hills: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Palm Hills",
       "label": "Engineering Partner",
       "suffix": ""
     }

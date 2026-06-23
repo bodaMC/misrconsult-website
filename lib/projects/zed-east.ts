@@ -9,7 +9,7 @@ export const zedEast: Project = {
   "title": "Zed East",
   "categoryId": "residential",
   "location": "5th Settlement, Cairo, Egypt",
-  "year": "TBD",
+  "year": "2022",
   "client": "ORA",
   "clientLogo": "/clients/ora.png",
   "clientLogoSize": "max-w-[80px]",
@@ -51,7 +51,7 @@ export const zedEast: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "ORA",
       "label": "Engineering Partner",
       "suffix": ""
     }

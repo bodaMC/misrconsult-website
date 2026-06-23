@@ -5,7 +5,7 @@ export const oraSilversands: Project = {
   title: "ORA Silversands",
   categoryId: "residential",
   location: "North Coast, Egypt",
-  year: "2024",
+  year: "2025",
   client: "ORA",
   clientLogo: "/clients/ora.png",
   clientLogoSize: "max-w-[80px]",

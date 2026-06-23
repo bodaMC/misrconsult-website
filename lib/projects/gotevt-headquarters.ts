@@ -8,7 +8,7 @@ export const gotevtHeadquarters: Project = {
   "title": "General Org. for Tech. Education & Vocational Training Headquarters",
   "categoryId": "educational",
   "location": "Kingdom of Saudi Arabia",
-  "year": "TBD",
+  "year": "1995",
   "client": "Technical & Vocational Training Corporation",
   "clientLogo": "/clients/techtraining.png",
   "clientLogoSize": "max-w-[90px]",
@@ -36,7 +36,7 @@ export const gotevtHeadquarters: Project = {
       "suffix": "K"
     },
     {
-      "value": "Kingdom of Saudi Arabia",
+      "value": "KSA",
       "label": "Location",
       "suffix": ""
     },
@@ -46,7 +46,7 @@ export const gotevtHeadquarters: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Tech & Vocational Training",
       "label": "Engineering Partner",
       "suffix": ""
     }

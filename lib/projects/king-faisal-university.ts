@@ -9,7 +9,7 @@ export const kingFaisalUniversity: Project = {
   "title": "King Faisal University",
   "categoryId": "educational",
   "location": "Kingdom of Saudi Arabia",
-  "year": "2000",
+  "year": "2004",
   "client": "KFU",
   "clientLogo": "/clients/kfu-logo.png",
   "clientLogoSize": "max-w-[85px]",
@@ -42,7 +42,7 @@ export const kingFaisalUniversity: Project = {
       "suffix": "K"
     },
     {
-      "value": "Kingdom of Saudi Arabia",
+      "value": "KSA",
       "label": "Location",
       "suffix": ""
     },
@@ -52,7 +52,7 @@ export const kingFaisalUniversity: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "KFU",
       "label": "Engineering Partner",
       "suffix": ""
     }

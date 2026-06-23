@@ -9,7 +9,7 @@ export const jubailUniversityCollege: Project = {
   "title": "Jubail University College",
   "categoryId": "educational",
   "location": "Jubail, Saudi Arabia",
-  "year": "2008",
+  "year": "2011",
   "client": "Royal Commission for Jubail & Yanbu",
   "clientLogo": "/clients/rcjy-new.png",
   "clientLogoSize": "max-w-[65px]",
@@ -51,7 +51,7 @@ export const jubailUniversityCollege: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Royal Commission for Jubail & Yanbu",
       "label": "Engineering Partner",
       "suffix": ""
     }

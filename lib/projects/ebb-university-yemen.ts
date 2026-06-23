@@ -6,11 +6,11 @@ import type { Project } from "./types";
 // TODO: Replace placeholder gallery images with project-specific photography
 export const ebbUniversityYemen: Project = {
   "slug": "ebb-university-yemen",
-  "title": "EBB University",
+  "title": "IBB University",
   "categoryId": "educational",
   "location": "Yemen",
-  "year": "TBD",
-  "client": "Ebb University",
+  "year": "2004",
+  "client": "Ibb University",
   "clientLogo": "/clients/ebb-yemen.png",
   "clientLogoSize": "max-w-[60px]",
   "area": "800,000 m²",
@@ -49,7 +49,7 @@ export const ebbUniversityYemen: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "IBB University",
       "label": "Engineering Partner",
       "suffix": ""
     }

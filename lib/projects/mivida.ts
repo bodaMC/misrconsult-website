@@ -8,7 +8,7 @@ export const mivida: Project = {
   "title": "Mivida",
   "categoryId": "residential",
   "location": "Cairo, Egypt",
-  "year": "TBD",
+  "year": "2017",
   "client": "EMAAR",
   "clientLogo": "/clients/emaar-temp.png",
   "clientLogoSize": "max-w-[80px]",
@@ -49,7 +49,7 @@ export const mivida: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Emaar",
       "label": "Engineering Partner",
       "suffix": ""
     }

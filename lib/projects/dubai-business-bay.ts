@@ -42,7 +42,7 @@ export const dubaiBusinessBay: Project = {
       "suffix": ""
     },
     {
-      "value": "Infrastructure",
+      "value": "Infra.",
       "label": "Delivery Scope",
       "suffix": ""
     },

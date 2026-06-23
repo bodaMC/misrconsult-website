@@ -9,7 +9,7 @@ export const qassimUniversityHospital: Project = {
   "title": "Qassim University Hospital",
   "categoryId": "healthcare",
   "location": "Qassim, Saudi Arabia",
-  "year": "2008",
+  "year": "2006",
   "client": "Qassim University",
   "clientLogo": "/clients/qassim.png",
   "clientLogoSize": "max-w-[90px]",

@@ -9,7 +9,7 @@ export const taboukHotel: Project = {
   "title": "Grand Millennium Hotel",
   "categoryId": "hotels",
   "location": "Tabouk, Saudi Arabia",
-  "year": "TBD",
+  "year": "2011",
   "client": "Grand Millennium",
   "clientLogo": "/clients/grand.png",
   "clientLogoSize": "max-w-[75px]",
@@ -51,7 +51,7 @@ export const taboukHotel: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Grand Millennium",
       "label": "Engineering Partner",
       "suffix": ""
     }

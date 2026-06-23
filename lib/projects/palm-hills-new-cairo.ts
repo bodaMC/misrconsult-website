@@ -1,14 +1,12 @@
 import type { Project } from "./types";
 
-// TODO: Confirm completion year
-// TODO: Replace placeholder heroImage with project-specific photography
-// TODO: Replace placeholder gallery images with project-specific photography
+
 export const palmHillsNewCairo: Project = {
   "slug": "palm-hills-new-cairo",
   "title": "Palm Hills New Cairo",
   "categoryId": "residential",
   "location": "New Cairo, Egypt",
-  "year": "TBD",
+  "year": "Ongoing",
   "client": "Palm Hills",
   "clientLogo": "/clients/palm-hills.png",
   "clientLogoSize": "max-w-[60px]",
@@ -57,7 +55,7 @@ export const palmHillsNewCairo: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Palm Hills",
       "label": "Engineering Partner",
       "suffix": ""
     }

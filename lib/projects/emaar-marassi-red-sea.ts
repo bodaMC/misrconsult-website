@@ -9,7 +9,7 @@ export const emaarMarassiRedSea: Project = {
   "title": "Emaar Marassi Red Sea",
   "categoryId": "residential",
   "location": "Red Sea, Egypt",
-  "year": "TBD",
+  "year": "Ongoing",
   "client": "EMAAR",
   "clientLogo": "/clients/emaar-temp.png",
   "clientLogoSize": "max-w-[80px]",
@@ -54,7 +54,7 @@ export const emaarMarassiRedSea: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Emaar",
       "label": "Engineering Partner",
       "suffix": ""
     }

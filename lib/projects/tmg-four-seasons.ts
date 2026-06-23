@@ -8,7 +8,7 @@ export const tmgFourSeasons: Project = {
   "title": "TMG Four Seasons",
   "categoryId": "hotels",
   "location": "Cairo, Egypt",
-  "year": "TBD",
+  "year": "2024",
   "client": "TMG",
   "clientLogo": "/clients/tmg1.png",
   "clientLogoSize": "max-w-[75px]",
@@ -47,7 +47,7 @@ export const tmgFourSeasons: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "TMG",
       "label": "Engineering Partner",
       "suffix": ""
     }

@@ -48,7 +48,7 @@ export const phdNewCapitalVillageR4: Project = {
       "suffix": "M"
     },
     {
-      "value": "New Administrative Capital",
+      "value": "New Capital",
       "label": "Location",
       "suffix": ""
     },
@@ -58,7 +58,7 @@ export const phdNewCapitalVillageR4: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Palm Hills",
       "label": "Engineering Partner",
       "suffix": ""
     }

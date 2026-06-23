@@ -48,7 +48,7 @@ export const aradoHeadquarters: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Arab League",
       "label": "Engineering Partner",
       "suffix": ""
     }

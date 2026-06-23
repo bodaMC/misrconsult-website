@@ -8,10 +8,10 @@ export const kingFaisalUniversityHospital: Project = {
   "categoryId": "healthcare",
   "location": "Kingdom of Saudi Arabia",
   "year": "2007",
-  "client": "King Faisal Universtiy",
+  "client": "King Faisal University",
   "clientLogo": "/clients/kfu-logo.png",
   "clientLogoSize": "max-w-[84px]",
-  "area": "13,780 m²",
+  "area": "106,000 m²",
   "heroImage":  "/projects/kfu-hospital/02.png",
   "span": "",
   "tagline": "King Faisal University Hospital — Full Design Package delivered by MisrConsult in Kingdom of Saudi Arabia.",
@@ -33,12 +33,12 @@ export const kingFaisalUniversityHospital: Project = {
   ],
   "stats": [
     {
-      "value": "14",
+      "value": "106",
       "label": "Thousand m²",
       "suffix": "K"
     },
     {
-      "value": "Kingdom of Saudi Arabia",
+      "value": "KSA",
       "label": "Location",
       "suffix": ""
     },
@@ -48,7 +48,7 @@ export const kingFaisalUniversityHospital: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "King Faisal University",
       "label": "Engineering Partner",
       "suffix": ""
     }

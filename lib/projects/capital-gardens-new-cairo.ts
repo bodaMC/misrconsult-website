@@ -9,7 +9,7 @@ export const capitalGardensNewCairo: Project = {
   "title": "Capital Gardens New Cairo",
   "categoryId": "residential",
   "location": "New Cairo, Egypt",
-  "year": "TBD",
+  "year": "Ongoing",
   "client": "Palm Hills",
   "clientLogo": "/clients/palm-hills.png",
   "clientLogoSize": "max-w-[60px]",
@@ -49,7 +49,7 @@ export const capitalGardensNewCairo: Project = {
       "suffix": ""
     },
     {
-      "value": "MisrConsult",
+      "value": "Palm Hills",
       "label": "Engineering Partner",
       "suffix": ""
     }
