@@ -8,8 +8,6 @@ type CategoryCardProps = {
 };
 
 export function CategoryCard({ category, projectCount, className = "" }: CategoryCardProps) {
-  const projectLabel = projectCount === 1 ? "Project" : "Projects";
-
   return (
     <Link
       href={`/projects/${category.slug}`}
@@ -25,9 +23,6 @@ export function CategoryCard({ category, projectCount, className = "" }: Categor
           <div className="absolute inset-0 bg-gradient-to-t from-misr-950/95 via-misr-950/30 to-transparent" />
 
           <div className="absolute inset-0 flex flex-col justify-end p-6 lg:p-8">
-            <span className="mb-2 text-[10px] font-semibold uppercase tracking-[0.25em] text-misr-gold">
-              {projectCount} {projectLabel}
-            </span>
             <h3 className="font-[family-name:var(--font-cormorant)] text-2xl font-semibold text-white transition-transform duration-300 group-hover:-translate-y-1 lg:text-3xl">
               {category.label}
             </h3>
