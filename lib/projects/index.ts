@@ -25,7 +25,7 @@ export {oraSilversands };
 
 const featuredProjects: Project[] = [ oraSilversands];
 
-export const allProjects: Project[] = [...featuredProjects, ...portfolioProjectList];
+export const allProjects: Project[] = [...portfolioProjectList, ...featuredProjects ];
 
 export function getProjectBySlug(slug: string): Project | undefined {
   return allProjects.find((project) => project.slug === slug);
