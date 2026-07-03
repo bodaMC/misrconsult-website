@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, FormEvent } from "react";
+import emailjs from "@emailjs/browser";
 
 const inputClassName =
   "w-full border-b border-misr-800/20 bg-transparent py-3 text-misr-950 outline-none transition-colors placeholder:text-misr-800/30 focus:border-misr-600";
@@ -120,23 +121,81 @@ export function ContactForm({
 
     setIsSubmitting(true);
 
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitSuccess(true);
-      // Reset form
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        position: defaultPosition,
-        company: "",
-        service: "",
-        message: "",
-      });
-      setFile(null);
-      setErrors({});
-    }, 2000);
+try {
+  let cvUrl = "";
+
+  if (isApplication && file) {
+    const uploadFormData = new FormData();
+
+uploadFormData.append("file", file);
+
+uploadFormData.append("upload_preset", "misrconsult-cv");
+
+const uploadResponse = await fetch(
+  "https://api.cloudinary.com/v1_1/fhqspwzy/raw/upload",
+  {
+    method: "POST",
+    body: uploadFormData,
+  }
+);
+
+if (!uploadResponse.ok) {
+  throw new Error("Failed to upload CV");
+}
+
+const uploadData = await uploadResponse.json();
+  console.log("CV URL:", uploadData);
+
+const cvUrl = uploadData.secure_url;
+
+
+  console.log("CV URL:", cvUrl);
+
+
+
+await emailjs.send(
+  "service_cr32m24",
+  "template_wu8xby6",
+  {
+    title: "New Job Application",
+
+    name: formData.name,
+
+    email: formData.email,
+
+    phone: formData.phone,
+
+    position: formData.position,
+
+    message: formData.message,
+
+    cv: cvUrl,
+  },
+  "nsR1ceZODglm3-XSz"
+);// هنا هيكون EmailJS بعدين
+
+  setSubmitSuccess(true);
+
+  setFormData({
+    name: "",
+    email: "",
+    phone: "",
+    position: defaultPosition,
+    company: "",
+    service: "",
+    message: "",
+  });
+
+  setFile(null);
+
+  setErrors({});
+    }
+} catch (err) {
+  console.error(err);
+  setSubmitError("Something went wrong. Please try again.");
+} finally {
+  setIsSubmitting(false);
+}
   };
 
   const handleChange = (
