@@ -16,9 +16,7 @@ const footerLinks = {
   ],
 Connect: [
   { label: "Contact", href: "/#contact" },
-  { label: "LinkedIn", href: "#" },
   { label: "News & Insights", href: "/news" },
-  { label: "Privacy Policy", href: "#" },
 ],
   
 };

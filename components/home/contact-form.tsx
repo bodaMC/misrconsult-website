@@ -35,7 +35,7 @@ export function ContactForm({
     position: defaultPosition,
     company: "",
     service: "",
-    message: "",
+    code: "",
   });
   const [file, setFile] = useState<File | null>(null);
   const [fileError, setFileError] = useState("");
@@ -70,8 +70,8 @@ export function ContactForm({
       }
     }
 
-    if (!formData.message.trim()) {
-      newErrors.message = "Message is required";
+    if (!formData.code.trim()) {
+      newErrors.message = "Code is required";
     }
 
     setErrors(newErrors);
@@ -167,7 +167,7 @@ await emailjs.send(
 
     position: formData.position,
 
-    message: formData.message,
+    message: formData.code,
 
     cv: cvUrl,
   },
@@ -183,7 +183,7 @@ await emailjs.send(
     position: defaultPosition,
     company: "",
     service: "",
-    message: "",
+    code: "",
   });
 
   setFile(null);
@@ -375,23 +375,23 @@ await emailjs.send(
         )}
 
         <div>
-          <label htmlFor="message" className={labelClassName}>
-            Message
+          <label htmlFor="code" className={labelClassName}>
+            code
           </label>
           <textarea
-            id="message"
-            name="message"
+            id="code"
+            name="code"
             rows={4}
             placeholder={
               isApplication
                 ? "Tell us about your experience and motivation..."
                 : "Tell us about your project..."
             }
-            value={formData.message}
+            value={formData.code}
             onChange={handleChange}
-            className={`${errors.message ? inputErrorClassName : inputClassName} resize-none`}
+            className={`${errors.code ? inputErrorClassName : inputClassName} resize-none`}
           />
-          {errors.message && <p className={errorClassName}>{errors.message}</p>}
+          {errors.code && <p className={errorClassName}>{errors.message}</p>}
         </div>
 
         <button

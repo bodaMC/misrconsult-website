@@ -59,31 +59,5 @@ export const jobPositions: JobPosition[] = [
       "Support commissioning and handover activities",
     ],
   },
-  {
-    id: "site-engineer",
-    title: "Site Engineer",
-    image: "/services/05.png",
-    description:
-      "Supervise construction activities on site, ensuring work aligns with approved designs and quality standards.",
-    responsibilities: [
-      "Conduct daily site inspections and progress reporting",
-      "Verify contractor compliance with drawings and specs",
-      "Document RFIs, site instructions, and as-built records",
-      "Coordinate with design teams on field adjustments",
-    ],
-  },
-  {
-    id: "bim-specialist",
-    title: "BIM Specialist",
-    image: "/services/06.png",
-    description:
-      "Build and maintain BIM models that support coordinated design, clash detection, and project documentation.",
-    responsibilities: [
-      "Develop and manage project BIM models",
-      "Run coordination reviews across disciplines",
-      "Support drawing extraction and model updates",
-      "Assist teams with BIM standards and workflows",
-    ],
-  },
-  
+
 ];
