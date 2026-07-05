@@ -13,7 +13,7 @@ export function Contact() {
           <h2 className="mt-4 font-[family-name:var(--font-cormorant)] text-4xl font-light text-misr-950 md:text-5xl lg:text-6xl">
             Let&apos;s Build
             <br />
-            <span className="font-semibold text-misr-700">Something Remarkable</span>
+            <span className="font-semibold text-misr-700">Something Great Together</span>
           </h2>
           <div className="mx-auto mt-6 h-px w-16 bg-misr-gold" />
           <p className="mx-auto mt-8 max-w-md text-base leading-relaxed text-misr-800/75">

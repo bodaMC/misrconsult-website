@@ -94,7 +94,7 @@ export default function NewsPageContent() {
 
             </span>
 
-            Back to Home
+            Back to Home &nbsp;&nbsp;
 
           </Link>
 

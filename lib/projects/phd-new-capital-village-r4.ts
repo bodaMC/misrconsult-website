@@ -9,7 +9,7 @@ export const phdNewCapitalVillageR4: Project = {
   "title": "PHD — New Capital Village R4",
   "categoryId": "residential",
   "location": "New Administrative Capital, Egypt",
-  "year": "2026",
+  "year": "Ongoing",
   "client": "Palm Hills",
   "clientLogo": "/clients/palm-hills.png",
   clientLogoSize: "max-w-[60px]",

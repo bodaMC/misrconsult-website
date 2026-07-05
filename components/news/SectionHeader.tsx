@@ -40,8 +40,8 @@ export default function SectionHeader({
         </div>
         {subtitle && (
           <p
-            className={`max-w-sm text-sm leading-relaxed md:text-right ${
-              isDark ? "text-white/50" : "text-misr-950/50"
+            className={`max-w-sm text-sm leading-relaxed text-left ${
+             isDark ? "text-white/50" : "text-misr-950/50"
             }`}
           >
             {subtitle}

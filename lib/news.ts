@@ -163,11 +163,10 @@ This expanded scope reflects the trust placed in our team and our track record o
     date: "2024-06",
     title: "FCIC Membership Certificate Awarded",
     excerpt:
-      "MisrConsult has received corporate membership certification from the Federation of Egyptian Industries, reflecting our firm's standing in the engineering sector.",
-    body: "MisrConsult has obtained corporate membership certification from the Federation of Egyptian Industries (FCIC).",
-    content: `MisrConsult has obtained corporate membership certification from the Federation of Egyptian Industries (FCIC), recognising our firm's contribution to Egypt's industrial and engineering landscape.
-
-This membership underscores our commitment to responsible engineering practice and active participation in the professional community that shapes Egypt's built environment.`,
+      "MisrConsult has been awarded corporate membership in the Federation of Consultants from Islamic Countries (FCIC), recognizing our commitment to engineering excellence and international professional collaboration.",
+    body: "MisrConsult has obtained corporate membership in the Federation of Consultants from Islamic Countries (FCIC).",
+    content: `MisrConsult has been awarded corporate membership in the Federation of Consultants from Islamic Countries (FCIC),
+     marking another milestone in our commitment to professional excellence and regional cooperation.`,
     badge: "FCIC Certificate",
     imageUrl: "/projects/phd-r4/01.png",
   },
