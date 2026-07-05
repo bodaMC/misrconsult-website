@@ -31,14 +31,19 @@ export function Footer() {
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-8">
           <div className="lg:col-span-5">
             <a href="#" className="group flex items-center gap-3">
-              <img
-  src="/clients/misrconsult.png"
-  alt="Misr Consult Logo"
-  className="h-16 w-auto object-contain"
-/>
-              <span className="font-[family-name:var(--font-cormorant)] text-2xl font-semibold text-white">
-                MisrConsult
-              </span>
+        <img
+            src="/clients/misrconsult.png"
+            alt="Misr Consult Logo"
+            className="h-16 w-auto object-contain"
+          />
+          <span className="flex flex-col leading-none">
+            <span className="font-[family-name:var(--font-cormorant)] text-xl font-semibold tracking-wide text-white">
+              MisrConsult
+            </span>
+            <span className="text-[10px] font-medium uppercase tracking-[0.25em] text-white/50">
+              House of expertise
+            </span>
+          </span>
             </a>
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-white/45">
               Premier engineering and architectural consultancy delivering landmark
