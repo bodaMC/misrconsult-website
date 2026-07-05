@@ -9,10 +9,10 @@ const footerLinks = {
     { label: "Careers", href: "/careers" },
   ],
   Services: [
-    { label: "Structural Engineering", href: "/#services" },
     { label: "Architecture", href: "/#services" },
-    { label: "Project Management", href: "/#services" },
+    { label: "Structural Engineering", href: "/#services" },
     { label: "Infrastructure", href: "/#services" },
+    { label: "Project Management", href: "/#services" },
   ],
 Connect: [
   { label: "Contact", href: "/#contact" },

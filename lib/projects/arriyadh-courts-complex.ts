@@ -17,7 +17,7 @@ export const arriyadhCourtsComplex: Project = {
   "heroImage": "/projects/courts/01.png",
   "span": "",
   "tagline": "Arriyadh Courts Complex — Buildings delivered by MisrConsult in Riyadh, Saudi Arabia.",
-  "overview": "MisrConsult provided engineering consultancy for Arriyadh Courts Complex, a commercial & office buildings project located in Riyadh, Saudi Arabia. The development spans 80,000 m² with a delivery scope covering buildings.",
+  "overview": "The project includes a 14-storey Main Court, two Offices of Justice, an Urgent Cases Court, three basement parking levels, a mosque, support facilities, and residential accommodation for the Imam and Muezzin. MisrConsult delivered the final architectural design, working drawings, and complete construction documentation for the award-winning project, which was developed following the first-prize-winning concept from an international architectural competition.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 80,000 m² development in Riyadh, Saudi Arabia, meeting client programme requirements and international design standards.",
   "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the buildings — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [

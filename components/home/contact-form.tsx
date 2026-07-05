@@ -384,7 +384,7 @@ await emailjs.send(
             rows={4}
             placeholder={
               isApplication
-                ? "Tell us about your experience and motivation..."
+                ? "Enter the job code..."
                 : "Tell us about your project..."
             }
             value={formData.code}

@@ -133,7 +133,7 @@ export function PositionModal({ position, onClose, onApply }: PositionModalProps
 
           <div className="mt-8">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-misr-600">
-              Key Responsibilities
+              Requirements
             </p>
             <ul className="mt-4 space-y-3">
               {position.responsibilities.map((item) => (

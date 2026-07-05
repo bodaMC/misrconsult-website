@@ -14,7 +14,7 @@ export const palmHillsNewCairo: Project = {
   "heroImage": "/projects/palm-hills-new-cairo/01.jpg",
   "span": "",
   "tagline": "Palm Hills New Cairo — Full Design Package delivered by MisrConsult in New Cairo, Egypt.",
-  "overview": "MisrConsult provided engineering consultancy for Palm Hills New Cairo, a residential developments project located in New Cairo, Egypt. The development spans 1,700,000 m² with a delivery scope covering full design package.",
+  "overview": "The project comprises 95 apartment buildings, 946 villas, 8 administrative buildings, a sports and social club, 5 car showrooms, a school, a hotel with serviced apartments, and a shopping mall. MisrConsult provided consultancy services for the preparation of detailed designs across all project disciplines, including Architectural, Structural, MEP, and Infrastructure works. The scope covered residential, commercial, administrative, hospitality, and service buildings, from the detailed design stage through the preparation of complete tender documentation required for construction.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 1,700,000 m² development in New Cairo, Egypt, meeting client programme requirements and international design standards.",
   "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [

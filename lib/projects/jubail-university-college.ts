@@ -17,7 +17,7 @@ export const jubailUniversityCollege: Project = {
   "heroImage": "/projects/jubail-uni-col/01.png",
   "span": "",
   "tagline": "Jubail University College — Buildings delivered by MisrConsult in Jubail, Saudi Arabia.",
-  "overview": "MisrConsult provided engineering consultancy for Jubail University College, a educational facilities project located in Jubail, Saudi Arabia. The development spans 150,000 m² with a delivery scope covering buildings.",
+  "overview": "he project comprises a five-storey mixed-use public facility designed to accommodate parking, public services, administrative offices, library facilities, community spaces, research and student centers, retail outlets, food court areas, and dedicated male and female sections. The rooftop level houses the building's mechanical systems, including HVAC equipment and solar domestic hot water installations. MisrConsult's scope included the preparation of the final architectural design, working drawings, and complete tender construction documentation.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 150,000 m² development in Jubail, Saudi Arabia, meeting client programme requirements and international design standards.",
   "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the buildings — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [

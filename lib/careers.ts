@@ -12,11 +12,12 @@ export const jobPositions: JobPosition[] = [
     title: "Steel Structural design Engineer",
     image: "/hiring/01.png",
     description:
-      "Design and analyze structural systems for high-rise, commercial, and infrastructure projects across Egypt and the Gulf region.",
+      "Design and analyze steel structures, prepare structural calculations and drawings, and ensure compliance with international design codes and project requirements.",
     responsibilities: [
-      "Prepare structural calculations and detailed drawings",
-      "Coordinate with architectural and MEP disciplines",
-      "Review shop drawings and support site supervision",
+      "3-7 Years of experience.",
+      "Arabian Gulf experience is highly preferable.",
+      "Excellent English communication skills",
+      "Proven design experience",
       "Ensure compliance with local and international codes",
     ],
   },
@@ -25,12 +26,13 @@ export const jobPositions: JobPosition[] = [
     title: "Audio & Video Design Engineer",
     image: "/hiring/02.png",
     description:
-      "Develop concept and detailed architectural designs for residential, hospitality, and mixed-use developments.",
+      "Design and coordinate audio-visual (AV) systems, ensuring high-performance solutions that meet project requirements and industry standards.",
     responsibilities: [
-      "Produce design presentations and working drawings",
-      "Collaborate with engineering teams on buildability",
-      "Support client meetings and design revisions",
-      "Maintain design quality from concept through documentation",
+      "3-7 Years of experience.",
+      "Arabian Gulf experience is highly preferable.",
+      "Excellent English communication skills",
+      "Proven design experience",
+      "Ensure compliance with local and international codes",
     ],
   },
   {
@@ -38,12 +40,13 @@ export const jobPositions: JobPosition[] = [
     title: "Acoustic Specialist Engineer",
     image: "/hiring/03.png",
     description:
-      "Lead multidisciplinary teams through planning, design, and construction phases of complex engineering assignments.",
+      "Design and analyze acoustic solutions, prepare technical documentation, and ensure compliance with project requirements and industry standards.",
     responsibilities: [
-      "Manage project schedules, budgets, and deliverables",
-      "Coordinate consultants, contractors, and client stakeholders",
-      "Monitor progress and resolve technical issues on site",
-      "Report project status and maintain documentation",
+      "3-7 Years of experience.",
+      "Arabian Gulf experience is highly preferable.",
+      "Excellent English communication skills",
+      "Proven design experience",
+      "Ensure compliance with local and international codes",
     ],
   },
   {
@@ -51,12 +54,13 @@ export const jobPositions: JobPosition[] = [
     title: "Traffic Engineer",
     image: "/hiring/04.png",
     description:
-      "Design mechanical, electrical, and plumbing systems for landmark towers, hospitals, and large-scale developments.",
+      "Design and analyze traffic systems, prepare technical studies and drawings, and ensure compliance with project requirements and international standards.",
     responsibilities: [
-      "Develop MEP layouts and coordination drawings",
-      "Perform load calculations and system sizing",
-      "Review vendor submissions and as-built documentation",
-      "Support commissioning and handover activities",
+      "3-5 Years of experience.",
+      "Arabian Gulf experience is highly preferable.",
+      "Excellent English communication skills",
+      "Proven design experience",
+      "Ensure compliance with local and international codes",
     ],
   },
 

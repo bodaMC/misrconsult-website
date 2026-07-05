@@ -15,7 +15,7 @@ export const kingFaisalUniversityHospital: Project = {
   "heroImage":  "/projects/kfu-hospital/02.png",
   "span": "",
   "tagline": "King Faisal University Hospital — Full Design Package delivered by MisrConsult in Kingdom of Saudi Arabia.",
-  "overview": "MisrConsult provided engineering consultancy for King Faisal University Hospital, a healthcare & hospitals project located in Kingdom of Saudi Arabia. The development spans 13,780 m² with a delivery scope covering full design package.",
+  "overview": "The project comprises a four-level facility featuring a parking level, public dealings areas, consular offices, and telecommunications and accounting facilities. MisrConsult provided the working drawings and complete construction documentation for the project in association with CDC Architect Abdel-Halim Ibrahim.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 13,780 m² development in Kingdom of Saudi Arabia, meeting client programme requirements and international design standards.",
   "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [

@@ -17,7 +17,7 @@ export const emaarMarassiRedSea: Project = {
   "heroImage": "/projects/emaar-marassi-red-sea/01.png",
   "span": "",
   "tagline": "Emaar Marassi Red Sea — Full Design Package delivered by MisrConsult in Red Sea, Egypt.",
-  "overview": "MisrConsult provided engineering consultancy for Emaar Marassi Red Sea, a residential developments project located in Red Sea, Egypt. The development spans 2,023,430 m² with a delivery scope covering full design package.",
+  "overview": "The scope of work for Marassi Red Sea – Phase 01 covered all major disciplines, including Architectural (ARC), Structural (STR), MEP, and Interior Design (ID), for six villa types and two multi-family building types. Services extended across all project stages, from reviewing and validating the concept design prepared by the international consultant through to the preparation of Issued for Construction (IFC) documentation, in accordance with the received RFP. The development features a diverse mixed-use program comprising residential, retail, hospitality, marina, and waterfront promenade components.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 2,023,430 m² development in Red Sea, Egypt, meeting client programme requirements and international design standards.",
   "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [

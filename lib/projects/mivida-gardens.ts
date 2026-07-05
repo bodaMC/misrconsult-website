@@ -17,7 +17,7 @@ export const mividaGardens: Project = {
   "heroImage":  "/projects/mivida-gardens/03.png",
   "span": "",
   "tagline": "Mivida Gardens — Full Design Package delivered by MisrConsult in 5th Settlement, Cairo, Egypt.",
-  "overview": "MisrConsult provided engineering consultancy for Mivida Gardens, a residential developments project located in 5th Settlement, Cairo, Egypt. The development spans 420,000 m² with a delivery scope covering full design package.",
+  "overview": "The project includes the design of five distinct villa models, a fully developed mock-up villa for display purposes, the project's main entrance gate, and its secondary entrance gates. MisrConsult was responsible for the detailed design across all project disciplines, commencing from the Design Development stage through to the preparation of complete Tender Documentation and Permit Drawings.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 420,000 m² development in 5th Settlement, Cairo, Egypt, meeting client programme requirements and international design standards.",
   "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
