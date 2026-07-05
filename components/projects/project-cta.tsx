@@ -3,7 +3,7 @@ import { FadeIn } from "./fade-in";
 
 export function ProjectCta() {
   return (
-    <section className="relative bg-misr-cream py-20 lg:py-24">
+    <section className="relative bg-white py-20 lg:py-24">
       <div className="relative mx-auto max-w-7xl px-6 text-center lg:px-8">
         <FadeIn>
           <h2 className="font-[family-name:var(--font-cormorant)] text-3xl font-light text-misr-950 md:text-4xl">

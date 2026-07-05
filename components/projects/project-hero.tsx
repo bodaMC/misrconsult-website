@@ -23,7 +23,7 @@ type ProjectHeroProps = {
 export function ProjectHero({ project }: ProjectHeroProps) {
   const category = getCategoryById(project.categoryId);
   return (
-    <section className="relative flex min-h-[85vh] items-end overflow-hidden bg-misr-950">
+    <section className="relative flex min-h-[70vh] items-end overflow-hidden bg-misr-950">
       <div className="absolute inset-0">
         {project.heroVideo ? (
           <video
@@ -60,7 +60,7 @@ export function ProjectHero({ project }: ProjectHeroProps) {
         </div>
       ) : null}
 
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-20 pt-36 lg:px-8 lg:pb-28 lg:pt-44">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-16 pt-36 lg:px-8 lg:pb-28 lg:pt-44">
         <ProjectBackButton
           href={`/projects/${category.slug}`}
           label={category.label}
