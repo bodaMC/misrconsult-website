@@ -15,7 +15,10 @@ export { sarain2MidanatMasr } from "./sarai-2-midanat-masr";
 export { saraiCavana } from "./sarai-cavana";
 export { mmhdSaraiAssuit } from "./mmhd-sarai-assuit";
 export { aradoHeadquarters } from "./arado-headquarters";
-export { aucNewCampus } from "./auc-new-campus";
+export {
+  aucNewCampus,
+  aucNewCampusInfrastructure,
+} from "./auc-new-campus";;
 export { tmgFourSeasons } from "./tmg-four-seasons";
 export { kingFaisalUniversityHospital } from "./king-faisal-university-hospital";
 export { princeMohamedBinFahdMedicalResearch } from "./prince-mohamed-bin-fahd-medical-research";
@@ -54,7 +57,10 @@ import { sarain2MidanatMasr } from "./sarai-2-midanat-masr";
 import { saraiCavana } from "./sarai-cavana";
 import { mmhdSaraiAssuit } from "./mmhd-sarai-assuit";
 import { aradoHeadquarters } from "./arado-headquarters";
-import { aucNewCampus } from "./auc-new-campus";
+import {
+  aucNewCampus,
+  aucNewCampusInfrastructure,
+} from "./auc-new-campus";;
 import { tmgFourSeasons } from "./tmg-four-seasons";
 import { kingFaisalUniversityHospital } from "./king-faisal-university-hospital";
 import { princeMohamedBinFahdMedicalResearch } from "./prince-mohamed-bin-fahd-medical-research";
@@ -93,7 +99,8 @@ export const portfolioProjectList: Project[] = [
   saraiCavana,
   mmhdSaraiAssuit,
   aradoHeadquarters,
-  aucNewCampus,
+aucNewCampus,
+aucNewCampusInfrastructure,
   tmgFourSeasons,
   kingFaisalUniversityHospital,
   princeMohamedBinFahdMedicalResearch,

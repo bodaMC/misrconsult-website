@@ -1,9 +1,5 @@
 import type { Project } from "./types";
 
-// TODO: Confirm completion year
-// TODO: Confirm client name
-// TODO: Replace placeholder heroImage with project-specific photography
-// TODO: Replace placeholder gallery images with project-specific photography
 export const aucNewCampus: Project = {
   "slug": "auc-new-campus",
   "title": "AUC New Campus",
@@ -70,4 +66,8 @@ export const aucNewCampus: Project = {
       "description": "MisrConsult delivered roads & highways as part of the engineering scope for AUC New Campus in Cairo, Egypt."
     }
   ]
+};
+export const aucNewCampusInfrastructure: Project = {
+  ...aucNewCampus,
+  categoryId: "infrastructure",
 };
