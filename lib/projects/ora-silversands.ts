@@ -31,7 +31,8 @@ export const oraSilversands: Project = {
     "/projects/ora-silversands/02.jpg",
     "/projects/ora-silversands/01.jpg",
     "/projects/ora-silversands/04.jpg",
-    "/projects/ora-silversands/05.jpg",
+    "/projects/ora-silversands/05.png",
+    "/projects/ora-silversands/06.jpg",
   ],
   stats: [
     { value: "700", label: "Thousand m² Development", suffix: "K" },
