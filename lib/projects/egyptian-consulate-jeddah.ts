@@ -14,7 +14,7 @@ export const egyptianConsulateJeddah: Project = {
   "clientLogo": "/clients/ministry-of-foreign.png",
   "clientLogoSize": "max-w-[80px]",
   "area": "6,300 m²",
-  "heroImage": "/projects/egypt-consulate/01.png",
+  "heroImage": "/projects/egypt-consulate/01.webp",
   "span": "",
   "tagline": "Egyptian Consulate in Jeddah — MEP Package delivered by MisrConsult in Jeddah, Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Egyptian Consulate in Jeddah, a commercial & office buildings project located in Jeddah, Saudi Arabia. The development spans 6,300 m² with a delivery scope covering mep package.",
@@ -28,10 +28,10 @@ export const egyptianConsulateJeddah: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/egypt-consulate/01.png",
-    "/projects/egypt-consulate/02.png",
-    "/projects/egypt-consulate/03.png",
-    "/projects/egypt-consulate/04.png",
+    "/projects/egypt-consulate/01.webp",
+    "/projects/egypt-consulate/02.webp",
+    "/projects/egypt-consulate/03.webp",
+    "/projects/egypt-consulate/04.webp",
   ],
   "stats": [
     {

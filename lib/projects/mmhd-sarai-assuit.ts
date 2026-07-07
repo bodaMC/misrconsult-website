@@ -14,7 +14,7 @@ export const mmhdSaraiAssuit: Project = {
   "clientLogo": "/clients/masr.png",
   "clientLogoSize": "max-w-[67px]",
   "area": "3,500,000 m²",
-  "heroImage": "/projects/sarai-assiut/01.png",
+  "heroImage": "/projects/sarai-assiut/01.webp",
   "span": "",
   "tagline": "MMHD Sarai Assuit — Buildings delivered by MisrConsult in Assiut, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for MMHD Sarai Assuit, a residential developments project located in Assiut, Egypt. The development spans 3,500,000 m² with a delivery scope covering buildings.",
@@ -28,13 +28,13 @@ export const mmhdSaraiAssuit: Project = {
     "Project Management"
   ],
   "gallery": [
-   "/projects/sarai-assiut/02.png",
-   "/projects/sarai-assiut/03.png",
-   "/projects/sarai-assiut/04.png",
-   "/projects/sarai-assiut/05.png",
-   "/projects/sarai-assiut/06.png",
-   "/projects/sarai-assiut/07.png",
-   "/projects/sarai-assiut/01.png",
+   "/projects/sarai-assiut/02.webp",
+   "/projects/sarai-assiut/03.webp",
+   "/projects/sarai-assiut/04.webp",
+   "/projects/sarai-assiut/05.webp",
+   "/projects/sarai-assiut/06.webp",
+   "/projects/sarai-assiut/07.webp",
+   "/projects/sarai-assiut/01.webp",
   ],
   "stats": [
     {

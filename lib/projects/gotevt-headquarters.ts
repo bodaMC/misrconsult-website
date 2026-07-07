@@ -13,7 +13,7 @@ export const gotevtHeadquarters: Project = {
   "clientLogo": "/clients/techtraining.png",
   "clientLogoSize": "max-w-[90px]",
   "area": "36,850 m²",
-  "heroImage": "/projects/gen-org/01.png",
+  "heroImage": "/projects/gen-org/01.webp",
   "span": "",
   "tagline": "General Organization for Technical Education & Vocational Training Headquarters — Buildings delivered by MisrConsult in Kingdom of Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for General Organization for Technical Education & Vocational Training Headquarters, a educational facilities project located in Kingdom of Saudi Arabia. The development spans 36,850 m² with a delivery scope covering buildings.",
@@ -27,7 +27,7 @@ export const gotevtHeadquarters: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/gen-org/01.png",
+    "/projects/gen-org/01.webp",
   ],
   "stats": [
     {

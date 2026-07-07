@@ -14,7 +14,7 @@ export const taboukHotel: Project = {
   "clientLogo": "/clients/grand.png",
   "clientLogoSize": "max-w-[75px]",
   "area": "101,726 m²",
-  "heroImage": "/projects/tabouk/01.jpg",
+  "heroImage": "/projects/tabouk/01.webp",
   "span": "",
   "tagline": "Tabouk Hotel — Full Design Package delivered by MisrConsult in Tabouk, Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Tabouk Hotel, a hotels & resorts project located in Tabouk, Saudi Arabia. The development spans 101,726 m² with a delivery scope covering full design package.",
@@ -28,11 +28,11 @@ export const taboukHotel: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "/projects/tabouk/01.jpg",
-    "/projects/tabouk/02.jpg",
-    "/projects/tabouk/03.jpg",
-    "/projects/tabouk/04.jpg",
-    "/projects/tabouk/05.jpg",
+    "/projects/tabouk/01.webp",
+    "/projects/tabouk/02.webp",
+    "/projects/tabouk/03.webp",
+    "/projects/tabouk/04.webp",
+    "/projects/tabouk/05.webp",
   ],
   "stats": [
     {

@@ -14,7 +14,7 @@ export const ebdaKhaira: Project = {
   "clientLogo": "/clients/millennia2.png",
   "clientLogoSize": "max-w-[90px]",
   "area": "48,010 m²",
-  "heroImage": "/projects/ebda-khaira/02.png",
+  "heroImage": "/projects/ebda-khaira/02.webp",
   "span": "",
   "tagline": "Ebda & Khaira — Infrastructure Design delivered by MisrConsult in Kingdom of Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Ebda & Khaira, a infrastructure & transportation project located in Kingdom of Saudi Arabia. The development spans 48,010 m² with a delivery scope covering infrastructure design.",
@@ -28,8 +28,8 @@ export const ebdaKhaira: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/ebda-khaira/01.png",
-    "/projects/ebda-khaira/02.png",
+    "/projects/ebda-khaira/01.webp",
+    "/projects/ebda-khaira/02.webp",
   ],
   "stats": [
     {

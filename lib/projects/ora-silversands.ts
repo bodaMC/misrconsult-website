@@ -10,7 +10,7 @@ export const oraSilversands: Project = {
   clientLogo: "/clients/ora.png",
   clientLogoSize: "max-w-[80px]",
   area: "700,000 m²",
-  heroImage: "/projects/ora-silversands/01.jpg",
+  heroImage: "/projects/ora-silversands/01.webp",
   span: "",
   tagline:
     "A master-planned coastal community redefining luxury living on Egypt's North Coast.",
@@ -28,11 +28,11 @@ export const oraSilversands: Project = {
     "Construction Supervision",
   ],
   gallery: [
-    "/projects/ora-silversands/02.jpg",
-    "/projects/ora-silversands/01.jpg",
-    "/projects/ora-silversands/04.jpg",
-    "/projects/ora-silversands/05.png",
-    "/projects/ora-silversands/06.jpg",
+    "/projects/ora-silversands/02.webp",
+    "/projects/ora-silversands/01.webp",
+    "/projects/ora-silversands/04.webp",
+    "/projects/ora-silversands/05.webp",
+    "/projects/ora-silversands/06.webp",
   ],
   stats: [
     { value: "700", label: "Thousand m² Development", suffix: "K" },

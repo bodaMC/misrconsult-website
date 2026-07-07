@@ -11,7 +11,7 @@ export const lusail: Project = {
   "clientLogo": "/clients/lusail.png",
   "clientLogoSize": "max-w-[70px]",
   "area": "2,187,791 m²",
-  "heroImage": "/projects/lusail/01.png",
+  "heroImage": "/projects/lusail/01.webp",
   "span": "",
   "tagline": "Lusail — Infrastructure Design delivered by MisrConsult in Lusail, Qatar.",
   "overview": "MisrConsult provided engineering consultancy for Lusail, a mixed-use developments project located in Lusail, Qatar. The development spans 2,187,791 m² with a delivery scope covering infrastructure design.",
@@ -25,13 +25,13 @@ export const lusail: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/lusail/02.jpg",
-    "/projects/lusail/03.jpg",
-    "/projects/lusail/04.png",
-    "/projects/lusail/05.png",
-    "/projects/lusail/06.png",
-    "/projects/lusail/07.png",
-    "/projects/lusail/01.png",
+    "/projects/lusail/02.webp",
+    "/projects/lusail/03.webp",
+    "/projects/lusail/04.webp",
+    "/projects/lusail/05.webp",
+    "/projects/lusail/06.webp",
+    "/projects/lusail/07.webp",
+    "/projects/lusail/01.webp",
   ],
   "stats": [
     {

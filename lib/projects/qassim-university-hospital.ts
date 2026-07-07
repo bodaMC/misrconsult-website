@@ -14,7 +14,7 @@ export const qassimUniversityHospital: Project = {
   "clientLogo": "/clients/qassim.png",
   "clientLogoSize": "max-w-[90px]",
   "area": "140,000 m²",
-  "heroImage": "/projects/qassim/03.jpeg",
+  "heroImage": "/projects/qassim/03.webp",
   "span": "",
   "tagline": "Qassim University Hospital — Buildings delivered by MisrConsult in Qassim, Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Qassim University Hospital, a healthcare & hospitals project located in Qassim, Saudi Arabia. The development spans 140,000 m² with a delivery scope covering buildings.",
@@ -28,9 +28,9 @@ export const qassimUniversityHospital: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/qassim/01.jpg",
-    "/projects/qassim/02.png",
-    "/projects/qassim/03.jpeg",
+    "/projects/qassim/01.webp",
+    "/projects/qassim/02.webp",
+    "/projects/qassim/03.webp",
 
   ],
   "stats": [

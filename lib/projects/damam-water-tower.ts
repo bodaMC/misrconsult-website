@@ -15,7 +15,7 @@ export const damamWaterTower: Project = {
   "clientLogo": "/clients/municipal-rural-affairs.png",
   "clientLogoSize": "max-w-[60px]",
   "area": "12,876 m²",
-  "heroImage": "/projects/damam-tower/02.jpg",
+  "heroImage": "/projects/damam-tower/02.webp",
   "span": "",
   "tagline": "Dammam Water Tower — Structure & MEP Package delivered by MisrConsult in Dammam, Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Dammam Water Tower, a infrastructure & transportation project located in Dammam, Saudi Arabia. The development spans 12,876 m² with a delivery scope covering structure & mep package.",
@@ -29,11 +29,11 @@ export const damamWaterTower: Project = {
     "Construction Supervision"
   ],
   "gallery": [
-    "/projects/damam-tower/01.png",
-    "/projects/damam-tower/02.jpg",
-    "/projects/damam-tower/03.jpg",
-    "/projects/damam-tower/04.jpg",
-    "/projects/damam-tower/05.jpg",
+    "/projects/damam-tower/01.webp",
+    "/projects/damam-tower/02.webp",
+    "/projects/damam-tower/03.webp",
+    "/projects/damam-tower/04.webp",
+    "/projects/damam-tower/05.webp",
   ],
   "stats": [
     {

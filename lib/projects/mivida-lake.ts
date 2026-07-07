@@ -13,7 +13,7 @@ export const mividaLake: Project = {
   "clientLogo": "/clients/emaar-temp.png",
   "clientLogoSize": "max-w-[80px]",
   "area": "71,200 m²",
-  "heroImage": "/projects/mivida-lake/01.png",
+  "heroImage": "/projects/mivida-lake/01.webp",
   "span": "",
   "tagline": "Mivida Lake — MEP & Lake Infrastructure delivered by MisrConsult in Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for Mivida Lake, a infrastructure & transportation project located in Cairo, Egypt. The development spans 71,200 m² with a delivery scope covering mep & lake infrastructure.",
@@ -27,10 +27,10 @@ export const mividaLake: Project = {
     "Construction Supervision"
   ],
   "gallery": [
-    "/projects/mivida-lake/02.png",
-    "/projects/mivida-lake/03.png",
-    "/projects/mivida-lake/04.png",
-    "/projects/mivida-lake/01.png",
+    "/projects/mivida-lake/02.webp",
+    "/projects/mivida-lake/03.webp",
+    "/projects/mivida-lake/04.webp",
+    "/projects/mivida-lake/01.webp",
   ],
   "stats": [
     {

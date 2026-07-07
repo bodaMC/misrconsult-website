@@ -3,6 +3,7 @@ import { FadeIn } from "./fade-in";
 import { ProjectCta } from "./project-cta";
 import { ProjectHero } from "./project-hero";
 import { ProjectNav } from "./project-nav";
+import LazyImage from "@/components/common/LazyImage";
 
 export function StandardProjectPageContent({ project }: { project: Project }) {
 
@@ -61,10 +62,10 @@ export function StandardProjectPageContent({ project }: { project: Project }) {
                     i === 0 ? "aspect-[3/4] sm:aspect-auto sm:min-h-[480px]" : "aspect-[4/3]"
                   }`}
                 >
-                  <div
-                    className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                    style={{ backgroundImage: `url('${image}')` }}
-                  />
+                  <LazyImage
+  src={image}
+  className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+/>
                   <div className="absolute inset-0 bg-misr-950/0 transition-colors duration-500 group-hover:bg-misr-950/25" />
                   <div className="absolute bottom-0 left-0 h-1 w-0 bg-misr-gold transition-all duration-500 group-hover:w-full" />
                 </div>

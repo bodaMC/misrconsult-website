@@ -13,7 +13,7 @@ export const tmgFourSeasons: Project = {
   "clientLogo": "/clients/tmg1.png",
   "clientLogoSize": "max-w-[75px]",
   "area": "141,640 m²",
-  "heroImage": "/projects/tmg/01.png",
+  "heroImage": "/projects/tmg/01.webp",
   "span": "",
   "tagline": "TMG Four Seasons — MEP Package delivered by MisrConsult in Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for TMG Four Seasons, a hotels & resorts project located in Cairo, Egypt. The development spans 141,640 m² with a delivery scope covering mep package.",
@@ -27,8 +27,8 @@ export const tmgFourSeasons: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/tmg/01.png",
-    "/projects/tmg/02.png",
+    "/projects/tmg/01.webp",
+    "/projects/tmg/02.webp",
   ],
   "stats": [
     {

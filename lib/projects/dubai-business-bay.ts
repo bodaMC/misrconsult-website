@@ -12,7 +12,7 @@ export const dubaiBusinessBay: Project = {
   "clientLogo": "/clients/swa-black.jpg",
   "clientLogoSize": "max-w-[60px]",
   "area": "4,460,000 m²",
-  "heroImage":"/projects/dubai/03.jpg",
+  "heroImage":"/projects/dubai/03.webp",
   "span": "",
   "tagline": "Dubai Business Bay — Infrastructure Design delivered by MisrConsult in Dubai, UAE.",
   "overview": "MisrConsult provided engineering consultancy for Dubai Business Bay, a mixed-use developments project located in Dubai, UAE. The development spans 4,460,000 m² with a delivery scope covering infrastructure design.",
@@ -26,9 +26,9 @@ export const dubaiBusinessBay: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/dubai/01.jpg",
-    "/projects/dubai/02.jpg",
-    "/projects/dubai/03.jpg",
+    "/projects/dubai/01.webp",
+    "/projects/dubai/02.webp",
+    "/projects/dubai/03.webp",
   ],
   "stats": [
     {

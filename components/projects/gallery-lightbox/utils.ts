@@ -1,6 +1,18 @@
 const BACKGROUND_URL_PATTERN = /url\(['"]?([^'")]+)['"]?\)/;
 
 export function extractBackgroundImageUrl(element: HTMLElement): string | null {
+  // لو العنصر img
+  if (element instanceof HTMLImageElement) {
+    return element.currentSrc || element.src;
+  }
+
+  // لو فيه img جواه
+  const img = element.querySelector("img");
+  if (img instanceof HTMLImageElement) {
+    return img.currentSrc || img.src;
+  }
+
+  // Background Image
   const inline = element.style.backgroundImage;
   if (inline && inline !== "none") {
     const match = inline.match(BACKGROUND_URL_PATTERN);
@@ -15,7 +27,6 @@ export function extractBackgroundImageUrl(element: HTMLElement): string | null {
 
   return null;
 }
-
 export function isVisualDocumentationSection(section: HTMLElement): boolean {
   return Array.from(section.querySelectorAll("span")).some(
     (span) => span.textContent?.trim() === "Visual Documentation",

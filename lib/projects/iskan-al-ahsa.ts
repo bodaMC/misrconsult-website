@@ -13,7 +13,7 @@ export const iskanAlAhsa: Project = {
   "clientLogo": "/clients/housing.png",
   "clientLogoSize": "max-w-[55px]",
   "area": "5,463,256 m²",
-  "heroImage": "/projects/iskan-ahsa/01.jpeg",
+  "heroImage": "/projects/iskan-ahsa/01.webp",
   "span": "",
   "tagline": "Iskan Al-Ahsa — Infrastructure delivered by MisrConsult in Al-Ahsa, Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Iskan Al-Ahsa, a infrastructure & transportation project located in Al-Ahsa, Saudi Arabia. The development spans 5,463,256 m² with a delivery scope covering infrastructure.",
@@ -27,8 +27,8 @@ export const iskanAlAhsa: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/iskan-ahsa/02.jpeg",
-    "/projects/iskan-ahsa/01.jpeg",
+    "/projects/iskan-ahsa/02.webp",
+    "/projects/iskan-ahsa/01.webp",
   ],
   "stats": [
     {

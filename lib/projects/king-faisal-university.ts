@@ -14,7 +14,7 @@ export const kingFaisalUniversity: Project = {
   "clientLogo": "/clients/kfu-logo.png",
   "clientLogoSize": "max-w-[85px]",
   "area": "570,000 m²",
-  "heroImage": "/projects/king-faisal/04.png",
+  "heroImage": "/projects/king-faisal/04.webp",
   "span": "",
   "tagline": "King Faisal University — Buildings & Landscape delivered by MisrConsult in Kingdom of Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for King Faisal University, a educational facilities project located in Kingdom of Saudi Arabia. The development spans 570,000 m² with a delivery scope covering buildings & landscape.",
@@ -28,12 +28,12 @@ export const kingFaisalUniversity: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/king-faisal/02.png",
-    "/projects/king-faisal/03.png",
-    "/projects/king-faisal/04.png",
-    "/projects/king-faisal/05.png",
-    "/projects/king-faisal/02.png",
-    "/projects/king-faisal/06.png"
+    "/projects/king-faisal/02.webp",
+    "/projects/king-faisal/03.webp",
+    "/projects/king-faisal/04.webp",
+    "/projects/king-faisal/05.webp",
+    "/projects/king-faisal/02.webp",
+    "/projects/king-faisal/06.webp"
   ],
   "stats": [
     {

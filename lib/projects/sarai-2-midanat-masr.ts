@@ -15,7 +15,7 @@ export const sarain2MidanatMasr: Project = {
   "clientLogo": "/clients/masr.png",
   "clientLogoSize": "max-w-[67px]",
   "area": "210,000 m²",
-  "heroImage":  "/projects/sarai-2/01.jpeg",
+  "heroImage":  "/projects/sarai-2/01.webp",
   "span": "",
   "tagline": "Sarai — Phase 2 / Midanat Masr — Full Design Package delivered by MisrConsult in New Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for Sarai — Phase 2 / Midanat Masr, a residential developments project located in New Cairo, Egypt. The development spans 210,000 m² with a delivery scope covering full design package.",
@@ -29,9 +29,9 @@ export const sarain2MidanatMasr: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "/projects/sarai-2/01.jpeg",
-    "/projects/sarai-2/02.jpeg",
-    "/projects/sarai-2/03.jpeg",
+    "/projects/sarai-2/01.webp",
+    "/projects/sarai-2/02.webp",
+    "/projects/sarai-2/03.webp",
   ],
   "stats": [
     {

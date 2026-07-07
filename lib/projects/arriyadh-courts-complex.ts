@@ -14,7 +14,7 @@ export const arriyadhCourtsComplex: Project = {
   "clientLogo": "/clients/Saudi-Ministry.png",
   "clientLogoSize": "max-w-[60px]",
   "area": "80,000 m²",
-  "heroImage": "/projects/courts/01.png",
+  "heroImage": "/projects/courts/01.webp",
   "span": "",
   "tagline": "Arriyadh Courts Complex — Buildings delivered by MisrConsult in Riyadh, Saudi Arabia.",
   "overview": "The project includes a 14-storey Main Court, two Offices of Justice, an Urgent Cases Court, three basement parking levels, a mosque, support facilities, and residential accommodation for the Imam and Muezzin. MisrConsult delivered the final architectural design, working drawings, and complete construction documentation for the award-winning project, which was developed following the first-prize-winning concept from an international architectural competition.",
@@ -28,10 +28,10 @@ export const arriyadhCourtsComplex: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/courts/02.png",
-    "/projects/courts/01.png",
-   "/projects/courts/03.png",
-    "/projects/courts/04.png",
+    "/projects/courts/02.webp",
+    "/projects/courts/01.webp",
+   "/projects/courts/03.webp",
+    "/projects/courts/04.webp",
   ],
   "stats": [
     {

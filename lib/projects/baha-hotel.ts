@@ -14,7 +14,7 @@ export const bahaHotel: Project = {
   "clientLogo": "/clients/sandouq.png",
   "clientLogoSize": "max-w-[75px]",
   "area": "103,000 m²",
-  "heroImage": "/projects/baha/04.png",
+  "heroImage": "/projects/baha/04.webp",
   "span": "",
   "tagline": "Baha Hotel — Full Design Package delivered by MisrConsult in Al Baha, Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Baha Hotel, a hotels & resorts project located in Al Baha, Saudi Arabia. The development spans 103,000 m² with a delivery scope covering full design package.",
@@ -28,11 +28,11 @@ export const bahaHotel: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "/projects/baha/04.png",
-    "/projects/baha/02.png",
-    "/projects/baha/01.png",
-    "/projects/baha/03.png",
-    "/projects/baha/01.png",
+    "/projects/baha/04.webp",
+    "/projects/baha/02.webp",
+    "/projects/baha/01.webp",
+    "/projects/baha/03.webp",
+    "/projects/baha/01.webp",
   ],
   "stats": [
     {

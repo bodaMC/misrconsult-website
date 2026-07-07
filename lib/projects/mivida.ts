@@ -13,7 +13,7 @@ export const mivida: Project = {
   "clientLogo": "/clients/emaar-temp.png",
   "clientLogoSize": "max-w-[80px]",
   "area": "3,500,000 m²",
-  "heroImage": "/projects/mivida/01.png",
+  "heroImage": "/projects/mivida/01.webp",
   "span": "",
   "tagline": "Mivida — Buildings & Infrastructure delivered by MisrConsult in Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for Mivida, a residential developments project located in Cairo, Egypt. The development spans 3,500,000 m² with a delivery scope covering buildings & infrastructure.",
@@ -27,10 +27,10 @@ export const mivida: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/mivida/01.png",
-    "/projects/mivida/02.png",
-    "/projects/mivida/03.png",
-    "/projects/mivida/04.png",
+    "/projects/mivida/01.webp",
+    "/projects/mivida/02.webp",
+    "/projects/mivida/03.webp",
+    "/projects/mivida/04.webp",
   ],
   "stats": [
     {

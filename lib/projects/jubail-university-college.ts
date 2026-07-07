@@ -14,7 +14,7 @@ export const jubailUniversityCollege: Project = {
   "clientLogo": "/clients/rcjy-new.png",
   "clientLogoSize": "max-w-[65px]",
   "area": "150,000 m²",
-  "heroImage": "/projects/jubail-uni-col/01.png",
+  "heroImage": "/projects/jubail-uni-col/01.webp",
   "span": "",
   "tagline": "Jubail University College — Buildings delivered by MisrConsult in Jubail, Saudi Arabia.",
   "overview": "he project comprises a five-storey mixed-use public facility designed to accommodate parking, public services, administrative offices, library facilities, community spaces, research and student centers, retail outlets, food court areas, and dedicated male and female sections. The rooftop level houses the building's mechanical systems, including HVAC equipment and solar domestic hot water installations. MisrConsult's scope included the preparation of the final architectural design, working drawings, and complete tender construction documentation.",
@@ -28,11 +28,11 @@ export const jubailUniversityCollege: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/jubail-uni-col/01.png",
-    "/projects/jubail-uni-col/02.png",
-    "/projects/jubail-uni-col/03.png",
-    "/projects/jubail-uni-col/04.png",
-    "/projects/jubail-uni-col/05.png",
+    "/projects/jubail-uni-col/01.webp",
+    "/projects/jubail-uni-col/02.webp",
+    "/projects/jubail-uni-col/03.webp",
+    "/projects/jubail-uni-col/04.webp",
+    "/projects/jubail-uni-col/05.webp",
   ],
   "stats": [
     {

@@ -14,7 +14,7 @@ export const wakfAlMadaniHotel: Project = {
   "clientLogo": "/clients/AWQAF.png",
   "clientLogoSize": "max-w-[75px]",
   "area": "8,600 m²",
-  "heroImage": "/projects/wakf/06.png",
+  "heroImage": "/projects/wakf/06.webp",
   "span": "",
   "tagline": "Wakf Al Madani Hotel — Haram El Madinah Central Zone — Buildings delivered by MisrConsult in Madinah, Saudi Arabia.",
   "overview": "MisrConsult provided engineering consultancy for Wakf Al Madani Hotel — Haram El Madinah Central Zone, a hotels & resorts project located in Madinah, Saudi Arabia. The development spans 8,600 m² with a delivery scope covering buildings.",
@@ -28,11 +28,11 @@ export const wakfAlMadaniHotel: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/wakf/01.png",
-    "/projects/wakf/03.png",
-    "/projects/wakf/04.png",
-    "/projects/wakf/05.png",
-    "/projects/wakf/06.png",
+    "/projects/wakf/01.webp",
+    "/projects/wakf/03.webp",
+    "/projects/wakf/04.webp",
+    "/projects/wakf/05.webp",
+    "/projects/wakf/06.webp",
   ],
   "stats": [
     {

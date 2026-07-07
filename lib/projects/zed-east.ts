@@ -14,7 +14,7 @@ export const zedEast: Project = {
   "clientLogo": "/clients/ora.png",
   "clientLogoSize": "max-w-[80px]",
   "area": "156,000 m²",
-  "heroImage": "/projects/zed-east/01.jpeg",
+  "heroImage": "/projects/zed-east/01.webp",
   "span": "",
   "tagline": "Zed East — Full Design Package delivered by MisrConsult in 5th Settlement, Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for Zed East, a residential developments project located in 5th Settlement, Cairo, Egypt. The development spans 156,000 m² with a delivery scope covering full design package.",
@@ -28,11 +28,11 @@ export const zedEast: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "/projects/zed-east/01.jpeg",
-    "/projects/zed-east/02.jpeg",
-    "/projects/zed-east/03.jpeg",
-    "/projects/zed-east/04.jpeg",
-    "/projects/zed-east/05.png",    
+    "/projects/zed-east/01.webp",
+    "/projects/zed-east/02.webp",
+    "/projects/zed-east/03.webp",
+    "/projects/zed-east/04.webp",
+    "/projects/zed-east/05.webp",    
   ],
   "stats": [
     {

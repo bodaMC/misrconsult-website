@@ -10,7 +10,7 @@ export const aucNewCampus: Project = {
   "clientLogo": "/clients/AUC.png",
   "clientLogoSize": "max-w-[55px]",
   "area": "1,000,000 m²",
-  "heroImage": "/projects/auc/02.jpg",
+  "heroImage": "/projects/auc/02.webp",
   "span": "",
   "tagline": "AUC New Campus — Infrastructure delivered by MisrConsult in Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for AUC New Campus, a educational facilities project located in Cairo, Egypt. The development spans 1,000,000 m² with a delivery scope covering infrastructure.",
@@ -24,11 +24,11 @@ export const aucNewCampus: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/auc/01.png",
-    "/projects/auc/02.jpg",
-    "/projects/auc/03.png",
-    "/projects/auc/04.png",
-    "/projects/auc/05.png",
+    "/projects/auc/01.webp",
+    "/projects/auc/02.webp",
+    "/projects/auc/03.webp",
+    "/projects/auc/04.webp",
+    "/projects/auc/05.webp",
   ],
   "stats": [
     {

@@ -12,7 +12,7 @@ export const kingFaisalUniversityHospital: Project = {
   "clientLogo": "/clients/kfu-logo.png",
   "clientLogoSize": "max-w-[84px]",
   "area": "106,000 m²",
-  "heroImage":  "/projects/kfu-hospital/02.png",
+  "heroImage":  "/projects/kfu-hospital/02.webp",
   "span": "",
   "tagline": "King Faisal University Hospital — Full Design Package delivered by MisrConsult in Kingdom of Saudi Arabia.",
   "overview": "The project comprises a four-level facility featuring a parking level, public dealings areas, consular offices, and telecommunications and accounting facilities. MisrConsult provided the working drawings and complete construction documentation for the project in association with CDC Architect Abdel-Halim Ibrahim.",
@@ -26,10 +26,10 @@ export const kingFaisalUniversityHospital: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-     "/projects/kfu-hospital/01.png",
-     "/projects/kfu-hospital/02.png",
-     "/projects/kfu-hospital/03.jpg",
-     "/projects/kfu-hospital/04.jpg",
+     "/projects/kfu-hospital/01.webp",
+     "/projects/kfu-hospital/02.webp",
+     "/projects/kfu-hospital/03.webp",
+     "/projects/kfu-hospital/04.webp",
   ],
   "stats": [
     {

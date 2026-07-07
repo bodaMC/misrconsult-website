@@ -14,7 +14,7 @@ export const ebbUniversityYemen: Project = {
   "clientLogo": "/clients/ebb-yemen.png",
   "clientLogoSize": "max-w-[60px]",
   "area": "800,000 m²",
-  "heroImage": "/projects/ebb/03.png",
+  "heroImage": "/projects/ebb/03.webp",
   "span": "",
   "tagline": "EBB University — Infrastructure Design delivered by MisrConsult in Yemen.",
   "overview": "MisrConsult provided engineering consultancy for EBB University, a educational facilities project located in Yemen. The development spans 800,000 m² with a delivery scope covering infrastructure design.",
@@ -28,9 +28,9 @@ export const ebbUniversityYemen: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/ebb/01.png",
-    "/projects/ebb/02.png",
-    "/projects/ebb/03.png",
+    "/projects/ebb/01.webp",
+    "/projects/ebb/02.webp",
+    "/projects/ebb/03.webp",
   ],
   "stats": [
     {

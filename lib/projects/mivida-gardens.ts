@@ -14,7 +14,7 @@ export const mividaGardens: Project = {
   "clientLogo": "/clients/emaar-temp.png",
   "clientLogoSize": "max-w-[80px]",
   "area": "420,000 m²",
-  "heroImage":  "/projects/mivida-gardens/03.png",
+  "heroImage":  "/projects/mivida-gardens/03.webp",
   "span": "",
   "tagline": "Mivida Gardens — Full Design Package delivered by MisrConsult in 5th Settlement, Cairo, Egypt.",
   "overview": "The project includes the design of five distinct villa models, a fully developed mock-up villa for display purposes, the project's main entrance gate, and its secondary entrance gates. MisrConsult was responsible for the detailed design across all project disciplines, commencing from the Design Development stage through to the preparation of complete Tender Documentation and Permit Drawings.",
@@ -28,12 +28,12 @@ export const mividaGardens: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "/projects/mivida-gardens/01.png",
-    "/projects/mivida-gardens/02.png",
-    "/projects/mivida-gardens/03.png",
-    "/projects/mivida-gardens/04.png",
-    "/projects/mivida-gardens/05.png",
-    "/projects/mivida-gardens/06.png",
+    "/projects/mivida-gardens/01.webp",
+    "/projects/mivida-gardens/02.webp",
+    "/projects/mivida-gardens/03.webp",
+    "/projects/mivida-gardens/04.webp",
+    "/projects/mivida-gardens/05.webp",
+    "/projects/mivida-gardens/06.webp",
   ],
   "stats": [
     {

@@ -14,7 +14,7 @@ export const emaarMarassiRedSea: Project = {
   "clientLogo": "/clients/emaar-temp.png",
   "clientLogoSize": "max-w-[80px]",
   "area": "2,023,430 m²",
-  "heroImage": "/projects/emaar-marassi-red-sea/01.png",
+  "heroImage": "/projects/emaar-marassi-red-sea/01.webp",
   "span": "",
   "tagline": "Emaar Marassi Red Sea — Full Design Package delivered by MisrConsult in Red Sea, Egypt.",
   "overview": "The scope of work for Marassi Red Sea – Phase 01 covered all major disciplines, including Architectural (ARC), Structural (STR), MEP, and Interior Design (ID), for six villa types and two multi-family building types. Services extended across all project stages, from reviewing and validating the concept design prepared by the international consultant through to the preparation of Issued for Construction (IFC) documentation, in accordance with the received RFP. The development features a diverse mixed-use program comprising residential, retail, hospitality, marina, and waterfront promenade components.",
@@ -28,14 +28,14 @@ export const emaarMarassiRedSea: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "/projects/emaar-marassi-red-sea/01.png",
-    "/projects/emaar-marassi-red-sea/02.png",
-    "/projects/emaar-marassi-red-sea/03.png",
-    "/projects/emaar-marassi-red-sea/04.png",
-    "/projects/emaar-marassi-red-sea/05.png",
-    "/projects/emaar-marassi-red-sea/06.png",
-    "/projects/emaar-marassi-red-sea/07.png",
-    "/projects/emaar-marassi-red-sea/08.png",
+    "/projects/emaar-marassi-red-sea/01.webp",
+    "/projects/emaar-marassi-red-sea/02.webp",
+    "/projects/emaar-marassi-red-sea/03.webp",
+    "/projects/emaar-marassi-red-sea/04.webp",
+    "/projects/emaar-marassi-red-sea/05.webp",
+    "/projects/emaar-marassi-red-sea/06.webp",
+    "/projects/emaar-marassi-red-sea/07.webp",
+    "/projects/emaar-marassi-red-sea/08.webp",
   ],
   "stats": [
     {

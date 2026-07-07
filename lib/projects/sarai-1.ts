@@ -14,7 +14,7 @@ export const sarain1: Project = {
   "clientLogo": "/clients/masr.png",
   "clientLogoSize": "max-w-[67px]",
   "area": "210,000 m²",
-  "heroImage": "/projects/sarai-1/05.jpeg",
+  "heroImage": "/projects/sarai-1/05.webp",
   "span": "",
   "tagline": "Sarai — Phase 1 — Full Design Package delivered by MisrConsult in New Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for Sarai — Phase 1, a residential developments project located in New Cairo, Egypt. The development spans 210,000 m² with a delivery scope covering full design package.",
@@ -28,11 +28,11 @@ export const sarain1: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "/projects/sarai-1/05.jpeg",
-    "/projects/sarai-1/02.jpeg",
-    "/projects/sarai-1/033.jpeg",
-    "/projects/sarai-1/044.jpeg",
-    "/projects/sarai-1/011.jpeg",
+    "/projects/sarai-1/05.webp",
+    "/projects/sarai-1/02.webp",
+    "/projects/sarai-1/033.webp",
+    "/projects/sarai-1/044.webp",
+    "/projects/sarai-1/011.webp",
     
   ],
   "stats": [

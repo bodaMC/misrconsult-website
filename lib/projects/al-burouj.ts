@@ -14,7 +14,7 @@ export const alBurouj: Project = {
   "clientLogo": "/clients/imkan.jpg",
   "clientLogoSize": "max-w-[92px]",
   "area": "17,640,195 m²",
-  "heroImage": "/projects/al-burouj/02.png",
+  "heroImage": "/projects/al-burouj/02.webp",
   "span": "",
   "tagline": "Al Burouj — Full Design Package delivered by MisrConsult in Al-Shorouk, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for Al Burouj, a residential developments project located in Al-Shorouk, Egypt. The development spans 17,640,195 m² with a delivery scope covering full design package.",
@@ -28,10 +28,10 @@ export const alBurouj: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "/projects/al-burouj/04.png",
-    "/projects/al-burouj/02.png",
-    "/projects/al-burouj/03.png",
-    "/projects/al-burouj/01.png",
+    "/projects/al-burouj/04.webp",
+    "/projects/al-burouj/02.webp",
+    "/projects/al-burouj/03.webp",
+    "/projects/al-burouj/01.webp",
   ],
   "stats": [
     {

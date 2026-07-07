@@ -14,7 +14,7 @@ export const saraiCavana: Project = {
   "clientLogo": "/clients/masr.png",
   "clientLogoSize": "max-w-[67px]",
   "area": "239,400 m²",
-  "heroImage": "/projects/sarai-cavana/02.jpg",
+  "heroImage": "/projects/sarai-cavana/02.webp",
   "span": "",
   "tagline": "Sarai Cavana — Full Design Package delivered by MisrConsult in New Cairo, Egypt.",
   "overview": "MisrConsult provided engineering consultancy for Sarai Cavana, a residential developments project located in New Cairo, Egypt. The development spans 239,400 m² with a delivery scope covering full design package.",
@@ -28,10 +28,10 @@ export const saraiCavana: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-     "/projects/sarai-cavana/01.png",
-     "/projects/sarai-cavana/02.jpg",
-     "/projects/sarai-cavana/03.jpg",
-     "/projects/sarai-cavana/04.jpg",
+     "/projects/sarai-cavana/01.webp",
+     "/projects/sarai-cavana/02.webp",
+     "/projects/sarai-cavana/03.webp",
+     "/projects/sarai-cavana/04.webp",
   ],
   "stats": [
     {
