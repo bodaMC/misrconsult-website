@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: SegmentPageProps): Promise<Me
 
   if (category) {
     return {
-      title: `${category.label} | MisrConsult`,
+      title: `${category.label} | Misrconsult`,
       description: category.description,
     };
   }
@@ -35,11 +35,11 @@ export async function generateMetadata({ params }: SegmentPageProps): Promise<Me
   const project = getProjectBySlug(slug);
 
   if (!project) {
-    return { title: "Projects | MisrConsult" };
+    return { title: "Projects | Misrconsult" };
   }
 
   return {
-    title: `${project.title} | MisrConsult`,
+    title: `${project.title} | Misrconsult`,
     description: project.tagline,
   };
 }

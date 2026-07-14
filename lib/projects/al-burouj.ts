@@ -70,3 +70,7 @@ export const alBurouj: Project = {
     }
   ]
 };
+export const alBuroujInfrastructure: Project = {
+  ...alBurouj,
+  categoryId: "infrastructure",
+};

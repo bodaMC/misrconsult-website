@@ -4,9 +4,9 @@ import { Navbar } from "@/components/home/navbar";
 import NewsPageContent from "@/components/news/NewsPage";
 
 export const metadata: Metadata = {
-  title: "News & Insights | MisrConsult",
+  title: "News & Insights | Misrconsult",
   description:
-    "Latest news, certifications, and insights from MisrConsult — Egypt's premier engineering house of expertise.",
+    "Latest news, certifications, and insights from Misrconsult — Egypt's premier engineering house of expertise.",
 };
 
 export default function NewsPage() {

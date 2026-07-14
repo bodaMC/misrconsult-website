@@ -72,3 +72,7 @@ export const kingFaisalUniversity: Project = {
     }
   ]
 };
+export const kingFaisalUniversityInfrastructure: Project = {
+  ...kingFaisalUniversity,
+  categoryId: "infrastructure",
+};

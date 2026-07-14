@@ -16,7 +16,7 @@ export const airport: Project = {
   tagline:
     "Next-generation terminal infrastructure serving 40 million passengers annually.",
   overview:
-    "The Cairo International Airport Terminal Expansion delivers a new international concourse, expanded apron infrastructure, and integrated landside facilities. MisrConsult led structural engineering, MEP systems design, and construction-phase coordination across live airport operations.",
+    "The Cairo International Airport Terminal Expansion delivers a new international concourse, expanded apron infrastructure, and integrated landside facilities. Misrconsult led structural engineering, MEP systems design, and construction-phase coordination across live airport operations.",
   challenge:
     "Expanding terminal capacity while maintaining 24/7 flight operations, coordinating airside and landside interfaces, and meeting ICAO Category II performance standards within a compressed delivery window.",
   solution:

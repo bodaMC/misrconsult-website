@@ -16,10 +16,10 @@ export const emaarMarassiRedSea: Project = {
   "area": "2,023,430 m²",
   "heroImage": "/projects/emaar-marassi-red-sea/01.webp",
   "span": "",
-  "tagline": "Emaar Marassi Red Sea — Full Design Package delivered by MisrConsult in Red Sea, Egypt.",
+  "tagline": "Emaar Marassi Red Sea — Full Design Package delivered by Misrconsult in Red Sea, Egypt.",
   "overview": "The scope of work for Marassi Red Sea – Phase 01 covered all major disciplines, including Architectural (ARC), Structural (STR), MEP, and Interior Design (ID), for six villa types and two multi-family building types. Services extended across all project stages, from reviewing and validating the concept design prepared by the international consultant through to the preparation of Issued for Construction (IFC) documentation, in accordance with the received RFP. The development features a diverse mixed-use program comprising residential, retail, hospitality, marina, and waterfront promenade components.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 2,023,430 m² development in Red Sea, Egypt, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Architectural Design",
     "Structural Engineering",
@@ -62,15 +62,15 @@ export const emaarMarassiRedSea: Project = {
   "highlights": [
     {
       "title": "Architectural Design",
-      "description": "MisrConsult delivered architectural design as part of the engineering scope for Emaar Marassi Red Sea in Red Sea, Egypt."
+      "description": "Misrconsult delivered architectural design as part of the engineering scope for Emaar Marassi Red Sea in Red Sea, Egypt."
     },
     {
       "title": "Structural Engineering",
-      "description": "MisrConsult delivered structural engineering as part of the engineering scope for Emaar Marassi Red Sea in Red Sea, Egypt."
+      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Emaar Marassi Red Sea in Red Sea, Egypt."
     },
     {
       "title": "MEP Engineering",
-      "description": "MisrConsult delivered mep engineering as part of the engineering scope for Emaar Marassi Red Sea in Red Sea, Egypt."
+      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Emaar Marassi Red Sea in Red Sea, Egypt."
     }
   ]
 };

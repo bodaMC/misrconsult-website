@@ -76,3 +76,7 @@ export const laborCamp: Project = {
     }
   ]
 };
+export const laborCampInfrastructure: Project = {
+  ...laborCamp,
+  categoryId: "infrastructure",
+};

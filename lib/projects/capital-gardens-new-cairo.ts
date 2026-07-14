@@ -16,10 +16,10 @@ export const capitalGardensNewCairo: Project = {
   "area": "518,707 m²",
   "heroImage": "/projects/capital-gardens/01.webp",
   "span": "",
-  "tagline": "Capital Gardens New Cairo — Full Design Package delivered by MisrConsult in New Cairo, Egypt.",
-  "overview": "MisrConsult provided engineering consultancy for Capital Gardens New Cairo, a residential developments project located in New Cairo, Egypt. The development spans 518,707 m² with a delivery scope covering full design package.",
+  "tagline": "Capital Gardens New Cairo — Full Design Package delivered by Misrconsult in New Cairo, Egypt.",
+  "overview": "Misrconsult provided engineering consultancy for Capital Gardens New Cairo, a residential developments project located in New Cairo, Egypt. The development spans 518,707 m² with a delivery scope covering full design package.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 518,707 m² development in New Cairo, Egypt, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Architectural Design",
     "Structural Engineering",
@@ -57,15 +57,20 @@ export const capitalGardensNewCairo: Project = {
   "highlights": [
     {
       "title": "Architectural Design",
-      "description": "MisrConsult delivered architectural design as part of the engineering scope for Capital Gardens New Cairo in New Cairo, Egypt."
+      "description": "Misrconsult delivered architectural design as part of the engineering scope for Capital Gardens New Cairo in New Cairo, Egypt."
     },
     {
       "title": "Structural Engineering",
-      "description": "MisrConsult delivered structural engineering as part of the engineering scope for Capital Gardens New Cairo in New Cairo, Egypt."
+      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Capital Gardens New Cairo in New Cairo, Egypt."
     },
     {
       "title": "MEP Engineering",
-      "description": "MisrConsult delivered mep engineering as part of the engineering scope for Capital Gardens New Cairo in New Cairo, Egypt."
+      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Capital Gardens New Cairo in New Cairo, Egypt."
     }
   ]
+};
+export const capitalGardensNewCairoInfrastructure: Project = {
+  ...capitalGardensNewCairo,
+  slug: "capital-gardens-new-cairo-infrastructure",
+  categoryId: "infrastructure",
 };

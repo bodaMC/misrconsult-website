@@ -5,9 +5,9 @@ import { ProjectNav } from "@/components/projects/project-nav";
 import { getCategoriesWithCounts } from "@/lib/projects";
 
 export const metadata: Metadata = {
-  title: "Projects | MisrConsult",
+  title: "Projects | Misrconsult",
   description:
-    "Explore MisrConsult's portfolio across residential, hospitality, healthcare, infrastructure, and commercial sectors.",
+    "Explore Misrconsult's portfolio across residential, hospitality, healthcare, infrastructure, and commercial sectors.",
 };
 
 export default function ProjectsPage() {

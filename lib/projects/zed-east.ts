@@ -71,3 +71,7 @@ export const zedEast: Project = {
     }
   ]
 };
+export const zedEastInfrastructure: Project = {
+  ...zedEast,
+  categoryId: "infrastructure",
+};

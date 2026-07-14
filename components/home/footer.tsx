@@ -32,13 +32,13 @@ export function Footer() {
           <div className="lg:col-span-5">
             <a href="#" className="group flex items-center gap-3">
         <img
-            src="/clients/misrconsult.png"
+            src="/clients/misrconsult.webp"
             alt="Misr Consult Logo"
             className="h-16 w-auto object-contain"
           />
           <span className="flex flex-col leading-none">
             <span className="font-[family-name:var(--font-cormorant)] text-xl font-semibold tracking-wide text-white">
-              MisrConsult
+              Misrconsult
             </span>
             <span className="text-[10px] font-medium uppercase tracking-[0.25em] text-white/50">
               House of expertise

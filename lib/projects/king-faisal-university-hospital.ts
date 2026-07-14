@@ -68,3 +68,7 @@ export const kingFaisalUniversityHospital: Project = {
     }
   ]
 };
+export const kingFaisalUniversityHospitalInfrastructure: Project = {
+  ...kingFaisalUniversityHospital,
+  categoryId: "infrastructure",
+};

@@ -70,3 +70,7 @@ export const egyptianConsulateJeddah: Project = {
     }
   ]
 };
+export const egyptianConsulateJeddahInfrastructure: Project = {
+  ...egyptianConsulateJeddah,
+  categoryId: "infrastructure",
+};

@@ -72,3 +72,7 @@ export const sarain1: Project = {
     }
   ]
 };
+export const sarain1Infrastructure: Project = {
+  ...sarain1,
+  categoryId: "infrastructure",
+};

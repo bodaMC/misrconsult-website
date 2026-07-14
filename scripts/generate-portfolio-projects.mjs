@@ -49,7 +49,7 @@ function serializeProject(exportName, project, todoComments = []) {
 function buildHighlights(project) {
   return project.services.slice(0, 3).map((title) => ({
     title,
-    description: `MisrConsult delivered ${title.toLowerCase()} as part of the engineering scope for ${project.title} in ${project.location}.`,
+    description: `Misrconsult delivered ${title.toLowerCase()} as part of the engineering scope for ${project.title} in ${project.location}.`,
   }));
 }
 

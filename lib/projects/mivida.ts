@@ -69,3 +69,7 @@ export const mivida: Project = {
     }
   ]
 };
+export const mividaInfrastructure: Project = {
+  ...mivida,
+  categoryId: "infrastructure",
+};

@@ -78,3 +78,7 @@ export const phdNewCapitalVillageR4: Project = {
     }
   ]
 };
+export const phdNewCapitalVillageR4Infrastructure: Project = {
+  ...phdNewCapitalVillageR4,
+  categoryId: "infrastructure",
+};

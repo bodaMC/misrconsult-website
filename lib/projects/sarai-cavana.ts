@@ -70,3 +70,7 @@ export const saraiCavana: Project = {
     }
   ]
 };
+export const saraiCavanaInfrastructure: Project = {
+  ...saraiCavana,
+  categoryId: "infrastructure",
+};

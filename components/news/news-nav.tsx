@@ -45,7 +45,7 @@ export function NewsNav({ title }: { title: string }) {
             />
           </span>
           <span className="hidden font-[family-name:var(--font-cormorant)] text-lg font-semibold text-white sm:inline">
-            MisrConsult
+            Misrconsult
           </span>
         </Link>
 

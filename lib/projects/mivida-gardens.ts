@@ -16,10 +16,10 @@ export const mividaGardens: Project = {
   "area": "420,000 m²",
   "heroImage":  "/projects/mivida-gardens/03.webp",
   "span": "",
-  "tagline": "Mivida Gardens — Full Design Package delivered by MisrConsult in 5th Settlement, Cairo, Egypt.",
-  "overview": "The project includes the design of five distinct villa models, a fully developed mock-up villa for display purposes, the project's main entrance gate, and its secondary entrance gates. MisrConsult was responsible for the detailed design across all project disciplines, commencing from the Design Development stage through to the preparation of complete Tender Documentation and Permit Drawings.",
+  "tagline": "Mivida Gardens — Full Design Package delivered by Misrconsult in 5th Settlement, Cairo, Egypt.",
+  "overview": "The project includes the design of five distinct villa models, a fully developed mock-up villa for display purposes, the project's main entrance gate, and its secondary entrance gates. Misrconsult was responsible for the detailed design across all project disciplines, commencing from the Design Development stage through to the preparation of complete Tender Documentation and Permit Drawings.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 420,000 m² development in 5th Settlement, Cairo, Egypt, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Architectural Design",
     "Structural Engineering",
@@ -60,15 +60,15 @@ export const mividaGardens: Project = {
   "highlights": [
     {
       "title": "Architectural Design",
-      "description": "MisrConsult delivered architectural design as part of the engineering scope for Mivida Gardens in 5th Settlement, Cairo, Egypt."
+      "description": "Misrconsult delivered architectural design as part of the engineering scope for Mivida Gardens in 5th Settlement, Cairo, Egypt."
     },
     {
       "title": "Structural Engineering",
-      "description": "MisrConsult delivered structural engineering as part of the engineering scope for Mivida Gardens in 5th Settlement, Cairo, Egypt."
+      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Mivida Gardens in 5th Settlement, Cairo, Egypt."
     },
     {
       "title": "MEP Engineering",
-      "description": "MisrConsult delivered mep engineering as part of the engineering scope for Mivida Gardens in 5th Settlement, Cairo, Egypt."
+      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Mivida Gardens in 5th Settlement, Cairo, Egypt."
     }
   ]
 };

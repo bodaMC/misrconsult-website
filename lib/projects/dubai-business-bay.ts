@@ -67,3 +67,7 @@ export const dubaiBusinessBay: Project = {
     }
   ]
 };
+export const dubaiBusinessBayInfrastructure: Project = {
+  ...dubaiBusinessBay,
+  categoryId: "infrastructure",
+};

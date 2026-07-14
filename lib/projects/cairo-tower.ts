@@ -16,7 +16,7 @@ export const cairoTower: Project = {
   tagline:
     "A landmark 52-storey mixed-use tower redefining the Cairo skyline.",
   overview:
-    "The Nile Tower Complex stands as one of Cairo's most ambitious vertical developments — integrating premium office space, luxury hospitality, and retail within a single structurally unified tower. MisrConsult led full structural and MEP engineering from concept through construction administration.",
+    "The Nile Tower Complex stands as one of Cairo's most ambitious vertical developments — integrating premium office space, luxury hospitality, and retail within a single structurally unified tower. Misrconsult led full structural and MEP engineering from concept through construction administration.",
   challenge:
     "Designing a supertall structure on complex Nile-adjacent soil conditions while meeting stringent seismic performance criteria and aggressive programme milestones.",
   solution:

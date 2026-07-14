@@ -70,3 +70,7 @@ export const lusail: Project = {
     }
   ]
 };
+export const lusailInfrastructure: Project = {
+  ...lusail,
+  categoryId: "infrastructure",
+};

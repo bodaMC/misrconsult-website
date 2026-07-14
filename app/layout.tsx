@@ -15,7 +15,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "MisrConsult | Engineering & Architecture Consultancy",
+  title: "Misrconsult | Engineering & Architecture Consultancy",
   description:
     "Premium engineering and architectural consultancy delivering landmark infrastructure, sustainable design, and world-class project delivery across the Middle East and beyond.",
 };

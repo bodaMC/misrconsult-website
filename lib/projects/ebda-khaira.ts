@@ -16,10 +16,10 @@ export const ebdaKhaira: Project = {
   "area": "48,010 m²",
   "heroImage": "/projects/ebda-khaira/02.webp",
   "span": "",
-  "tagline": "Ebda & Khaira — Infrastructure Design delivered by MisrConsult in Kingdom of Saudi Arabia.",
-  "overview": "MisrConsult provided engineering consultancy for Ebda & Khaira, a infrastructure & transportation project located in Kingdom of Saudi Arabia. The development spans 48,010 m² with a delivery scope covering infrastructure design.",
+  "tagline": "Ebda & Khaira — Infrastructure Design delivered by Misrconsult in Kingdom of Saudi Arabia.",
+  "overview": "Misrconsult provided engineering consultancy for Ebda & Khaira, a infrastructure & transportation project located in Kingdom of Saudi Arabia. The development spans 48,010 m² with a delivery scope covering infrastructure design.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 48,010 m² development in Kingdom of Saudi Arabia, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the infrastructure design — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the infrastructure design — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Infrastructure Planning",
     "Wet Utilities",
@@ -56,15 +56,15 @@ export const ebdaKhaira: Project = {
   "highlights": [
     {
       "title": "Infrastructure Planning",
-      "description": "MisrConsult delivered infrastructure planning as part of the engineering scope for Ebda & Khaira in Kingdom of Saudi Arabia."
+      "description": "Misrconsult delivered infrastructure planning as part of the engineering scope for Ebda & Khaira in Kingdom of Saudi Arabia."
     },
     {
       "title": "Wet Utilities",
-      "description": "MisrConsult delivered wet utilities as part of the engineering scope for Ebda & Khaira in Kingdom of Saudi Arabia."
+      "description": "Misrconsult delivered wet utilities as part of the engineering scope for Ebda & Khaira in Kingdom of Saudi Arabia."
     },
     {
       "title": "Roads & Highways",
-      "description": "MisrConsult delivered roads & highways as part of the engineering scope for Ebda & Khaira in Kingdom of Saudi Arabia."
+      "description": "Misrconsult delivered roads & highways as part of the engineering scope for Ebda & Khaira in Kingdom of Saudi Arabia."
     }
   ]
 };

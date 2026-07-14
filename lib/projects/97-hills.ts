@@ -80,3 +80,7 @@ export const n97Hills: Project = {
     }
   ]
 };
+export const n97HillsInfrastructure: Project = {
+  ...n97Hills,
+  categoryId: "infrastructure",
+};

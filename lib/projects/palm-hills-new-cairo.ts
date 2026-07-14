@@ -75,3 +75,7 @@ export const palmHillsNewCairo: Project = {
     }
   ]
 };
+export const palmHillsNewCairoInfrastructure: Project = {
+  ...palmHillsNewCairo,
+  categoryId: "infrastructure",
+};

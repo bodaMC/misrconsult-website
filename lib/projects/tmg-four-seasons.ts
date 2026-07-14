@@ -15,10 +15,10 @@ export const tmgFourSeasons: Project = {
   "area": "141,640 m²",
   "heroImage": "/projects/tmg/01.webp",
   "span": "",
-  "tagline": "TMG Four Seasons — MEP Package delivered by MisrConsult in Cairo, Egypt.",
-  "overview": "MisrConsult provided engineering consultancy for TMG Four Seasons, a hotels & resorts project located in Cairo, Egypt. The development spans 141,640 m² with a delivery scope covering mep package.",
+  "tagline": "TMG Four Seasons — MEP Package delivered by Misrconsult in Cairo, Egypt.",
+  "overview": "Misrconsult provided engineering consultancy for TMG Four Seasons, a hotels & resorts project located in Cairo, Egypt. The development spans 141,640 m² with a delivery scope covering mep package.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 141,640 m² development in Cairo, Egypt, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the mep package — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the mep package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "MEP Engineering",
     "HVAC Design",
@@ -55,15 +55,15 @@ export const tmgFourSeasons: Project = {
   "highlights": [
     {
       "title": "MEP Engineering",
-      "description": "MisrConsult delivered mep engineering as part of the engineering scope for TMG Four Seasons in Cairo, Egypt."
+      "description": "Misrconsult delivered mep engineering as part of the engineering scope for TMG Four Seasons in Cairo, Egypt."
     },
     {
       "title": "HVAC Design",
-      "description": "MisrConsult delivered hvac design as part of the engineering scope for TMG Four Seasons in Cairo, Egypt."
+      "description": "Misrconsult delivered hvac design as part of the engineering scope for TMG Four Seasons in Cairo, Egypt."
     },
     {
       "title": "Electrical Systems",
-      "description": "MisrConsult delivered electrical systems as part of the engineering scope for TMG Four Seasons in Cairo, Egypt."
+      "description": "Misrconsult delivered electrical systems as part of the engineering scope for TMG Four Seasons in Cairo, Egypt."
     }
   ]
 };

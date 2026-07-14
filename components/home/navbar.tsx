@@ -85,7 +85,7 @@ export function Navbar() {
           />
           <span className="flex flex-col leading-none">
             <span className="font-[family-name:var(--font-cormorant)] text-xl font-semibold tracking-wide text-white">
-              MisrConsult
+              Misrconsult
             </span>
             <span className="text-[10px] font-medium uppercase tracking-[0.25em] text-white/50">
               House of expertise

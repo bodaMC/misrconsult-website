@@ -1,45 +1,46 @@
+import LazyImage from "@/components/common/LazyImage";
 const services = [
   {
     number: "01",
     title: "Architectural Design",
     description:
       "Concept-to-completion architectural services blending aesthetic excellence with functional precision for commercial, residential, and civic spaces.",
-    image: "/services/05a.png",
+    image: "/services/05a.webp",
   },
   {
     number: "02",
     title: "Structural Engineering",
     description:
       "Advanced analysis and design for high-rise towers, bridges, industrial facilities, and complex foundations using cutting-edge computational methods.",
-    image: "/services/02.png",
+    image: "/services/02.webp",
   },
   {
     number: "03",
     title: "Project Management",
     description:
       "End-to-end delivery oversight including scheduling, cost control, risk management, and stakeholder coordination for projects of any scale.",
-    image: "/services/03.png",
+    image: "/services/03.webp",
   },
   {
     number: "04",
     title: "Infrastructure Planning",
     description:
       "Master planning, transportation networks, utilities coordination, and urban infrastructure for smart cities and regional development.",
-    image: "/services/04.png",
+    image: "/services/04.webp",
   },
   {
     number: "05",
     title: "MEP Engineering",
     description:
       "Integrated mechanical, electrical, and plumbing systems design optimized for energy efficiency, reliability, and seamless building performance.",
-    image: "/services/05.png",
+    image: "/services/05.webp",
   },
   {
     number: "06",
     title: "Consultancy & Advisory",
     description:
       "Technical due diligence, feasibility studies, value engineering, and expert advisory for investors, lenders, and development partners.",
-    image: "/services/06.png",
+    image: "/services/06.webp",
   },
 ];
 
@@ -77,10 +78,10 @@ export function Services() {
 
               <div className="relative">
                <div className="relative aspect-[2.2/1] overflow-hidden rounded-t-sm">
-                  <div
-                    className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                    style={{ backgroundImage: `url('${service.image}')` }}
-                  />
+                  <LazyImage
+                    src={service.image}
+                    className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    />
                   <div className="absolute inset-0 bg-gradient-to-t from-misr-950/70 via-misr-950/20 to-misr-950/30 transition-colors duration-500 group-hover:from-misr-950/80" />
                  <span className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-md bg-black/50 text-lg font-semibold text-misr-gold backdrop-blur-sm">
                     {service.number}

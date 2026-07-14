@@ -173,7 +173,7 @@ function buildStats(area: string, scope: string, location: string): ProjectStat[
     { value, label, suffix },
     { value: region, label: "Location", suffix: "" },
     { value: scope.split(" ")[0] || "Full", label: "Delivery Scope", suffix: "" },
-    { value: "MisrConsult", label: "Engineering Partner", suffix: "" },
+    { value: "Misrconsult", label: "Engineering Partner", suffix: "" },
   ];
 }
 
@@ -191,11 +191,11 @@ export function buildPortfolioProject(input: PortfolioProjectInput): Project {
 
   const tagline =
     input.tagline ??
-    `${input.title} — ${input.scope} delivered by MisrConsult in ${input.location}.`;
+    `${input.title} — ${input.scope} delivered by Misrconsult in ${input.location}.`;
 
   const overview =
     input.overview ??
-    `MisrConsult provided engineering consultancy for ${input.title}, a ${category.label.toLowerCase()} project located in ${input.location}. The development spans ${input.area} with a delivery scope covering ${input.scope.toLowerCase()}.`;
+    `Misrconsult provided engineering consultancy for ${input.title}, a ${category.label.toLowerCase()} project located in ${input.location}. The development spans ${input.area} with a delivery scope covering ${input.scope.toLowerCase()}.`;
 
   const challenge =
     input.challenge ??
@@ -203,7 +203,7 @@ export function buildPortfolioProject(input: PortfolioProjectInput): Project {
 
   const solution =
     input.solution ??
-    `MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the ${input.scope.toLowerCase()} — ensuring buildable, code-compliant solutions across all disciplines.`;
+    `Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the ${input.scope.toLowerCase()} — ensuring buildable, code-compliant solutions across all disciplines.`;
 
   return {
     slug: input.slug,

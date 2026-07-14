@@ -27,7 +27,7 @@ export function PortfolioDownload() {
         <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-white/60">
           Download our company portfolio for an overview of landmark projects,
           technical capabilities, and the engineering standards behind every
-          MisrConsult delivery.
+          Misrconsult delivery.
         </p>
 
         <a

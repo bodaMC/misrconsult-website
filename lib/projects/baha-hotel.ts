@@ -71,3 +71,7 @@ export const bahaHotel: Project = {
     }
   ]
 };
+export const bahaHotelInfrastructure: Project = {
+  ...bahaHotel,
+  categoryId: "infrastructure",
+};

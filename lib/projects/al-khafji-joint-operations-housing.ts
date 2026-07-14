@@ -72,3 +72,7 @@ export const alKhafjiJointOperationsHousing: Project = {
     }
   ]
 };
+export const alKhafjiJointOperationsHousingInfrastructure: Project = {
+  ...alKhafjiJointOperationsHousing,
+  categoryId: "infrastructure",
+};

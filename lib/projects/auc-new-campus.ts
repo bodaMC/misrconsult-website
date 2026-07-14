@@ -69,5 +69,7 @@ export const aucNewCampus: Project = {
 };
 export const aucNewCampusInfrastructure: Project = {
   ...aucNewCampus,
+  slug: "auc-new-campus-infrastructure",
   categoryId: "infrastructure",
+   "heroImage": "/projects/auc/03.webp",
 };

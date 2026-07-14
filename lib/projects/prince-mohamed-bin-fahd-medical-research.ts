@@ -71,3 +71,7 @@ export const princeMohamedBinFahdMedicalResearch: Project = {
     }
   ]
 };
+export const princeMohamedBinFahdMedicalResearchInfrastructure: Project = {
+  ...princeMohamedBinFahdMedicalResearch,
+  categoryId: "infrastructure",
+};

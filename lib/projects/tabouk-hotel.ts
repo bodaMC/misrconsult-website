@@ -71,3 +71,7 @@ export const taboukHotel: Project = {
     }
   ]
 };
+export const taboukHotelInfrastructure: Project = {
+  ...taboukHotel,
+  categoryId: "infrastructure",
+};

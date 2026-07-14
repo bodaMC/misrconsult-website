@@ -16,10 +16,10 @@ export const wakfAlMadaniHotel: Project = {
   "area": "8,600 m²",
   "heroImage": "/projects/wakf/06.webp",
   "span": "",
-  "tagline": "Wakf Al Madani Hotel — Haram El Madinah Central Zone — Buildings delivered by MisrConsult in Madinah, Saudi Arabia.",
-  "overview": "MisrConsult provided engineering consultancy for Wakf Al Madani Hotel — Haram El Madinah Central Zone, a hotels & resorts project located in Madinah, Saudi Arabia. The development spans 8,600 m² with a delivery scope covering buildings.",
+  "tagline": "Wakf Al Madani Hotel — Haram El Madinah Central Zone — Buildings delivered by Misrconsult in Madinah, Saudi Arabia.",
+  "overview": "Misrconsult provided engineering consultancy for Wakf Al Madani Hotel — Haram El Madinah Central Zone, a hotels & resorts project located in Madinah, Saudi Arabia. The development spans 8,600 m² with a delivery scope covering buildings.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 8,600 m² development in Madinah, Saudi Arabia, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the buildings — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the buildings — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Architectural Design",
     "Structural Engineering",
@@ -59,15 +59,15 @@ export const wakfAlMadaniHotel: Project = {
   "highlights": [
     {
       "title": "Architectural Design",
-      "description": "MisrConsult delivered architectural design as part of the engineering scope for Wakf Al Madani Hotel — Haram El Madinah Central Zone in Madinah, Saudi Arabia."
+      "description": "Misrconsult delivered architectural design as part of the engineering scope for Wakf Al Madani Hotel — Haram El Madinah Central Zone in Madinah, Saudi Arabia."
     },
     {
       "title": "Structural Engineering",
-      "description": "MisrConsult delivered structural engineering as part of the engineering scope for Wakf Al Madani Hotel — Haram El Madinah Central Zone in Madinah, Saudi Arabia."
+      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Wakf Al Madani Hotel — Haram El Madinah Central Zone in Madinah, Saudi Arabia."
     },
     {
       "title": "MEP Engineering",
-      "description": "MisrConsult delivered mep engineering as part of the engineering scope for Wakf Al Madani Hotel — Haram El Madinah Central Zone in Madinah, Saudi Arabia."
+      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Wakf Al Madani Hotel — Haram El Madinah Central Zone in Madinah, Saudi Arabia."
     }
   ]
 };

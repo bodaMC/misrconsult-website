@@ -16,10 +16,10 @@ export const qassimUniversityHospital: Project = {
   "area": "140,000 m²",
   "heroImage": "/projects/qassim/03.webp",
   "span": "",
-  "tagline": "Qassim University Hospital — Buildings delivered by MisrConsult in Qassim, Saudi Arabia.",
-  "overview": "MisrConsult provided engineering consultancy for Qassim University Hospital, a healthcare & hospitals project located in Qassim, Saudi Arabia. The development spans 140,000 m² with a delivery scope covering buildings.",
+  "tagline": "Qassim University Hospital — Buildings delivered by Misrconsult in Qassim, Saudi Arabia.",
+  "overview": "Misrconsult provided engineering consultancy for Qassim University Hospital, a healthcare & hospitals project located in Qassim, Saudi Arabia. The development spans 140,000 m² with a delivery scope covering buildings.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 140,000 m² development in Qassim, Saudi Arabia, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the buildings — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the buildings — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Architectural Design",
     "Structural Engineering",
@@ -58,15 +58,15 @@ export const qassimUniversityHospital: Project = {
   "highlights": [
     {
       "title": "Architectural Design",
-      "description": "MisrConsult delivered architectural design as part of the engineering scope for Qassim University Hospital in Qassim, Saudi Arabia."
+      "description": "Misrconsult delivered architectural design as part of the engineering scope for Qassim University Hospital in Qassim, Saudi Arabia."
     },
     {
       "title": "Structural Engineering",
-      "description": "MisrConsult delivered structural engineering as part of the engineering scope for Qassim University Hospital in Qassim, Saudi Arabia."
+      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Qassim University Hospital in Qassim, Saudi Arabia."
     },
     {
       "title": "MEP Engineering",
-      "description": "MisrConsult delivered mep engineering as part of the engineering scope for Qassim University Hospital in Qassim, Saudi Arabia."
+      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Qassim University Hospital in Qassim, Saudi Arabia."
     }
   ]
 };

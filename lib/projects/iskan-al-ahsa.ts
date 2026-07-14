@@ -15,10 +15,10 @@ export const iskanAlAhsa: Project = {
   "area": "5,463,256 m²",
   "heroImage": "/projects/iskan-ahsa/01.webp",
   "span": "",
-  "tagline": "Iskan Al-Ahsa — Infrastructure delivered by MisrConsult in Al-Ahsa, Saudi Arabia.",
-  "overview": "MisrConsult provided engineering consultancy for Iskan Al-Ahsa, a infrastructure & transportation project located in Al-Ahsa, Saudi Arabia. The development spans 5,463,256 m² with a delivery scope covering infrastructure.",
+  "tagline": "Iskan Al-Ahsa — Infrastructure delivered by Misrconsult in Al-Ahsa, Saudi Arabia.",
+  "overview": "Misrconsult provided engineering consultancy for Iskan Al-Ahsa, a infrastructure & transportation project located in Al-Ahsa, Saudi Arabia. The development spans 5,463,256 m² with a delivery scope covering infrastructure.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 5,463,256 m² development in Al-Ahsa, Saudi Arabia, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the infrastructure — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the infrastructure — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Infrastructure Planning",
     "Wet Utilities",
@@ -55,15 +55,15 @@ export const iskanAlAhsa: Project = {
   "highlights": [
     {
       "title": "Infrastructure Planning",
-      "description": "MisrConsult delivered infrastructure planning as part of the engineering scope for Iskan Al-Ahsa in Al-Ahsa, Saudi Arabia."
+      "description": "Misrconsult delivered infrastructure planning as part of the engineering scope for Iskan Al-Ahsa in Al-Ahsa, Saudi Arabia."
     },
     {
       "title": "Wet Utilities",
-      "description": "MisrConsult delivered wet utilities as part of the engineering scope for Iskan Al-Ahsa in Al-Ahsa, Saudi Arabia."
+      "description": "Misrconsult delivered wet utilities as part of the engineering scope for Iskan Al-Ahsa in Al-Ahsa, Saudi Arabia."
     },
     {
       "title": "Roads & Highways",
-      "description": "MisrConsult delivered roads & highways as part of the engineering scope for Iskan Al-Ahsa in Al-Ahsa, Saudi Arabia."
+      "description": "Misrconsult delivered roads & highways as part of the engineering scope for Iskan Al-Ahsa in Al-Ahsa, Saudi Arabia."
     }
   ]
 };
