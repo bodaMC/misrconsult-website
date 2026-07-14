@@ -14,12 +14,12 @@ export const mmhdSaraiAssuit: Project = {
   "clientLogo": "/clients/masr.png",
   "clientLogoSize": "max-w-[67px]",
   "area": "3,500,000 m²",
-  "heroImage": "/projects/sarai-assiut/01.png",
+  "heroImage": "/projects/sarai-assiut/01.webp",
   "span": "",
-  "tagline": "MMHD Sarai Assuit — Buildings delivered by MisrConsult in Assiut, Egypt.",
-  "overview": "MisrConsult provided engineering consultancy for MMHD Sarai Assuit, a residential developments project located in Assiut, Egypt. The development spans 3,500,000 m² with a delivery scope covering buildings.",
+  "tagline": "MMHD Sarai Assuit — Buildings delivered by Misrconsult in Assiut, Egypt.",
+  "overview": "Misrconsult provided engineering consultancy for MMHD Sarai Assuit, a residential developments project located in Assiut, Egypt. The development spans 3,500,000 m² with a delivery scope covering buildings.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 3,500,000 m² development in Assiut, Egypt, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the buildings — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the buildings — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Architectural Design",
     "Structural Engineering",
@@ -28,13 +28,13 @@ export const mmhdSaraiAssuit: Project = {
     "Project Management"
   ],
   "gallery": [
-   "/projects/sarai-assiut/02.png",
-   "/projects/sarai-assiut/03.png",
-   "/projects/sarai-assiut/04.png",
-   "/projects/sarai-assiut/05.png",
-   "/projects/sarai-assiut/06.png",
-   "/projects/sarai-assiut/07.png",
-   "/projects/sarai-assiut/01.png",
+   "/projects/sarai-assiut/02.webp",
+   "/projects/sarai-assiut/03.webp",
+   "/projects/sarai-assiut/04.webp",
+   "/projects/sarai-assiut/05.webp",
+   "/projects/sarai-assiut/06.webp",
+   "/projects/sarai-assiut/07.webp",
+   "/projects/sarai-assiut/01.webp",
   ],
   "stats": [
     {
@@ -61,15 +61,15 @@ export const mmhdSaraiAssuit: Project = {
   "highlights": [
     {
       "title": "Architectural Design",
-      "description": "MisrConsult delivered architectural design as part of the engineering scope for MMHD Sarai Assuit in Assiut, Egypt."
+      "description": "Misrconsult delivered architectural design as part of the engineering scope for MMHD Sarai Assuit in Assiut, Egypt."
     },
     {
       "title": "Structural Engineering",
-      "description": "MisrConsult delivered structural engineering as part of the engineering scope for MMHD Sarai Assuit in Assiut, Egypt."
+      "description": "Misrconsult delivered structural engineering as part of the engineering scope for MMHD Sarai Assuit in Assiut, Egypt."
     },
     {
       "title": "MEP Engineering",
-      "description": "MisrConsult delivered mep engineering as part of the engineering scope for MMHD Sarai Assuit in Assiut, Egypt."
+      "description": "Misrconsult delivered mep engineering as part of the engineering scope for MMHD Sarai Assuit in Assiut, Egypt."
     }
   ]
 };

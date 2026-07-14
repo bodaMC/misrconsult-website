@@ -10,12 +10,12 @@ export const oraSilversands: Project = {
   clientLogo: "/clients/ora.png",
   clientLogoSize: "max-w-[80px]",
   area: "700,000 m²",
-  heroImage: "/projects/ora-silversands/01.jpg",
+  heroImage: "/projects/ora-silversands/01.webp",
   span: "",
   tagline:
     "A master-planned coastal community redefining luxury living on Egypt's North Coast.",
   overview:
-    "ORA Silversands is a landmark residential destination spanning 700,000 m² along Egypt's North Coast — integrating villas, apartments, lagoon networks, and resort amenities within a unified master plan. MisrConsult delivered structural engineering, infrastructure coordination, and construction-phase supervision across all residential phases.",
+    "ORA Silversands is a landmark residential destination spanning 700,000 m² along Egypt's North Coast — integrating villas, apartments, lagoon networks, and resort amenities within a unified master plan. Misrconsult delivered structural engineering, infrastructure coordination, and construction-phase supervision across all residential phases.",
   challenge:
     "Engineering a large-scale coastal development on sandy terrain while managing marine exposure, phased delivery across multiple building typologies, and strict programme milestones for a premium residential launch.",
   solution:
@@ -28,11 +28,11 @@ export const oraSilversands: Project = {
     "Construction Supervision",
   ],
   gallery: [
-    "/projects/ora-silversands/02.jpg",
-    "/projects/ora-silversands/01.jpg",
-    "/projects/ora-silversands/04.jpg",
-    "/projects/ora-silversands/05.png",
-    "/projects/ora-silversands/06.jpg",
+    "/projects/ora-silversands/02.webp",
+    "/projects/ora-silversands/01.webp",
+    "/projects/ora-silversands/04.webp",
+    "/projects/ora-silversands/05.webp",
+    "/projects/ora-silversands/06.webp",
   ],
   stats: [
     { value: "700", label: "Thousand m² Development", suffix: "K" },

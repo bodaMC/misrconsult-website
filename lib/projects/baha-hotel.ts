@@ -1,9 +1,6 @@
 import type { Project } from "./types";
 
-// TODO: Confirm completion year
-// TODO: Confirm client name
-// TODO: Replace placeholder heroImage with project-specific photography
-// TODO: Replace placeholder gallery images with project-specific photography
+
 export const bahaHotel: Project = {
   "slug": "baha-hotel",
   "title": "Baha Hotel",
@@ -14,12 +11,12 @@ export const bahaHotel: Project = {
   "clientLogo": "/clients/sandouq.png",
   "clientLogoSize": "max-w-[75px]",
   "area": "103,000 m²",
-  "heroImage": "/projects/baha/04.png",
+  "heroImage": "/projects/baha/04.webp",
   "span": "",
-  "tagline": "Baha Hotel — Full Design Package delivered by MisrConsult in Al Baha, Saudi Arabia.",
-  "overview": "MisrConsult provided engineering consultancy for Baha Hotel, a hotels & resorts project located in Al Baha, Saudi Arabia. The development spans 103,000 m² with a delivery scope covering full design package.",
+  "tagline": "Baha Hotel — Full Design Package delivered by Misrconsult in Al Baha, Saudi Arabia.",
+  "overview": "Misrconsult provided engineering consultancy for Baha Hotel, a hotels & resorts project located in Al Baha, Saudi Arabia. The development spans 103,000 m² with a delivery scope covering full design package.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 103,000 m² development in Al Baha, Saudi Arabia, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Architectural Design",
     "Structural Engineering",
@@ -28,11 +25,11 @@ export const bahaHotel: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "/projects/baha/04.png",
-    "/projects/baha/02.png",
-    "/projects/baha/01.png",
-    "/projects/baha/03.png",
-    "/projects/baha/01.png",
+    "/projects/baha/04.webp",
+    "/projects/baha/02.webp",
+    "/projects/baha/01.webp",
+    "/projects/baha/03.webp",
+    "/projects/baha/01.webp",
   ],
   "stats": [
     {
@@ -59,15 +56,20 @@ export const bahaHotel: Project = {
   "highlights": [
     {
       "title": "Architectural Design",
-      "description": "MisrConsult delivered architectural design as part of the engineering scope for Baha Hotel in Al Baha, Saudi Arabia."
+      "description": "Misrconsult delivered architectural design as part of the engineering scope for Baha Hotel in Al Baha, Saudi Arabia."
     },
     {
       "title": "Structural Engineering",
-      "description": "MisrConsult delivered structural engineering as part of the engineering scope for Baha Hotel in Al Baha, Saudi Arabia."
+      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Baha Hotel in Al Baha, Saudi Arabia."
     },
     {
       "title": "MEP Engineering",
-      "description": "MisrConsult delivered mep engineering as part of the engineering scope for Baha Hotel in Al Baha, Saudi Arabia."
+      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Baha Hotel in Al Baha, Saudi Arabia."
     }
   ]
+};
+export const bahaHotelInfrastructure: Project = {
+  ...bahaHotel,
+  slug: "baha-hotel-infrastructure",
+  categoryId: "infrastructure",
 };

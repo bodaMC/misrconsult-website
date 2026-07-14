@@ -14,12 +14,12 @@ export const egyptianConsulateJeddah: Project = {
   "clientLogo": "/clients/ministry-of-foreign.png",
   "clientLogoSize": "max-w-[80px]",
   "area": "6,300 m²",
-  "heroImage": "/projects/egypt-consulate/01.png",
+  "heroImage": "/projects/egypt-consulate/01.webp",
   "span": "",
-  "tagline": "Egyptian Consulate in Jeddah — MEP Package delivered by MisrConsult in Jeddah, Saudi Arabia.",
-  "overview": "MisrConsult provided engineering consultancy for Egyptian Consulate in Jeddah, a commercial & office buildings project located in Jeddah, Saudi Arabia. The development spans 6,300 m² with a delivery scope covering mep package.",
+  "tagline": "Egyptian Consulate in Jeddah — MEP Package delivered by Misrconsult in Jeddah, Saudi Arabia.",
+  "overview": "Misrconsult provided engineering consultancy for Egyptian Consulate in Jeddah, a commercial & office buildings project located in Jeddah, Saudi Arabia. The development spans 6,300 m² with a delivery scope covering mep package.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 6,300 m² development in Jeddah, Saudi Arabia, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the mep package — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the mep package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "MEP Engineering",
     "HVAC Design",
@@ -28,10 +28,10 @@ export const egyptianConsulateJeddah: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/egypt-consulate/01.png",
-    "/projects/egypt-consulate/02.png",
-    "/projects/egypt-consulate/03.png",
-    "/projects/egypt-consulate/04.png",
+    "/projects/egypt-consulate/01.webp",
+    "/projects/egypt-consulate/02.webp",
+    "/projects/egypt-consulate/03.webp",
+    "/projects/egypt-consulate/04.webp",
   ],
   "stats": [
     {
@@ -58,15 +58,20 @@ export const egyptianConsulateJeddah: Project = {
   "highlights": [
     {
       "title": "MEP Engineering",
-      "description": "MisrConsult delivered mep engineering as part of the engineering scope for Egyptian Consulate in Jeddah in Jeddah, Saudi Arabia."
+      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Egyptian Consulate in Jeddah in Jeddah, Saudi Arabia."
     },
     {
       "title": "HVAC Design",
-      "description": "MisrConsult delivered hvac design as part of the engineering scope for Egyptian Consulate in Jeddah in Jeddah, Saudi Arabia."
+      "description": "Misrconsult delivered hvac design as part of the engineering scope for Egyptian Consulate in Jeddah in Jeddah, Saudi Arabia."
     },
     {
       "title": "Electrical Systems",
-      "description": "MisrConsult delivered electrical systems as part of the engineering scope for Egyptian Consulate in Jeddah in Jeddah, Saudi Arabia."
+      "description": "Misrconsult delivered electrical systems as part of the engineering scope for Egyptian Consulate in Jeddah in Jeddah, Saudi Arabia."
     }
   ]
+};
+export const egyptianConsulateJeddahInfrastructure: Project = {
+  ...egyptianConsulateJeddah,
+  slug: "egyptian-consulate-jeddah-infrastructure",
+  categoryId: "infrastructure",
 };

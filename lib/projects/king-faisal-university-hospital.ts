@@ -12,12 +12,12 @@ export const kingFaisalUniversityHospital: Project = {
   "clientLogo": "/clients/kfu-logo.png",
   "clientLogoSize": "max-w-[84px]",
   "area": "106,000 m²",
-  "heroImage":  "/projects/kfu-hospital/02.png",
+  "heroImage":  "/projects/kfu-hospital/02.webp",
   "span": "",
-  "tagline": "King Faisal University Hospital — Full Design Package delivered by MisrConsult in Kingdom of Saudi Arabia.",
+  "tagline": "King Faisal University Hospital — Full Design Package delivered by Misrconsult in Kingdom of Saudi Arabia.",
   "overview": "The project comprises a four-level facility featuring a parking level, public dealings areas, consular offices, and telecommunications and accounting facilities. MisrConsult provided the working drawings and complete construction documentation for the project in association with CDC Architect Abdel-Halim Ibrahim.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 13,780 m² development in Kingdom of Saudi Arabia, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Architectural Design",
     "Structural Engineering",
@@ -26,10 +26,10 @@ export const kingFaisalUniversityHospital: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-     "/projects/kfu-hospital/01.png",
-     "/projects/kfu-hospital/02.png",
-     "/projects/kfu-hospital/03.jpg",
-     "/projects/kfu-hospital/04.jpg",
+     "/projects/kfu-hospital/01.webp",
+     "/projects/kfu-hospital/02.webp",
+     "/projects/kfu-hospital/03.webp",
+     "/projects/kfu-hospital/04.webp",
   ],
   "stats": [
     {
@@ -56,15 +56,20 @@ export const kingFaisalUniversityHospital: Project = {
   "highlights": [
     {
       "title": "Architectural Design",
-      "description": "MisrConsult delivered architectural design as part of the engineering scope for King Faisal University Hospital in Kingdom of Saudi Arabia."
+      "description": "Misrconsult delivered architectural design as part of the engineering scope for King Faisal University Hospital in Kingdom of Saudi Arabia."
     },
     {
       "title": "Structural Engineering",
-      "description": "MisrConsult delivered structural engineering as part of the engineering scope for King Faisal University Hospital in Kingdom of Saudi Arabia."
+      "description": "Misrconsult delivered structural engineering as part of the engineering scope for King Faisal University Hospital in Kingdom of Saudi Arabia."
     },
     {
       "title": "MEP Engineering",
-      "description": "MisrConsult delivered mep engineering as part of the engineering scope for King Faisal University Hospital in Kingdom of Saudi Arabia."
+      "description": "Misrconsult delivered mep engineering as part of the engineering scope for King Faisal University Hospital in Kingdom of Saudi Arabia."
     }
   ]
+};
+export const kingFaisalUniversityHospitalInfrastructure: Project = {
+  ...kingFaisalUniversityHospital,
+  slug: "king-faisal-university-hospital-infrastructure",
+  categoryId: "infrastructure",
 };

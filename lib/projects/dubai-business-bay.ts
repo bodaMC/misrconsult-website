@@ -12,12 +12,12 @@ export const dubaiBusinessBay: Project = {
   "clientLogo": "/clients/swa-black.jpg",
   "clientLogoSize": "max-w-[60px]",
   "area": "4,460,000 m²",
-  "heroImage":"/projects/dubai/03.jpg",
+  "heroImage":"/projects/dubai/03.webp",
   "span": "",
-  "tagline": "Dubai Business Bay — Infrastructure Design delivered by MisrConsult in Dubai, UAE.",
-  "overview": "MisrConsult provided engineering consultancy for Dubai Business Bay, a mixed-use developments project located in Dubai, UAE. The development spans 4,460,000 m² with a delivery scope covering infrastructure design.",
+  "tagline": "Dubai Business Bay — Infrastructure Design delivered by Misrconsult in Dubai, UAE.",
+  "overview": "Misrconsult provided engineering consultancy for Dubai Business Bay, a mixed-use developments project located in Dubai, UAE. The development spans 4,460,000 m² with a delivery scope covering infrastructure design.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 4,460,000 m² development in Dubai, UAE, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the infrastructure design — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the infrastructure design — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Infrastructure Planning",
     "Wet Utilities",
@@ -26,9 +26,9 @@ export const dubaiBusinessBay: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/dubai/01.jpg",
-    "/projects/dubai/02.jpg",
-    "/projects/dubai/03.jpg",
+    "/projects/dubai/01.webp",
+    "/projects/dubai/02.webp",
+    "/projects/dubai/03.webp",
   ],
   "stats": [
     {
@@ -55,15 +55,20 @@ export const dubaiBusinessBay: Project = {
   "highlights": [
     {
       "title": "Infrastructure Planning",
-      "description": "MisrConsult delivered infrastructure planning as part of the engineering scope for Dubai Business Bay in Dubai, UAE."
+      "description": "Misrconsult delivered infrastructure planning as part of the engineering scope for Dubai Business Bay in Dubai, UAE."
     },
     {
       "title": "Wet Utilities",
-      "description": "MisrConsult delivered wet utilities as part of the engineering scope for Dubai Business Bay in Dubai, UAE."
+      "description": "Misrconsult delivered wet utilities as part of the engineering scope for Dubai Business Bay in Dubai, UAE."
     },
     {
       "title": "Roads & Highways",
-      "description": "MisrConsult delivered roads & highways as part of the engineering scope for Dubai Business Bay in Dubai, UAE."
+      "description": "Misrconsult delivered roads & highways as part of the engineering scope for Dubai Business Bay in Dubai, UAE."
     }
   ]
+};
+export const dubaiBusinessBayInfrastructure: Project = {
+  ...dubaiBusinessBay,
+  slug: "dubai-business-bay-infrastructure",
+  categoryId: "infrastructure",
 };

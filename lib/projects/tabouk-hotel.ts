@@ -14,12 +14,12 @@ export const taboukHotel: Project = {
   "clientLogo": "/clients/grand.png",
   "clientLogoSize": "max-w-[75px]",
   "area": "101,726 m²",
-  "heroImage": "/projects/tabouk/01.jpg",
+  "heroImage": "/projects/tabouk/01.webp",
   "span": "",
-  "tagline": "Tabouk Hotel — Full Design Package delivered by MisrConsult in Tabouk, Saudi Arabia.",
-  "overview": "MisrConsult provided engineering consultancy for Tabouk Hotel, a hotels & resorts project located in Tabouk, Saudi Arabia. The development spans 101,726 m² with a delivery scope covering full design package.",
+  "tagline": "Tabouk Hotel — Full Design Package delivered by Misrconsult in Tabouk, Saudi Arabia.",
+  "overview": "Misrconsult provided engineering consultancy for Tabouk Hotel, a hotels & resorts project located in Tabouk, Saudi Arabia. The development spans 101,726 m² with a delivery scope covering full design package.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 101,726 m² development in Tabouk, Saudi Arabia, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Architectural Design",
     "Structural Engineering",
@@ -28,11 +28,11 @@ export const taboukHotel: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "/projects/tabouk/01.jpg",
-    "/projects/tabouk/02.jpg",
-    "/projects/tabouk/03.jpg",
-    "/projects/tabouk/04.jpg",
-    "/projects/tabouk/05.jpg",
+    "/projects/tabouk/01.webp",
+    "/projects/tabouk/02.webp",
+    "/projects/tabouk/03.webp",
+    "/projects/tabouk/04.webp",
+    "/projects/tabouk/05.webp",
   ],
   "stats": [
     {
@@ -59,15 +59,20 @@ export const taboukHotel: Project = {
   "highlights": [
     {
       "title": "Architectural Design",
-      "description": "MisrConsult delivered architectural design as part of the engineering scope for Tabouk Hotel in Tabouk, Saudi Arabia."
+      "description": "Misrconsult delivered architectural design as part of the engineering scope for Tabouk Hotel in Tabouk, Saudi Arabia."
     },
     {
       "title": "Structural Engineering",
-      "description": "MisrConsult delivered structural engineering as part of the engineering scope for Tabouk Hotel in Tabouk, Saudi Arabia."
+      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Tabouk Hotel in Tabouk, Saudi Arabia."
     },
     {
       "title": "MEP Engineering",
-      "description": "MisrConsult delivered mep engineering as part of the engineering scope for Tabouk Hotel in Tabouk, Saudi Arabia."
+      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Tabouk Hotel in Tabouk, Saudi Arabia."
     }
   ]
+};
+export const taboukHotelInfrastructure: Project = {
+  ...taboukHotel,
+  slug: "tabouk-hotel-infrastructure",
+  categoryId: "infrastructure",
 };

@@ -52,7 +52,7 @@ export const certifications: Certification[] = [
     issuingOrganization: "Federation of Egyptian Industries",
     year: "2024",
     description:
-      "Corporate membership recognising MisrConsult's standing within Egypt's industrial and engineering community.",
+      "Corporate membership recognising Misrconsult's standing within Egypt's industrial and engineering community.",
     imageUrl: "/certificates/fcic.jpeg" ,
   },
 ];
@@ -65,13 +65,13 @@ export const newsItems: NewsItem[] = [
     date: "2025-07",
     title: "Accredited as a House of Expertise by the Egyptian Engineers Syndicate",
     excerpt:
-      "MisrConsult has been officially recognised by the Egyptian Engineers Syndicate as a certified House of Expertise, a distinction held by only a select number of firms in Egypt.",
-    body: "The Egyptian Engineers Syndicate has granted MisrConsult the status of House of Expertise (بيت خبرة), an accreditation that acknowledges firms with exceptional depth of technical knowledge, multi-disciplinary engineering capability, and a proven track record on complex projects.",
-    content: `The Egyptian Engineers Syndicate has granted MisrConsult the status of House of Expertise (بيت خبرة), an accreditation that acknowledges firms with exceptional depth of technical knowledge, multi-disciplinary engineering capability, and a proven track record on complex projects.
+      "Misrconsult has been officially recognised by the Egyptian Engineers Syndicate as a certified House of Expertise, a distinction held by only a select number of firms in Egypt.",
+    body: "The Egyptian Engineers Syndicate has granted Misrconsult the status of House of Expertise (بيت خبرة), an accreditation that acknowledges firms with exceptional depth of technical knowledge, multi-disciplinary engineering capability, and a proven track record on complex projects.",
+    content: `The Egyptian Engineers Syndicate has granted Misrconsult the status of House of Expertise (بيت خبرة), an accreditation that acknowledges firms with exceptional depth of technical knowledge, multi-disciplinary engineering capability, and a proven track record on complex projects.
 
 ## What This Means
 
-This recognition places MisrConsult among a very small group of elite consultancies in Egypt — firms trusted to provide expert testimony, technical arbitration, and specialist engineering advisory on the nation's most complex developments.
+This recognition places Misrconsult among a very small group of elite consultancies in Egypt — firms trusted to provide expert testimony, technical arbitration, and specialist engineering advisory on the nation's most complex developments.
 
 ## Our Commitment
 
@@ -85,11 +85,11 @@ We remain dedicated to upholding the highest standards of engineering integrity,
     slug: "palm-hills-contract-2025",
     category: "news",
     date: "2025-02",
-    title: "MisrConsult Signs New Agreement with Palm Hills Developments",
+    title: "Misrconsult Signs New Agreement with Palm Hills Developments",
     excerpt:
       "We are pleased to announce a new engineering consultancy contract with Palm Hills Developments for a landmark residential project in West Cairo.",
-    body: "MisrConsult has signed a structural and architectural consultancy contract with Palm Hills Developments for a major new residential compound in West Cairo.",
-    content: `MisrConsult has signed a structural and architectural consultancy contract with Palm Hills Developments for a major new residential compound in West Cairo. The project will encompass structural design, infrastructure planning, and construction supervision — continuing our long-standing partnership with one of Egypt's leading real estate developers.
+    body: "Misrconsult has signed a structural and architectural consultancy contract with Palm Hills Developments for a major new residential compound in West Cairo.",
+    content: `Misrconsult has signed a structural and architectural consultancy contract with Palm Hills Developments for a major new residential compound in West Cairo. The project will encompass structural design, infrastructure planning, and construction supervision — continuing our long-standing partnership with one of Egypt's leading real estate developers.
 
 ## Scope of Engagement
 
@@ -98,7 +98,7 @@ We remain dedicated to upholding the highest standards of engineering integrity,
 - Infrastructure and utilities planning
 - Construction supervision and quality assurance
 
-This agreement reinforces the trust Palm Hills places in MisrConsult's engineering capabilities and our track record of delivery across their portfolio.`,
+This agreement reinforces the trust Palm Hills places in Misrconsult's engineering capabilities and our track record of delivery across their portfolio.`,
     imageUrl: "/projects/palm-hills-new-cairo/01.jpg",
     galleryImages: [
       "/projects/palm-hills-new-cairo/03.jpg",
@@ -110,11 +110,11 @@ This agreement reinforces the trust Palm Hills places in MisrConsult's engineeri
     slug: "iso-9001-2015",
     category: "certification",
     date: "2024-11",
-    title: "MisrConsult Awarded ISO 9001:2015 Certification",
+    title: "Misrconsult Awarded ISO 9001:2015 Certification",
     excerpt:
       "Our quality management system has been independently verified and certified to the international ISO 9001:2015 standard, reinforcing our commitment to engineering excellence.",
-    body: "MisrConsult has successfully obtained the ISO 9001:2015 certification, the internationally recognised standard for Quality Management Systems.",
-    content: `MisrConsult has successfully obtained the ISO 9001:2015 certification, the internationally recognised standard for Quality Management Systems. This certification reflects our continuous commitment to delivering engineering and architectural services of the highest standard.
+    body: "Misrconsult has successfully obtained the ISO 9001:2015 certification, the internationally recognised standard for Quality Management Systems.",
+    content: `Misrconsult has successfully obtained the ISO 9001:2015 certification, the internationally recognised standard for Quality Management Systems. This certification reflects our continuous commitment to delivering engineering and architectural services of the highest standard.
 
 ## Certification Scope
 
@@ -137,9 +137,9 @@ The certification covers our entire quality management framework — from projec
     date: "2025-01",
     title: "Expanded Scope of Work with Emaar Misr on Uptown Cairo",
     excerpt:
-      "MisrConsult has been appointed for additional engineering services on the Uptown Cairo development, expanding our existing collaboration with Emaar Misr.",
-    body: "Following the successful completion of multiple phases, Emaar Misr has appointed MisrConsult to provide extended structural engineering and MEP coordination services.",
-    content: `Following the successful completion of multiple phases, Emaar Misr has appointed MisrConsult to provide extended structural engineering and MEP coordination services for further phases of the Uptown Cairo masterplan.
+      "Misrconsult has been appointed for additional engineering services on the Uptown Cairo development, expanding our existing collaboration with Emaar Misr.",
+    body: "Following the successful completion of multiple phases, Emaar Misr has appointed Misrconsult to provide extended structural engineering and MEP coordination services.",
+    content: `Following the successful completion of multiple phases, Emaar Misr has appointed Misrconsult to provide extended structural engineering and MEP coordination services for further phases of the Uptown Cairo masterplan.
 
 This expanded scope reflects the trust placed in our team and our track record of delivery on this prestigious project — one of Cairo's most significant mixed-use developments.`,
     imageUrl: "/projects/97-hills/03.png",
@@ -151,9 +151,9 @@ This expanded scope reflects the trust placed in our team and our track record o
     date: "2024-12",
     title: "New Engineering Contract Signed with ORA Developers",
     excerpt:
-      "MisrConsult has been engaged by ORA Developers to provide structural consultancy services for a new phase at their flagship development.",
-    body: "MisrConsult has entered into a structural engineering consultancy agreement with ORA Developers for a new residential phase at one of their flagship communities.",
-    content: `MisrConsult has entered into a structural engineering consultancy agreement with ORA Developers for a new residential phase at one of their flagship communities. The project will leverage MisrConsult's expertise in complex reinforced concrete and steel structures to meet the development's ambitious design aspirations.`,
+      "Misrconsult has been engaged by ORA Developers to provide structural consultancy services for a new phase at their flagship development.",
+    body: "Misrconsult has entered into a structural engineering consultancy agreement with ORA Developers for a new residential phase at one of their flagship communities.",
+    content: `Misrconsult has entered into a structural engineering consultancy agreement with ORA Developers for a new residential phase at one of their flagship communities. The project will leverage MisrConsult's expertise in complex reinforced concrete and steel structures to meet the development's ambitious design aspirations.`,
     imageUrl: "/projects/ora-silversands/01.jpg",
   },
   {
@@ -163,9 +163,9 @@ This expanded scope reflects the trust placed in our team and our track record o
     date: "2024-06",
     title: "FCIC Membership Certificate Awarded",
     excerpt:
-      "MisrConsult has been awarded corporate membership in the Federation of Consultants from Islamic Countries (FCIC), recognizing our commitment to engineering excellence and international professional collaboration.",
-    body: "MisrConsult has obtained corporate membership in the Federation of Consultants from Islamic Countries (FCIC).",
-    content: `MisrConsult has been awarded corporate membership in the Federation of Consultants from Islamic Countries (FCIC),
+      "Misrconsult has been awarded corporate membership in the Federation of Consultants from Islamic Countries (FCIC), recognizing our commitment to engineering excellence and international professional collaboration.",
+    body: "Misrconsult has obtained corporate membership in the Federation of Consultants from Islamic Countries (FCIC).",
+    content: `Misrconsult has been awarded corporate membership in the Federation of Consultants from Islamic Countries (FCIC),
      marking another milestone in our commitment to professional excellence and regional cooperation.`,
     badge: "FCIC Certificate",
     imageUrl: "/projects/phd-r4/01.png",

@@ -21,7 +21,7 @@ export function Clients() {
           </h2>
           <div className="mx-auto mt-6 h-px w-16 bg-misr-gold" />
           <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-white/55">
-            Leading developers, contractors, and institutions who trust MisrConsult
+            Leading developers, contractors, and institutions who trust Misrconsult
             to deliver engineering excellence at scale.
           </p>
         </div>

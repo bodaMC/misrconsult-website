@@ -1,8 +1,6 @@
 import type { Project } from "./types";
 
-// TODO: Confirm completion year
-// TODO: Replace placeholder heroImage with project-specific photography
-// TODO: Replace placeholder gallery images with project-specific photography
+
 export const mivida: Project = {
   "slug": "mivida",
   "title": "Mivida",
@@ -13,12 +11,12 @@ export const mivida: Project = {
   "clientLogo": "/clients/emaar-temp.png",
   "clientLogoSize": "max-w-[80px]",
   "area": "3,500,000 m²",
-  "heroImage": "/projects/mivida/01.png",
+  "heroImage": "/projects/mivida/01.webp",
   "span": "",
-  "tagline": "Mivida — Buildings & Infrastructure delivered by MisrConsult in Cairo, Egypt.",
-  "overview": "MisrConsult provided engineering consultancy for Mivida, a residential developments project located in Cairo, Egypt. The development spans 3,500,000 m² with a delivery scope covering buildings & infrastructure.",
+  "tagline": "Mivida — Buildings & Infrastructure delivered by Misrconsult in Cairo, Egypt.",
+  "overview": "Misrconsult provided engineering consultancy for Mivida, a residential developments project located in Cairo, Egypt. The development spans 3,500,000 m² with a delivery scope covering buildings & infrastructure.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 3,500,000 m² development in Cairo, Egypt, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the buildings & infrastructure — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the buildings & infrastructure — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Infrastructure Planning",
     "Wet Utilities",
@@ -27,10 +25,10 @@ export const mivida: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/mivida/01.png",
-    "/projects/mivida/02.png",
-    "/projects/mivida/03.png",
-    "/projects/mivida/04.png",
+    "/projects/mivida/01.webp",
+    "/projects/mivida/02.webp",
+    "/projects/mivida/03.webp",
+    "/projects/mivida/04.webp",
   ],
   "stats": [
     {
@@ -57,15 +55,20 @@ export const mivida: Project = {
   "highlights": [
     {
       "title": "Infrastructure Planning",
-      "description": "MisrConsult delivered infrastructure planning as part of the engineering scope for Mivida in Cairo, Egypt."
+      "description": "Misrconsult delivered infrastructure planning as part of the engineering scope for Mivida in Cairo, Egypt."
     },
     {
       "title": "Wet Utilities",
-      "description": "MisrConsult delivered wet utilities as part of the engineering scope for Mivida in Cairo, Egypt."
+      "description": "Misrconsult delivered wet utilities as part of the engineering scope for Mivida in Cairo, Egypt."
     },
     {
       "title": "Roads & Highways",
-      "description": "MisrConsult delivered roads & highways as part of the engineering scope for Mivida in Cairo, Egypt."
+      "description": "Misrconsult delivered roads & highways as part of the engineering scope for Mivida in Cairo, Egypt."
     }
   ]
+};
+export const mividaInfrastructure: Project = {
+  ...mivida,
+  slug: "mivida-infrastructure",
+  categoryId: "infrastructure",
 };

@@ -13,12 +13,12 @@ export const gotevtHeadquarters: Project = {
   "clientLogo": "/clients/techtraining.png",
   "clientLogoSize": "max-w-[90px]",
   "area": "36,850 m²",
-  "heroImage": "/projects/gen-org/01.png",
+  "heroImage": "/projects/gen-org/01.webp",
   "span": "",
-  "tagline": "General Organization for Technical Education & Vocational Training Headquarters — Buildings delivered by MisrConsult in Kingdom of Saudi Arabia.",
-  "overview": "MisrConsult provided engineering consultancy for General Organization for Technical Education & Vocational Training Headquarters, a educational facilities project located in Kingdom of Saudi Arabia. The development spans 36,850 m² with a delivery scope covering buildings.",
+  "tagline": "General Organization for Technical Education & Vocational Training Headquarters — Buildings delivered by Misrconsult in Kingdom of Saudi Arabia.",
+  "overview": "Misrconsult provided engineering consultancy for General Organization for Technical Education & Vocational Training Headquarters, a educational facilities project located in Kingdom of Saudi Arabia. The development spans 36,850 m² with a delivery scope covering buildings.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 36,850 m² development in Kingdom of Saudi Arabia, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the buildings — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the buildings — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Architectural Design",
     "Structural Engineering",
@@ -27,7 +27,7 @@ export const gotevtHeadquarters: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/gen-org/01.png",
+    "/projects/gen-org/01.webp",
   ],
   "stats": [
     {
@@ -54,15 +54,15 @@ export const gotevtHeadquarters: Project = {
   "highlights": [
     {
       "title": "Architectural Design",
-      "description": "MisrConsult delivered architectural design as part of the engineering scope for General Organization for Technical Education & Vocational Training Headquarters in Kingdom of Saudi Arabia."
+      "description": "Misrconsult delivered architectural design as part of the engineering scope for General Organization for Technical Education & Vocational Training Headquarters in Kingdom of Saudi Arabia."
     },
     {
       "title": "Structural Engineering",
-      "description": "MisrConsult delivered structural engineering as part of the engineering scope for General Organization for Technical Education & Vocational Training Headquarters in Kingdom of Saudi Arabia."
+      "description": "Misrconsult delivered structural engineering as part of the engineering scope for General Organization for Technical Education & Vocational Training Headquarters in Kingdom of Saudi Arabia."
     },
     {
       "title": "MEP Engineering",
-      "description": "MisrConsult delivered mep engineering as part of the engineering scope for General Organization for Technical Education & Vocational Training Headquarters in Kingdom of Saudi Arabia."
+      "description": "Misrconsult delivered mep engineering as part of the engineering scope for General Organization for Technical Education & Vocational Training Headquarters in Kingdom of Saudi Arabia."
     }
   ]
 };

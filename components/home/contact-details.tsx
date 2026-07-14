@@ -1,4 +1,8 @@
 const contactItems = [
+   {
+    label: "",
+    value: ["Egyptian Co. for Engineering Consulting Services (Misrconsult)"],
+  },
   {
     label: "Location",
     value: "Maadi Palace Tower, 4th Floor, Cairo, Egypt",
@@ -12,6 +16,7 @@ const contactItems = [
     label: "Phone",
     value: ["+202 2378-5939", "+202 2378-5942", "+202 2378-6379"],
   },
+ 
 ] as const;
 
 type ContactDetailsProps = {

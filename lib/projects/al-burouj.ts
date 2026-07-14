@@ -14,12 +14,12 @@ export const alBurouj: Project = {
   "clientLogo": "/clients/imkan.jpg",
   "clientLogoSize": "max-w-[92px]",
   "area": "17,640,195 m²",
-  "heroImage": "/projects/al-burouj/02.png",
+  "heroImage": "/projects/al-burouj/02.webp",
   "span": "",
-  "tagline": "Al Burouj — Full Design Package delivered by MisrConsult in Al-Shorouk, Egypt.",
-  "overview": "MisrConsult provided engineering consultancy for Al Burouj, a residential developments project located in Al-Shorouk, Egypt. The development spans 17,640,195 m² with a delivery scope covering full design package.",
+  "tagline": "Al Burouj — Full Design Package delivered by Misrconsult in Al-Shorouk, Egypt.",
+  "overview": "Misrconsult provided engineering consultancy for Al Burouj, a residential developments project located in Al-Shorouk, Egypt. The development spans 17,640,195 m² with a delivery scope covering full design package.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 17,640,195 m² development in Al-Shorouk, Egypt, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Architectural Design",
     "Structural Engineering",
@@ -28,10 +28,22 @@ export const alBurouj: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "/projects/al-burouj/04.png",
-    "/projects/al-burouj/02.png",
-    "/projects/al-burouj/03.png",
-    "/projects/al-burouj/01.png",
+    "/projects/al-burouj/04.webp",
+    "/projects/al-burouj/02.webp",
+    "/projects/al-burouj/03.webp",
+    "/projects/al-burouj/01.webp",
+    "/projects/al-burouj/05.webp",
+    "/projects/al-burouj/06.webp",
+    "/projects/al-burouj/07.webp",
+    "/projects/al-burouj/08.webp",
+    "/projects/al-burouj/09.webp",
+    "/projects/al-burouj/10.webp",
+    "/projects/al-burouj/11.webp",
+    "/projects/al-burouj/12.webp",
+    "/projects/al-burouj/13.webp",
+    "/projects/al-burouj/15.webp",
+    "/projects/al-burouj/16.webp",
+    "/projects/al-burouj/14.webp",
   ],
   "stats": [
     {
@@ -58,15 +70,20 @@ export const alBurouj: Project = {
   "highlights": [
     {
       "title": "Architectural Design",
-      "description": "MisrConsult delivered architectural design as part of the engineering scope for Al Burouj in Al-Shorouk, Egypt."
+      "description": "Misrconsult delivered architectural design as part of the engineering scope for Al Burouj in Al-Shorouk, Egypt."
     },
     {
       "title": "Structural Engineering",
-      "description": "MisrConsult delivered structural engineering as part of the engineering scope for Al Burouj in Al-Shorouk, Egypt."
+      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Al Burouj in Al-Shorouk, Egypt."
     },
     {
       "title": "MEP Engineering",
-      "description": "MisrConsult delivered mep engineering as part of the engineering scope for Al Burouj in Al-Shorouk, Egypt."
+      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Al Burouj in Al-Shorouk, Egypt."
     }
   ]
+};
+export const alBuroujInfrastructure: Project = {
+  ...alBurouj,
+  slug: "al-burouj-infrastructure",
+  categoryId: "infrastructure",
 };

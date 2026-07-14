@@ -14,12 +14,12 @@ export const aradoHeadquarters: Project = {
   "clientLogo": "/clients/arab-league.png",
   "clientLogoSize": "max-w-[60px]",
   "area": "12,000 m²",
-  "heroImage": "/projects/arado/01.png",
+  "heroImage": "/projects/arado/01.webp",
   "span": "",
-  "tagline": "Arado Headquarters — MEP Package delivered by MisrConsult in Cairo, Egypt.",
-  "overview": "MisrConsult provided engineering consultancy for Arado Headquarters, a commercial & office buildings project located in Cairo, Egypt. The development spans 12,000 m² with a delivery scope covering mep package.",
+  "tagline": "Arado Headquarters — MEP Package delivered by Misrconsult in Cairo, Egypt.",
+  "overview": "Misrconsult provided engineering consultancy for Arado Headquarters, a commercial & office buildings project located in Cairo, Egypt. The development spans 12,000 m² with a delivery scope covering mep package.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 12,000 m² development in Cairo, Egypt, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the mep package — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the mep package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "MEP Engineering",
     "HVAC Design",
@@ -28,8 +28,8 @@ export const aradoHeadquarters: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/arado/01.png",
-    "/projects/arado/02.png",
+    "/projects/arado/01.webp",
+    "/projects/arado/02.webp",
   ],
   "stats": [
     {
@@ -56,15 +56,15 @@ export const aradoHeadquarters: Project = {
   "highlights": [
     {
       "title": "MEP Engineering",
-      "description": "MisrConsult delivered mep engineering as part of the engineering scope for Arado Headquarters in Cairo, Egypt."
+      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Arado Headquarters in Cairo, Egypt."
     },
     {
       "title": "HVAC Design",
-      "description": "MisrConsult delivered hvac design as part of the engineering scope for Arado Headquarters in Cairo, Egypt."
+      "description": "Misrconsult delivered hvac design as part of the engineering scope for Arado Headquarters in Cairo, Egypt."
     },
     {
       "title": "Electrical Systems",
-      "description": "MisrConsult delivered electrical systems as part of the engineering scope for Arado Headquarters in Cairo, Egypt."
+      "description": "Misrconsult delivered electrical systems as part of the engineering scope for Arado Headquarters in Cairo, Egypt."
     }
   ]
 };

@@ -53,7 +53,7 @@ export function About() {
 
           <div>
             <span className="text-xs font-semibold uppercase tracking-[0.35em] text-misr-600">
-              About MisrConsult
+              About Misrconsult
             </span>
             <h2 className="mt-4 font-[family-name:var(--font-cormorant)] text-4xl font-light leading-tight text-misr-950 md:text-5xl lg:text-6xl">
               Where Engineering
@@ -63,7 +63,7 @@ export function About() {
             <div className="mt-6 h-px w-16 bg-misr-gold" />
 
             <p className="mt-8 text-base leading-relaxed text-misr-800/80 md:text-lg">
-              For over three decades, MisrConsult has been the trusted partner for
+              For over three decades, Misrconsult has been the trusted partner for
               governments, developers, and institutions seeking precision engineering
               and architectural excellence. We transform ambitious concepts into
               enduring structures that define skylines and communities.

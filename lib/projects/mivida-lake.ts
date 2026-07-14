@@ -13,12 +13,12 @@ export const mividaLake: Project = {
   "clientLogo": "/clients/emaar-temp.png",
   "clientLogoSize": "max-w-[80px]",
   "area": "71,200 m²",
-  "heroImage": "/projects/mivida-lake/01.png",
+  "heroImage": "/projects/mivida-lake/01.webp",
   "span": "",
-  "tagline": "Mivida Lake — MEP & Lake Infrastructure delivered by MisrConsult in Cairo, Egypt.",
-  "overview": "MisrConsult provided engineering consultancy for Mivida Lake, a infrastructure & transportation project located in Cairo, Egypt. The development spans 71,200 m² with a delivery scope covering mep & lake infrastructure.",
+  "tagline": "Mivida Lake — MEP & Lake Infrastructure delivered by Misrconsult in Cairo, Egypt.",
+  "overview": "Misrconsult provided engineering consultancy for Mivida Lake, a infrastructure & transportation project located in Cairo, Egypt. The development spans 71,200 m² with a delivery scope covering mep & lake infrastructure.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 71,200 m² development in Cairo, Egypt, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the mep & lake infrastructure — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the mep & lake infrastructure — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Structural Engineering",
     "MEP Engineering",
@@ -27,10 +27,10 @@ export const mividaLake: Project = {
     "Construction Supervision"
   ],
   "gallery": [
-    "/projects/mivida-lake/02.png",
-    "/projects/mivida-lake/03.png",
-    "/projects/mivida-lake/04.png",
-    "/projects/mivida-lake/01.png",
+    "/projects/mivida-lake/02.webp",
+    "/projects/mivida-lake/03.webp",
+    "/projects/mivida-lake/04.webp",
+    "/projects/mivida-lake/01.webp",
   ],
   "stats": [
     {
@@ -57,15 +57,15 @@ export const mividaLake: Project = {
   "highlights": [
     {
       "title": "Structural Engineering",
-      "description": "MisrConsult delivered structural engineering as part of the engineering scope for Mivida Lake in Cairo, Egypt."
+      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Mivida Lake in Cairo, Egypt."
     },
     {
       "title": "MEP Engineering",
-      "description": "MisrConsult delivered mep engineering as part of the engineering scope for Mivida Lake in Cairo, Egypt."
+      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Mivida Lake in Cairo, Egypt."
     },
     {
       "title": "HVAC Design",
-      "description": "MisrConsult delivered hvac design as part of the engineering scope for Mivida Lake in Cairo, Egypt."
+      "description": "Misrconsult delivered hvac design as part of the engineering scope for Mivida Lake in Cairo, Egypt."
     }
   ]
 };

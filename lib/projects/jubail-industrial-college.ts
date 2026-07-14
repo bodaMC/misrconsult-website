@@ -15,12 +15,12 @@ export const jubailIndustrialCollege: Project = {
   "clientLogo": "/clients/rcjy-new.png",
   "clientLogoSize": "max-w-[65px]",
   "area": "48,588 m²",
-  "heroImage": "/projects/jic/01.png",
+  "heroImage": "/projects/jic/01.webp",
   "span": "",
-  "tagline": "Jubail Industrial College — Buildings delivered by MisrConsult in Jubail, Saudi Arabia.",
-  "overview": "MisrConsult provided engineering consultancy for Jubail Industrial College, a industrial facilities project located in Jubail, Saudi Arabia. The development spans 48,588 m² with a delivery scope covering buildings.",
+  "tagline": "Jubail Industrial College — Buildings delivered by Misrconsult in Jubail, Saudi Arabia.",
+  "overview": "Misrconsult provided engineering consultancy for Jubail Industrial College, a industrial facilities project located in Jubail, Saudi Arabia. The development spans 48,588 m² with a delivery scope covering buildings.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 48,588 m² development in Jubail, Saudi Arabia, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the buildings — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the buildings — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Architectural Design",
     "Structural Engineering",
@@ -29,16 +29,16 @@ export const jubailIndustrialCollege: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/jic/01.png",
-    "/projects/jic/02.jpg", 
-    "/projects/jic/03.jpg",
-    "/projects/jic/04.png",
-     "/projects/jic/05.png",
-    "/projects/jic/06.png",
-    "/projects/jic/07.png",
-    "/projects/jic/08.png",
-    "/projects/jic/09.png",
-    "/projects/jic/10.png",
+    "/projects/jic/01.webp",
+    "/projects/jic/02.webp", 
+    "/projects/jic/03.webp",
+    "/projects/jic/04.webp",
+     "/projects/jic/05.webp",
+    "/projects/jic/06.webp",
+    "/projects/jic/07.webp",
+    "/projects/jic/08.webp",
+    "/projects/jic/09.webp",
+    "/projects/jic/10.webp",
   ],
   "stats": [
     {
@@ -65,15 +65,15 @@ export const jubailIndustrialCollege: Project = {
   "highlights": [
     {
       "title": "Architectural Design",
-      "description": "MisrConsult delivered architectural design as part of the engineering scope for Jubail Industrial College in Jubail, Saudi Arabia."
+      "description": "Misrconsult delivered architectural design as part of the engineering scope for Jubail Industrial College in Jubail, Saudi Arabia."
     },
     {
       "title": "Structural Engineering",
-      "description": "MisrConsult delivered structural engineering as part of the engineering scope for Jubail Industrial College in Jubail, Saudi Arabia."
+      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Jubail Industrial College in Jubail, Saudi Arabia."
     },
     {
       "title": "MEP Engineering",
-      "description": "MisrConsult delivered mep engineering as part of the engineering scope for Jubail Industrial College in Jubail, Saudi Arabia."
+      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Jubail Industrial College in Jubail, Saudi Arabia."
     }
   ]
 };

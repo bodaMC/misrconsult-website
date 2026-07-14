@@ -44,7 +44,7 @@ export default function CareersPageContent() {
             <span className="font-semibold text-misr-400">Careers</span>
           </h1>
           <p className="animate-fade-up animation-delay-600 mt-6 max-w-xl text-lg leading-relaxed text-white/65">
-            Explore open roles and apply to join MisrConsult&apos;s engineering team.
+            Explore open roles and apply to join Misrconsult&apos;s engineering team.
           </p>
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-misr-gold/50 to-transparent" />

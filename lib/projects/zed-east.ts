@@ -14,12 +14,12 @@ export const zedEast: Project = {
   "clientLogo": "/clients/ora.png",
   "clientLogoSize": "max-w-[80px]",
   "area": "156,000 m²",
-  "heroImage": "/projects/zed-east/01.jpeg",
+  "heroImage": "/projects/zed-east/01.webp",
   "span": "",
-  "tagline": "Zed East — Full Design Package delivered by MisrConsult in 5th Settlement, Cairo, Egypt.",
-  "overview": "MisrConsult provided engineering consultancy for Zed East, a residential developments project located in 5th Settlement, Cairo, Egypt. The development spans 156,000 m² with a delivery scope covering full design package.",
+  "tagline": "Zed East — Full Design Package delivered by Misrconsult in 5th Settlement, Cairo, Egypt.",
+  "overview": "Misrconsult provided engineering consultancy for Zed East, a residential developments project located in 5th Settlement, Cairo, Egypt. The development spans 156,000 m² with a delivery scope covering full design package.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 156,000 m² development in 5th Settlement, Cairo, Egypt, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Architectural Design",
     "Structural Engineering",
@@ -28,11 +28,11 @@ export const zedEast: Project = {
     "Engineering Consultancy"
   ],
   "gallery": [
-    "/projects/zed-east/01.jpeg",
-    "/projects/zed-east/02.jpeg",
-    "/projects/zed-east/03.jpeg",
-    "/projects/zed-east/04.jpeg",
-    "/projects/zed-east/05.png",    
+    "/projects/zed-east/01.webp",
+    "/projects/zed-east/02.webp",
+    "/projects/zed-east/03.webp",
+    "/projects/zed-east/04.webp",
+    "/projects/zed-east/05.webp",    
   ],
   "stats": [
     {
@@ -59,15 +59,20 @@ export const zedEast: Project = {
   "highlights": [
     {
       "title": "Architectural Design",
-      "description": "MisrConsult delivered architectural design as part of the engineering scope for Zed East in 5th Settlement, Cairo, Egypt."
+      "description": "Misrconsult delivered architectural design as part of the engineering scope for Zed East in 5th Settlement, Cairo, Egypt."
     },
     {
       "title": "Structural Engineering",
-      "description": "MisrConsult delivered structural engineering as part of the engineering scope for Zed East in 5th Settlement, Cairo, Egypt."
+      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Zed East in 5th Settlement, Cairo, Egypt."
     },
     {
       "title": "MEP Engineering",
-      "description": "MisrConsult delivered mep engineering as part of the engineering scope for Zed East in 5th Settlement, Cairo, Egypt."
+      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Zed East in 5th Settlement, Cairo, Egypt."
     }
   ]
+};
+export const zedEastInfrastructure: Project = {
+  ...zedEast,
+  slug: "zed-east-infrastructure",
+  categoryId: "infrastructure",
 };

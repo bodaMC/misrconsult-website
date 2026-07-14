@@ -14,12 +14,12 @@ export const ebbUniversityYemen: Project = {
   "clientLogo": "/clients/ebb-yemen.png",
   "clientLogoSize": "max-w-[60px]",
   "area": "800,000 m²",
-  "heroImage": "/projects/ebb/03.png",
+  "heroImage": "/projects/ebb/03.webp",
   "span": "",
-  "tagline": "EBB University — Infrastructure Design delivered by MisrConsult in Yemen.",
-  "overview": "MisrConsult provided engineering consultancy for EBB University, a educational facilities project located in Yemen. The development spans 800,000 m² with a delivery scope covering infrastructure design.",
+  "tagline": "EBB University — Infrastructure Design delivered by Misrconsult in Yemen.",
+  "overview": "Misrconsult provided engineering consultancy for EBB University, a educational facilities project located in Yemen. The development spans 800,000 m² with a delivery scope covering infrastructure design.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 800,000 m² development in Yemen, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the infrastructure design — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the infrastructure design — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Infrastructure Planning",
     "Wet Utilities",
@@ -28,9 +28,9 @@ export const ebbUniversityYemen: Project = {
     "Project Management"
   ],
   "gallery": [
-    "/projects/ebb/01.png",
-    "/projects/ebb/02.png",
-    "/projects/ebb/03.png",
+    "/projects/ebb/01.webp",
+    "/projects/ebb/02.webp",
+    "/projects/ebb/03.webp",
   ],
   "stats": [
     {
@@ -57,15 +57,20 @@ export const ebbUniversityYemen: Project = {
   "highlights": [
     {
       "title": "Infrastructure Planning",
-      "description": "MisrConsult delivered infrastructure planning as part of the engineering scope for EBB University in Yemen."
+      "description": "Misrconsult delivered infrastructure planning as part of the engineering scope for EBB University in Yemen."
     },
     {
       "title": "Wet Utilities",
-      "description": "MisrConsult delivered wet utilities as part of the engineering scope for EBB University in Yemen."
+      "description": "Misrconsult delivered wet utilities as part of the engineering scope for EBB University in Yemen."
     },
     {
       "title": "Roads & Highways",
-      "description": "MisrConsult delivered roads & highways as part of the engineering scope for EBB University in Yemen."
+      "description": "Misrconsult delivered roads & highways as part of the engineering scope for EBB University in Yemen."
     }
   ]
+};
+export const ebbUniversityYemenInfrastructure: Project = {
+  ...ebbUniversityYemen,
+  slug: "ebb-university-yemen-infrastructure",
+  categoryId: "infrastructure",
 };
