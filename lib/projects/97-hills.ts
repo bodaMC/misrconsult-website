@@ -84,4 +84,8 @@ export const n97HillsInfrastructure: Project = {
   ...n97Hills,
   slug: "97-hills-infrastructure",
   categoryId: "infrastructure",
+  heroImage: "/projects/97-hills-infra/01.webp",
+   gallery: [ "/projects/97-hills-infra/01.webp",
+    "/projects/97-hills-infra/02.webp",
+     ],
 };

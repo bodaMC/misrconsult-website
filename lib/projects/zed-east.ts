@@ -1,9 +1,6 @@
 import type { Project } from "./types";
 
-// TODO: Confirm completion year
-// TODO: Confirm client name
-// TODO: Replace placeholder heroImage with project-specific photography
-// TODO: Replace placeholder gallery images with project-specific photography
+
 export const zedEast: Project = {
   "slug": "zed-east",
   "title": "Zed East",
@@ -75,4 +72,5 @@ export const zedEastInfrastructure: Project = {
   ...zedEast,
   slug: "zed-east-infrastructure",
   categoryId: "infrastructure",
+  heroImage: "/projects/zed-east/05.webp",
 };

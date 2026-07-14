@@ -6,9 +6,9 @@ import { ClientCard } from "@/components/home/client-card";
 import { clients } from "@/lib/clients";
 
 export const metadata: Metadata = {
-  title: "Clients | MisrConsult",
+  title: "Clients | Misrconsult",
   description:
-    "Organizations and institutions that trust MisrConsult for engineering excellence across Egypt and the Middle East.",
+    "Organizations and institutions that trust Misrconsult for engineering excellence across Egypt and the Middle East.",
 };
 
 export default function ClientsPage() {
@@ -49,7 +49,7 @@ export default function ClientsPage() {
             <span className="font-semibold text-misr-400">Industry Leaders</span>
           </h1>
           <p className="animate-fade-up animation-delay-600 mt-6 max-w-xl text-lg leading-relaxed text-white/65">
-            Over decades of practice, MisrConsult has partnered with leading
+            Over decades of practice, Misrconsult has partnered with leading
             developers, government entities, institutions, and private
             organizations across Egypt and the region.
           </p>

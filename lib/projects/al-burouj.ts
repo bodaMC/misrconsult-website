@@ -86,4 +86,9 @@ export const alBuroujInfrastructure: Project = {
   ...alBurouj,
   slug: "al-burouj-infrastructure",
   categoryId: "infrastructure",
+  heroImage: "/projects/al-burouj/04.webp",
+   "gallery": [
+    "/projects/al-burouj/04.webp",
+    "/projects/al-burouj/14.webp",
+  ],
 };

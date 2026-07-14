@@ -71,4 +71,5 @@ export const mividaInfrastructure: Project = {
   ...mivida,
   slug: "mivida-infrastructure",
   categoryId: "infrastructure",
+  heroImage: "/projects/mivida/04.webp",
 };

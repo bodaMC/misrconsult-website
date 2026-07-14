@@ -102,7 +102,7 @@ export function Footer() {
 
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row">
           <p className="text-xs text-white/35">
-            © {new Date().getFullYear()} MisrConsult. All rights reserved.
+            © {new Date().getFullYear()} Misrconsult. All rights reserved.
           </p>
           <p className="text-xs uppercase tracking-[0.2em] text-white/25">
             Engineering · Architecture · Excellence

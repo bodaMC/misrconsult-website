@@ -86,6 +86,5 @@ export const phdNewCapitalVillageR4Infrastructure: Project = {
 
   gallery: [
     "/projects/phd-r4-infra/01.webp",
-
   ],
 };

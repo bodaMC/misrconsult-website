@@ -79,4 +79,8 @@ export const palmHillsNewCairoInfrastructure: Project = {
   ...palmHillsNewCairo,
   slug: "palm-hills-new-cairo-infrastructure",
   categoryId: "infrastructure",
+  heroImage: "/projects/phnc-infra/01.webp",
+    gallery: [
+    "/projects/phnc-infra/01.webp",
+  ],
 };

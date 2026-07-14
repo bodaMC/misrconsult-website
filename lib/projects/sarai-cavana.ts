@@ -74,4 +74,5 @@ export const saraiCavanaInfrastructure: Project = {
   ...saraiCavana,
   slug: "sarai-cavana-infrastructure",
   categoryId: "infrastructure",
+  heroImage: "/projects/sarai-cavana/01.webp",
 };
