@@ -16,10 +16,10 @@ export const n97Hills: Project = {
   "area": "407,400 m²",
   span: "Full Design Package",
   "heroImage": "/projects/97-hills/05.webp",
-  "tagline": "97 Hills — Full Design Package delivered by MisrConsult in Cairo, Egypt.",
-  "overview": "MisrConsult provided engineering consultancy for 97 Hills, a residential developments project located in Cairo, Egypt. The development spans 407,400 m² with a delivery scope covering full design package.",
+  "tagline": "97 Hills — Full Design Package delivered by Misrconsult in Cairo, Egypt.",
+  "overview": "Misrconsult provided engineering consultancy for 97 Hills, a residential developments project located in Cairo, Egypt. The development spans 407,400 m² with a delivery scope covering full design package.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 407,400 m² development in Cairo, Egypt, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Architectural Design",
     "Structural Engineering",
@@ -68,7 +68,7 @@ export const n97Hills: Project = {
   "highlights": [
     {
       "title": "Architectural Design",
-      "description": "MisrConsult delivered architectural design as part of the engineering scope for 97 Hills in Cairo, Egypt."
+      "description": "Misrconsult delivered architectural design as part of the engineering scope for 97 Hills in Cairo, Egypt."
     },
     {
       "title": "Structural Engineering",

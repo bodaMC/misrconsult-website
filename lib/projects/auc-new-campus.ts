@@ -12,10 +12,10 @@ export const aucNewCampus: Project = {
   "area": "1,000,000 m²",
   "heroImage": "/projects/auc/02.webp",
   "span": "",
-  "tagline": "AUC New Campus — Infrastructure delivered by MisrConsult in Cairo, Egypt.",
-  "overview": "MisrConsult provided engineering consultancy for AUC New Campus, a educational facilities project located in Cairo, Egypt. The development spans 1,000,000 m² with a delivery scope covering infrastructure.",
+  "tagline": "AUC New Campus — Infrastructure delivered by Misrconsult in Cairo, Egypt.",
+  "overview": "Misrconsult provided engineering consultancy for AUC New Campus, a educational facilities project located in Cairo, Egypt. The development spans 1,000,000 m² with a delivery scope covering infrastructure.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 1,000,000 m² development in Cairo, Egypt, meeting client programme requirements and international design standards.",
-  "solution": "MisrConsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the infrastructure — ensuring buildable, code-compliant solutions across all disciplines.",
+  "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the infrastructure — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
     "Infrastructure Planning",
     "Wet Utilities",
