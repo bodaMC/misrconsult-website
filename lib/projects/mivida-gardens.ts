@@ -1,9 +1,6 @@
 import type { Project } from "./types";
 
-// TODO: PDF shows "???" for one area field — using 420,000 m² from portfolio slide
-// TODO: Confirm completion year
-// TODO: Replace placeholder heroImage with project-specific photography
-// TODO: Replace placeholder gallery images with project-specific photography
+
 export const mividaGardens: Project = {
   "slug": "mivida-gardens",
   "title": "Mivida Gardens",
@@ -36,39 +33,9 @@ export const mividaGardens: Project = {
     "/projects/mivida-gardens/06.webp",
   ],
   "stats": [
-    {
-      "value": "420",
-      "label": "Thousand m²",
-      "suffix": "K"
-    },
-    {
-      "value": "5th Settlement",
-      "label": "Location",
-      "suffix": ""
-    },
-    {
-      "value": "Full",
-      "label": "Delivery Scope",
-      "suffix": ""
-    },
-    {
-      "value": "Emaar",
-      "label": "Engineering Partner",
-      "suffix": ""
-    }
+
   ],
   "highlights": [
-    {
-      "title": "Architectural Design",
-      "description": "Misrconsult delivered architectural design as part of the engineering scope for Mivida Gardens in 5th Settlement, Cairo, Egypt."
-    },
-    {
-      "title": "Structural Engineering",
-      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Mivida Gardens in 5th Settlement, Cairo, Egypt."
-    },
-    {
-      "title": "MEP Engineering",
-      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Mivida Gardens in 5th Settlement, Cairo, Egypt."
-    }
+
   ]
 };

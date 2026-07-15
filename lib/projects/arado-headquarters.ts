@@ -32,39 +32,9 @@ export const aradoHeadquarters: Project = {
     "/projects/arado/02.webp",
   ],
   "stats": [
-    {
-      "value": "12",
-      "label": "Thousand m²",
-      "suffix": "K"
-    },
-    {
-      "value": "Cairo",
-      "label": "Location",
-      "suffix": ""
-    },
-    {
-      "value": "MEP",
-      "label": "Delivery Scope",
-      "suffix": ""
-    },
-    {
-      "value": "Arab League",
-      "label": "Engineering Partner",
-      "suffix": ""
-    }
+
   ],
   "highlights": [
-    {
-      "title": "MEP Engineering",
-      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Arado Headquarters in Cairo, Egypt."
-    },
-    {
-      "title": "HVAC Design",
-      "description": "Misrconsult delivered hvac design as part of the engineering scope for Arado Headquarters in Cairo, Egypt."
-    },
-    {
-      "title": "Electrical Systems",
-      "description": "Misrconsult delivered electrical systems as part of the engineering scope for Arado Headquarters in Cairo, Egypt."
-    }
+
   ]
 };

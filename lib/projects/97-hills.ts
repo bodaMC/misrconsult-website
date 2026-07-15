@@ -44,41 +44,9 @@ export const n97Hills: Project = {
     
   ],
   "stats": [
-    {
-      "value": "407",
-      "label": "Thousand m²",
-      "suffix": "K"
-    },
-    {
-      "value": "Cairo",
-      "label": "Location",
-      "suffix": ""
-    },
-    {
-      "value": "Full",
-      "label": "Delivery Scope",
-      "suffix": ""
-    },
-    {
-      "value": "Palm Hills",
-      "label": "Engineering Partner",
-      "suffix": ""
-    }
+
   ],
-  "highlights": [
-    {
-      "title": "Architectural Design",
-      "description": "Misrconsult delivered architectural design as part of the engineering scope for 97 Hills in Cairo, Egypt."
-    },
-    {
-      "title": "Structural Engineering",
-      "description": "MisrConsult delivered structural engineering as part of the engineering scope for 97 Hills in Cairo, Egypt."
-    },
-    {
-      "title": "MEP Engineering",
-      "description": "MisrConsult delivered mep engineering as part of the engineering scope for 97 Hills in Cairo, Egypt."
-    }
-  ]
+
 };
 export const n97HillsInfrastructure: Project = {
   ...n97Hills,

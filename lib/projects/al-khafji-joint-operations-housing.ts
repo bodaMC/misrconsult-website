@@ -36,40 +36,10 @@ export const alKhafjiJointOperationsHousing: Project = {
     "/projects/al-khafji/05.webp",
   ],
   "stats": [
-    {
-      "value": "1.4",
-      "label": "Million m²",
-      "suffix": "M"
-    },
-    {
-      "value": "Al-Khafji",
-      "label": "Location",
-      "suffix": ""
-    },
-    {
-      "value": "Full",
-      "label": "Delivery Scope",
-      "suffix": ""
-    },
-    {
-      "value": "Al-Khafji",
-      "label": "Engineering Partner",
-      "suffix": ""
-    }
+
   ],
   "highlights": [
-    {
-      "title": "Architectural Design",
-      "description": "Misrconsult delivered architectural design as part of the engineering scope for Al-Khafji Joint Operations Housing Area in Al-Khafji, Saudi Arabia."
-    },
-    {
-      "title": "Structural Engineering",
-      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Al-Khafji Joint Operations Housing Area in Al-Khafji, Saudi Arabia."
-    },
-    {
-      "title": "MEP Engineering",
-      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Al-Khafji Joint Operations Housing Area in Al-Khafji, Saudi Arabia."
-    }
+  
   ]
 };
 export const alKhafjiJointOperationsHousingInfrastructure: Project = {

@@ -34,40 +34,10 @@ export const lusail: Project = {
     "/projects/lusail/01.webp",
   ],
   "stats": [
-    {
-      "value": "2.2",
-      "label": "Million m²",
-      "suffix": "M"
-    },
-    {
-      "value": "Lusail",
-      "label": "Location",
-      "suffix": ""
-    },
-    {
-      "value": "Infra.",
-      "label": "Delivery Scope",
-      "suffix": ""
-    },
-    {
-      "value": "Lusail",
-      "label": "Engineering Partner",
-      "suffix": ""
-    }
+  
   ],
   "highlights": [
-    {
-      "title": "Infrastructure Planning",
-      "description": "Misrconsult delivered infrastructure planning as part of the engineering scope for Lusail in Lusail, Qatar."
-    },
-    {
-      "title": "Wet Utilities",
-      "description": "Misrconsult delivered wet utilities as part of the engineering scope for Lusail in Lusail, Qatar."
-    },
-    {
-      "title": "Roads & Highways",
-      "description": "Misrconsult delivered roads & highways as part of the engineering scope for Lusail in Lusail, Qatar."
-    }
+  
   ]
 };
 export const lusailInfrastructure: Project = {

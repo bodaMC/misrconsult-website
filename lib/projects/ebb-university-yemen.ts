@@ -33,40 +33,10 @@ export const ebbUniversityYemen: Project = {
     "/projects/ebb/03.webp",
   ],
   "stats": [
-    {
-      "value": "800",
-      "label": "Thousand m²",
-      "suffix": "K"
-    },
-    {
-      "value": "Yemen",
-      "label": "Location",
-      "suffix": ""
-    },
-    {
-      "value": "Infrastructure",
-      "label": "Delivery Scope",
-      "suffix": ""
-    },
-    {
-      "value": "IBB University",
-      "label": "Engineering Partner",
-      "suffix": ""
-    }
+  
   ],
   "highlights": [
-    {
-      "title": "Infrastructure Planning",
-      "description": "Misrconsult delivered infrastructure planning as part of the engineering scope for EBB University in Yemen."
-    },
-    {
-      "title": "Wet Utilities",
-      "description": "Misrconsult delivered wet utilities as part of the engineering scope for EBB University in Yemen."
-    },
-    {
-      "title": "Roads & Highways",
-      "description": "Misrconsult delivered roads & highways as part of the engineering scope for EBB University in Yemen."
-    }
+ 
   ]
 };
 export const ebbUniversityYemenInfrastructure: Project = {

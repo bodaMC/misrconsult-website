@@ -35,39 +35,8 @@ export const wakfAlMadaniHotel: Project = {
     "/projects/wakf/06.webp",
   ],
   "stats": [
-    {
-      "value": "9",
-      "label": "Thousand m²",
-      "suffix": "K"
-    },
-    {
-      "value": "Madinah",
-      "label": "Location",
-      "suffix": ""
-    },
-    {
-      "value": "Buildings",
-      "label": "Delivery Scope",
-      "suffix": ""
-    },
-    {
-      "value": "Awqaf",
-      "label": "Engineering Partner",
-      "suffix": ""
-    }
   ],
   "highlights": [
-    {
-      "title": "Architectural Design",
-      "description": "Misrconsult delivered architectural design as part of the engineering scope for Wakf Al Madani Hotel — Haram El Madinah Central Zone in Madinah, Saudi Arabia."
-    },
-    {
-      "title": "Structural Engineering",
-      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Wakf Al Madani Hotel — Haram El Madinah Central Zone in Madinah, Saudi Arabia."
-    },
-    {
-      "title": "MEP Engineering",
-      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Wakf Al Madani Hotel — Haram El Madinah Central Zone in Madinah, Saudi Arabia."
-    }
+
   ]
 };

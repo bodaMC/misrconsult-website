@@ -31,40 +31,10 @@ export const aucNewCampus: Project = {
     "/projects/auc/05.webp",
   ],
   "stats": [
-    {
-      "value": "1.0",
-      "label": "Million m²",
-      "suffix": "M"
-    },
-    {
-      "value": "Cairo",
-      "label": "Location",
-      "suffix": ""
-    },
-    {
-      "value": "Infra.",
-      "label": "Delivery Scope",
-      "suffix": ""
-    },
-    {
-      "value": "AUC",
-      "label": "Engineering Partner",
-      "suffix": ""
-    }
+   
   ],
   "highlights": [
-    {
-      "title": "Infrastructure Planning",
-      "description": "MisrConsult delivered infrastructure planning as part of the engineering scope for AUC New Campus in Cairo, Egypt."
-    },
-    {
-      "title": "Wet Utilities",
-      "description": "MisrConsult delivered wet utilities as part of the engineering scope for AUC New Campus in Cairo, Egypt."
-    },
-    {
-      "title": "Roads & Highways",
-      "description": "MisrConsult delivered roads & highways as part of the engineering scope for AUC New Campus in Cairo, Egypt."
-    }
+ 
   ]
 };
 export const aucNewCampusInfrastructure: Project = {

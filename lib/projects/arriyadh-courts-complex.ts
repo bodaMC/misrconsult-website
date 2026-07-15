@@ -34,39 +34,9 @@ export const arriyadhCourtsComplex: Project = {
     "/projects/courts/04.webp",
   ],
   "stats": [
-    {
-      "value": "80",
-      "label": "Thousand m²",
-      "suffix": "K"
-    },
-    {
-      "value": "Riyadh",
-      "label": "Location",
-      "suffix": ""
-    },
-    {
-      "value": "Buildings",
-      "label": "Delivery Scope",
-      "suffix": ""
-    },
-    {
-      "value": "Ministry of Justice",
-      "label": "Engineering Partner",
-      "suffix": ""
-    }
+   
   ],
   "highlights": [
-    {
-      "title": "Architectural Design",
-      "description": "Misrconsult delivered architectural design as part of the engineering scope for Arriyadh Courts Complex in Riyadh, Saudi Arabia."
-    },
-    {
-      "title": "Structural Engineering",
-      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Arriyadh Courts Complex in Riyadh, Saudi Arabia."
-    },
-    {
-      "title": "MEP Engineering",
-      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Arriyadh Courts Complex in Riyadh, Saudi Arabia."
-    }
+
   ]
 };

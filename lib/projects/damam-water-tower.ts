@@ -36,39 +36,9 @@ export const damamWaterTower: Project = {
     "/projects/damam-tower/05.webp",
   ],
   "stats": [
-    {
-      "value": "13",
-      "label": "Thousand m²",
-      "suffix": "K"
-    },
-    {
-      "value": "Dammam",
-      "label": "Location",
-      "suffix": ""
-    },
-    {
-      "value": "Structure",
-      "label": "Delivery Scope",
-      "suffix": ""
-    },
-    {
-      "value": "Min. of Housing",
-      "label": "Engineering Partner",
-      "suffix": ""
-    }
+
   ],
   "highlights": [
-    {
-      "title": "Structural Engineering",
-      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Dammam Water Tower in Dammam, Saudi Arabia."
-    },
-    {
-      "title": "MEP Engineering",
-      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Dammam Water Tower in Dammam, Saudi Arabia."
-    },
-    {
-      "title": "HVAC Design",
-      "description": "Misrconsult delivered hvac design as part of the engineering scope for Dammam Water Tower in Dammam, Saudi Arabia."
-    }
+ 
   ]
 };

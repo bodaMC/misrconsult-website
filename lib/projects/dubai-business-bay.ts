@@ -31,40 +31,10 @@ export const dubaiBusinessBay: Project = {
     "/projects/dubai/03.webp",
   ],
   "stats": [
-    {
-      "value": "4.5",
-      "label": "Million m²",
-      "suffix": "M"
-    },
-    {
-      "value": "Dubai",
-      "label": "Location",
-      "suffix": ""
-    },
-    {
-      "value": "Infra.",
-      "label": "Delivery Scope",
-      "suffix": ""
-    },
-    {
-      "value": "SWA Group",
-      "label": "Engineering Partner",
-      "suffix": ""
-    }
+
   ],
   "highlights": [
-    {
-      "title": "Infrastructure Planning",
-      "description": "Misrconsult delivered infrastructure planning as part of the engineering scope for Dubai Business Bay in Dubai, UAE."
-    },
-    {
-      "title": "Wet Utilities",
-      "description": "Misrconsult delivered wet utilities as part of the engineering scope for Dubai Business Bay in Dubai, UAE."
-    },
-    {
-      "title": "Roads & Highways",
-      "description": "Misrconsult delivered roads & highways as part of the engineering scope for Dubai Business Bay in Dubai, UAE."
-    }
+
   ]
 };
 export const dubaiBusinessBayInfrastructure: Project = {

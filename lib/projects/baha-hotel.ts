@@ -32,40 +32,10 @@ export const bahaHotel: Project = {
     "/projects/baha/01.webp",
   ],
   "stats": [
-    {
-      "value": "103",
-      "label": "Thousand m²",
-      "suffix": "K"
-    },
-    {
-      "value": "Al Baha",
-      "label": "Location",
-      "suffix": ""
-    },
-    {
-      "value": "Full",
-      "label": "Delivery Scope",
-      "suffix": ""
-    },
-    {
-      "value": "Higher Education Fund",
-      "label": "Engineering Partner",
-      "suffix": ""
-    }
+   
   ],
   "highlights": [
-    {
-      "title": "Architectural Design",
-      "description": "Misrconsult delivered architectural design as part of the engineering scope for Baha Hotel in Al Baha, Saudi Arabia."
-    },
-    {
-      "title": "Structural Engineering",
-      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Baha Hotel in Al Baha, Saudi Arabia."
-    },
-    {
-      "title": "MEP Engineering",
-      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Baha Hotel in Al Baha, Saudi Arabia."
-    }
+   
   ]
 };
 export const bahaHotelInfrastructure: Project = {

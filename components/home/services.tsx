@@ -35,13 +35,28 @@ const services = [
       "Integrated mechanical, electrical, and plumbing systems design optimized for energy efficiency, reliability, and seamless building performance.",
     image: "/services/05.webp",
   },
-  {
+    {
     number: "06",
+    title: "Life Safety",
+    description:
+      "Fire alarm, firefighting, and emergency systems to protect lives and property.",
+    image: "/services/07.webp",
+  },
+    {
+    number: "07",
+    title: "Wet Utilites",
+    description:
+      "Water supply, drainage, and plumbingsystems for efficient building operation and saving Energy solutions",
+    image: "/services/08.webp",
+  },
+  {
+    number: "08",
     title: "Consultancy & Advisory",
     description:
       "Technical due diligence, feasibility studies, value engineering, and expert advisory for investors, lenders, and development partners.",
     image: "/services/06.webp",
   },
+  
 ];
 
 export function Services() {

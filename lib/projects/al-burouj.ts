@@ -46,40 +46,9 @@ export const alBurouj: Project = {
     "/projects/al-burouj/14.webp",
   ],
   "stats": [
-    {
-      "value": "17.6",
-      "label": "Million m²",
-      "suffix": "M"
-    },
-    {
-      "value": "Al-Shorouk",
-      "label": "Location",
-      "suffix": ""
-    },
-    {
-      "value": "Full",
-      "label": "Delivery Scope",
-      "suffix": ""
-    },
-    {
-      "value": "Imkan",
-      "label": "Engineering Partner",
-      "suffix": ""
-    }
+
   ],
   "highlights": [
-    {
-      "title": "Architectural Design",
-      "description": "Misrconsult delivered architectural design as part of the engineering scope for Al Burouj in Al-Shorouk, Egypt."
-    },
-    {
-      "title": "Structural Engineering",
-      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Al Burouj in Al-Shorouk, Egypt."
-    },
-    {
-      "title": "MEP Engineering",
-      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Al Burouj in Al-Shorouk, Egypt."
-    }
   ]
 };
 export const alBuroujInfrastructure: Project = {
