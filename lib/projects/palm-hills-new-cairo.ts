@@ -88,4 +88,8 @@ export const palmHillsNewCairoMasterPlan: Project = {
   ...palmHillsNewCairo,
   slug: "palm-hills-new-cairo-master-plan",
   categoryId: "masterplan",
+    heroImage: "/projects/phnc-infra/01.webp",
+    gallery: [
+    "/projects/phnc-infra/01.webp",
+  ],
 };

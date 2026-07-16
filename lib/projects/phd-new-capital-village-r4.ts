@@ -39,40 +39,10 @@ export const phdNewCapitalVillageR4: Project = {
     "/projects/phd-r4/12.webp",
   ],
   "stats": [
-    {
-      "value": "1.2",
-      "label": "Million m²",
-      "suffix": "M"
-    },
-    {
-      "value": "New Capital",
-      "label": "Location",
-      "suffix": ""
-    },
-    {
-      "value": "Full",
-      "label": "Delivery Scope",
-      "suffix": ""
-    },
-    {
-      "value": "Palm Hills",
-      "label": "Engineering Partner",
-      "suffix": ""
-    }
+ 
   ],
     "highlights": [
-    {
-      "title": "Architectural Design",
-      "description": "..."
-    },
-    {
-      "title": "Structural Engineering",
-      "description": "..."
-    },
-    {
-      "title": "MEP Engineering",
-      "description": "..."
-    }
+   
   ]
 };
 
@@ -92,4 +62,8 @@ export const phdNewCapitalVillageR4MasterPlan: Project = {
   ...phdNewCapitalVillageR4,
   slug: "phd-new-capital-village-r4-master-plan",
   categoryId: "masterplan",
+    heroImage: "/projects/phd-r4-infra/01.webp",
+  gallery: [
+    "/projects/phd-r4-infra/01.webp",
+  ],
 };

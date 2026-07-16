@@ -54,11 +54,25 @@ export const n97HillsInfrastructure: Project = {
   categoryId: "infrastructure",
   heroImage: "/projects/97-hills-infra/01.webp",
    gallery: [ "/projects/97-hills-infra/01.webp",
-    "/projects/97-hills-infra/02.webp",
+    "/projects/97-hills/01g.webp",
+    "/projects/97-hills/02g.webp",
+    "/projects/97-hills/03g.webp",
+    "/projects/97-hills/04g.webp",
+    "/projects/97-hills/05g.webp",
+    
      ],
 };
 export const n97HillsMasterPlan: Project = {
   ...n97Hills,
   slug: "97-hills-master-plan",
   categoryId: "masterplan",
+  heroImage: "/projects/97-hills-infra/01.webp",
+   gallery: [ "/projects/97-hills-infra/01.webp",
+    "/projects/97-hills/01g.webp",
+    "/projects/97-hills/02g.webp",
+    "/projects/97-hills/03g.webp",
+    "/projects/97-hills/04g.webp",
+    "/projects/97-hills/05g.webp",
+    
+     ],
 };
