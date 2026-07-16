@@ -37,7 +37,7 @@ const services = [
   },
     {
     number: "06",
-    title: "Life Safety",
+    title: "Fire & Life Safety",
     description:
       "Fire alarm, firefighting, and emergency systems to protect lives and property.",
     image: "/services/07.webp",
