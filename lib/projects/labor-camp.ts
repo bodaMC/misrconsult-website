@@ -8,7 +8,7 @@ import type { Project } from "./types";
 export const laborCamp: Project = {
   "slug": "labor-camp",
   "title": "Labor Camp",
-  "categoryId": "industrial",
+  "categoryId": "residential",
   "location": "Kingdom of Saudi Arabia",
   "year": "2012",
   "client": "Royal Commission for Jubail & Yanbu",

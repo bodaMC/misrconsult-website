@@ -8,7 +8,7 @@ import type { Project } from "./types";
 export const jubailIndustrialCollege: Project = {
   "slug": "jubail-industrial-college",
   "title": "Jubail Industrial College",
-  "categoryId": "industrial",
+  "categoryId": "educational",
   "location": "Jubail, Saudi Arabia",
   "year": "2010",  
   "client": "Royal Commission for Jubail & Yanbu",

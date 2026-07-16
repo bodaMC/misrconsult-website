@@ -199,7 +199,7 @@ export const PORTFOLIO_INPUTS: PortfolioProjectInput[] = [
   {
     slug: "labor-camp",
     title: "Labor Camp",
-    categoryId: "industrial",
+    categoryId: "residential",
     location: "Kingdom of Saudi Arabia",
     area: "500,000 m²",
     scope: "Full Design Package",
@@ -265,7 +265,7 @@ export const PORTFOLIO_INPUTS: PortfolioProjectInput[] = [
   {
     slug: "jubail-industrial-college",
     title: "Jubail Industrial College",
-    categoryId: "industrial",
+    categoryId: "educational",
     location: "Jubail, Saudi Arabia",
     area: "48,588 m²",
     scope: "Buildings",

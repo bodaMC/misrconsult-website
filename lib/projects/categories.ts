@@ -63,13 +63,13 @@ export const PROJECT_CATEGORIES = [
       "/project-hero/01a.png",
   },
   {
-    id: "industrial",
-    slug: "industrial",
-    label: "Industrial Facilities",
+    id: "masterplan",
+    slug: "masterplan",
+    label: "Masterplan",
     description:
-      "Manufacturing plants, logistics hubs, and industrial complexes engineered for operational efficiency, safety, and long-term resilience.",
+      "Comprehensive master planning solutions that integrate land use, circulation, infrastructure, and open spaces to create sustainable, connected, and future-ready communities.",
     image:
-      "/project-hero/03.png",
+      "/projects/phnc-infra/01.webp",
   },
 ] as const;
 
