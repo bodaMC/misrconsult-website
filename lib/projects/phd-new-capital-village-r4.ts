@@ -88,3 +88,8 @@ export const phdNewCapitalVillageR4Infrastructure: Project = {
     "/projects/phd-r4-infra/01.webp",
   ],
 };
+export const phdNewCapitalVillageR4MasterPlan: Project = {
+  ...phdNewCapitalVillageR4,
+  slug: "phd-new-capital-village-r4-master-plan",
+  categoryId: "masterplan",
+};

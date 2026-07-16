@@ -68,7 +68,7 @@ const GALLERY_BY_CATEGORY: Record<ProjectCategoryId, string[]> = {
     "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
   ],
-  industrial: [
+  masterplan: [
     "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1581094794329-c8112a89c12c?q=80&w=1200&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop",

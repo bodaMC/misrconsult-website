@@ -61,3 +61,8 @@ export const alBuroujInfrastructure: Project = {
     "/projects/al-burouj/14.webp",
   ],
 };
+export const alBuroujMasterPlan: Project = {
+  ...alBurouj,
+  slug: "al-burouj-master-plan",
+  categoryId: "masterplan",
+};

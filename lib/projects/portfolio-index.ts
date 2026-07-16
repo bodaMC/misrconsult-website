@@ -2,15 +2,16 @@
 export { 
   phdNewCapitalVillageR4,
   phdNewCapitalVillageR4Infrastructure,
+  phdNewCapitalVillageR4MasterPlan,
  } from "./phd-new-capital-village-r4";
-export { n97Hills, n97HillsInfrastructure } from "./97-hills";
-export { palmHillsNewCairo, palmHillsNewCairoInfrastructure } from "./palm-hills-new-cairo";
+export { n97Hills, n97HillsInfrastructure, n97HillsMasterPlan } from "./97-hills";
+export { palmHillsNewCairo, palmHillsNewCairoInfrastructure, palmHillsNewCairoMasterPlan } from "./palm-hills-new-cairo";
 export { capitalGardensNewCairo, capitalGardensNewCairoInfrastructure } from "./capital-gardens-new-cairo";
 export { emaarMarassiRedSea } from "./emaar-marassi-red-sea";
 export { mividaGardens } from "./mivida-gardens";
 export { mivida, mividaInfrastructure } from "./mivida";
 export { mividaLake } from "./mivida-lake";
-export { alBurouj, alBuroujInfrastructure } from "./al-burouj";
+export { alBurouj, alBuroujInfrastructure, alBuroujMasterPlan } from "./al-burouj";
 export { zedEast, zedEastInfrastructure } from "./zed-east";
 export { sarain1, sarain1Infrastructure } from "./sarai-1";
 export { sarain2MidanatMasr } from "./sarai-2-midanat-masr";
@@ -47,15 +48,16 @@ import type { Project } from "./types";
 import { 
   phdNewCapitalVillageR4,
   phdNewCapitalVillageR4Infrastructure,
+  phdNewCapitalVillageR4MasterPlan,
  } from "./phd-new-capital-village-r4";
-import { n97Hills, n97HillsInfrastructure } from "./97-hills";
-import { palmHillsNewCairo, palmHillsNewCairoInfrastructure } from "./palm-hills-new-cairo";
+import { n97Hills, n97HillsInfrastructure, n97HillsMasterPlan } from "./97-hills";
+import { palmHillsNewCairo, palmHillsNewCairoInfrastructure, palmHillsNewCairoMasterPlan } from "./palm-hills-new-cairo";
 import { capitalGardensNewCairo, capitalGardensNewCairoInfrastructure } from "./capital-gardens-new-cairo";
 import { emaarMarassiRedSea } from "./emaar-marassi-red-sea";
 import { mividaGardens } from "./mivida-gardens";
 import { mivida, mividaInfrastructure } from "./mivida";
 import { mividaLake } from "./mivida-lake";
-import { alBurouj, alBuroujInfrastructure } from "./al-burouj";
+import { alBurouj, alBuroujInfrastructure, alBuroujMasterPlan } from "./al-burouj";
 import { zedEast, zedEastInfrastructure } from "./zed-east";
 import { sarain1, sarain1Infrastructure } from "./sarai-1";
 import { sarain2MidanatMasr } from "./sarai-2-midanat-masr";
@@ -91,10 +93,13 @@ import { damamWaterTower } from "./damam-water-tower";
 export const portfolioProjectList: Project[] = [
   phdNewCapitalVillageR4,
   phdNewCapitalVillageR4Infrastructure,
+  phdNewCapitalVillageR4MasterPlan,
   n97Hills,
   n97HillsInfrastructure,
+  n97HillsMasterPlan,
   palmHillsNewCairo,
   palmHillsNewCairoInfrastructure,
+  palmHillsNewCairoMasterPlan,
   capitalGardensNewCairo,
   capitalGardensNewCairoInfrastructure,
   emaarMarassiRedSea,
@@ -104,6 +109,7 @@ export const portfolioProjectList: Project[] = [
   mividaLake,
   alBurouj,
   alBuroujInfrastructure,
+  alBuroujMasterPlan,
   zedEast,
   zedEastInfrastructure,
   sarain1,

@@ -84,3 +84,8 @@ export const palmHillsNewCairoInfrastructure: Project = {
     "/projects/phnc-infra/01.webp",
   ],
 };
+export const palmHillsNewCairoMasterPlan: Project = {
+  ...palmHillsNewCairo,
+  slug: "palm-hills-new-cairo-master-plan",
+  categoryId: "masterplan",
+};

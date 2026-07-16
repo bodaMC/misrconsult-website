@@ -57,3 +57,8 @@ export const n97HillsInfrastructure: Project = {
     "/projects/97-hills-infra/02.webp",
      ],
 };
+export const n97HillsMasterPlan: Project = {
+  ...n97Hills,
+  slug: "97-hills-master-plan",
+  categoryId: "masterplan",
+};
