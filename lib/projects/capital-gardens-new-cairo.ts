@@ -17,7 +17,7 @@ export const capitalGardensNewCairo: Project = {
   "heroImage": "/projects/capital-gardens/01.webp",
   "span": "",
   "tagline": "Capital Gardens New Cairo — Full Design Package delivered by Misrconsult in New Cairo, Egypt.",
-  "overview": "Misrconsult provided engineering consultancy for Capital Gardens New Cairo, a residential developments project located in New Cairo, Egypt. The development spans 518,707 m² with a delivery scope covering full design package.",
+  "overview": "The project spans a 434,000 m² site with a total built-up area of 518,707 m², comprising 133 residential buildings, nine underground parking facilities, and extensive infrastructure works. Misrconsult provided the master plan, detailed multidisciplinary design, tender documentation, permit drawings, and complete infrastructure design for the entire development.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 518,707 m² development in New Cairo, Egypt, meeting client programme requirements and international design standards.",
   "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [

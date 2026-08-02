@@ -17,7 +17,7 @@ export const sarain1: Project = {
   "heroImage": "/projects/sarai-1/05.webp",
   "span": "",
   "tagline": "Sarai — Phase 1 — Full Design Package delivered by Misrconsult in New Cairo, Egypt.",
-  "overview": "Misrconsult provided engineering consultancy for Sarai — Phase 1, a residential developments project located in New Cairo, Egypt. The development spans 210,000 m² with a delivery scope covering full design package.",
+  "overview": "Located at Kilometre 45 on the Cairo–Suez Road, the project comprises two residential islands with 292 S-Duplex units and 887 apartment units. Misrconsult delivered comprehensive architectural and engineering design services, including technical specifications, Bills of Quantities, infrastructure design, and complete construction documentation..",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 210,000 m² development in New Cairo, Egypt, meeting client programme requirements and international design standards.",
   "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [

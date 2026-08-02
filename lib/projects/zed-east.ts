@@ -14,7 +14,7 @@ export const zedEast: Project = {
   "heroImage": "/projects/zed-east/01.webp",
   "span": "",
   "tagline": "Zed East — Full Design Package delivered by Misrconsult in 5th Settlement, Cairo, Egypt.",
-  "overview": "Misrconsult provided engineering consultancy for Zed East, a residential developments project located in 5th Settlement, Cairo, Egypt. The development spans 156,000 m² with a delivery scope covering full design package.",
+  "overview": "The project features three prototype buildings (G+8 and G+5) replicated across three sites, comprising 17 buildings with a 77,000 m² underground parking facility for 1,640 cars. Misrconsult provided the full architectural design, from concept review to complete construction documentation.",
   "challenge": "Delivering coordinated multidisciplinary engineering across a 156,000 m² development in 5th Settlement, Cairo, Egypt, meeting client programme requirements and international design standards.",
   "solution": "Misrconsult deployed integrated design coordination, QA/QC governance, and phased delivery aligned with the full design package — ensuring buildable, code-compliant solutions across all disciplines.",
   "services": [
@@ -32,40 +32,9 @@ export const zedEast: Project = {
     "/projects/zed-east/05.webp",    
   ],
   "stats": [
-    {
-      "value": "156",
-      "label": "Thousand m²",
-      "suffix": "K"
-    },
-    {
-      "value": "5th Settlement",
-      "label": "Location",
-      "suffix": ""
-    },
-    {
-      "value": "Full",
-      "label": "Delivery Scope",
-      "suffix": ""
-    },
-    {
-      "value": "ORA",
-      "label": "Engineering Partner",
-      "suffix": ""
-    }
   ],
   "highlights": [
-    {
-      "title": "Architectural Design",
-      "description": "Misrconsult delivered architectural design as part of the engineering scope for Zed East in 5th Settlement, Cairo, Egypt."
-    },
-    {
-      "title": "Structural Engineering",
-      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Zed East in 5th Settlement, Cairo, Egypt."
-    },
-    {
-      "title": "MEP Engineering",
-      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Zed East in 5th Settlement, Cairo, Egypt."
-    }
+
   ]
 };
 export const zedEastInfrastructure: Project = {

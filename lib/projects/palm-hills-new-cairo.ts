@@ -39,40 +39,10 @@ export const palmHillsNewCairo: Project = {
     "/projects/palm-hills-new-cairo/08.webp",
   ],
   "stats": [
-    {
-      "value": "1.7",
-      "label": "Million m²",
-      "suffix": "M"
-    },
-    {
-      "value": "New Cairo",
-      "label": "Location",
-      "suffix": ""
-    },
-    {
-      "value": "Full",
-      "label": "Delivery Scope",
-      "suffix": ""
-    },
-    {
-      "value": "Palm Hills",
-      "label": "Engineering Partner",
-      "suffix": ""
-    }
+
   ],
   "highlights": [
-    {
-      "title": "Architectural Design",
-      "description": "Misrconsult delivered architectural design as part of the engineering scope for Palm Hills New Cairo in New Cairo, Egypt."
-    },
-    {
-      "title": "Structural Engineering",
-      "description": "Misrconsult delivered structural engineering as part of the engineering scope for Palm Hills New Cairo in New Cairo, Egypt."
-    },
-    {
-      "title": "MEP Engineering",
-      "description": "Misrconsult delivered mep engineering as part of the engineering scope for Palm Hills New Cairo in New Cairo, Egypt."
-    }
+
   ]
 };
 export const palmHillsNewCairoInfrastructure: Project = {

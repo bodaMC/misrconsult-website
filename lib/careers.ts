@@ -12,8 +12,9 @@ export const jobPositions: JobPosition[] = [
     title: "Steel Structural design Engineer",
     image: "/hiring/01.png",
     description:
-      "",
+      "JOB CODE : 01",
     responsibilities: [
+      
       "3-7 Years of experience.",
       "Arabian Gulf experience is highly preferable.",
       "Excellent English communication skills",
@@ -26,7 +27,7 @@ export const jobPositions: JobPosition[] = [
     title: "Audio & Video Design Engineer",
     image: "/hiring/02.png",
     description:
-      "",
+      "JOB CODE : 02",
     responsibilities: [
       "3-7 Years of experience.",
       "Arabian Gulf experience is highly preferable.",
@@ -40,7 +41,7 @@ export const jobPositions: JobPosition[] = [
     title: "Acoustic Specialist Engineer",
     image: "/hiring/03.png",
     description:
-      "Design and analyze acoustic solutions, prepare technical documentation, and ensure compliance with project requirements and industry standards.",
+      "JOB CODE : 03",
     responsibilities: [
       "3-7 Years of experience.",
       "Arabian Gulf experience is highly preferable.",
@@ -54,7 +55,7 @@ export const jobPositions: JobPosition[] = [
     title: "Traffic Engineer",
     image: "/hiring/04.png",
     description:
-      "",
+      "JOB CODE : 04",
     responsibilities: [
       "3-5 Years of experience.",
       "Arabian Gulf experience is highly preferable.",
